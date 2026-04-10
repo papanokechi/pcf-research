@@ -12,7 +12,7 @@ https://doi.org/10.5281/zenodo.19491667
 **pcf_unified** — Polynomial continued fractions: a proved
 logarithmic ladder, a 4/π Casoratian identity, and 
 482 irrational constants  
-https://doi.org/10.5281/zenodo.[INSERT_SECOND_DOI]
+(https://doi.org/10.5281/zenodo.19491768)
 
 ## Key scripts
 
