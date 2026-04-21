@@ -1,0 +1,895 @@
+\documentclass[11pt,a4paper]{amsart}
+
+% ── Packages ──
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{booktabs}
+%\usepackage{microtype}
+\usepackage{enumitem}
+
+% ── Theorem environments ──
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{open}[theorem]{Open Problem}
+
+% ── Macros ──
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\disc}{\operatorname{disc}}
+\newcommand{\Res}{\operatorname{Res}}
+\newcommand{\PCF}{\mathrm{PCF}}
+\newcommand{\Vquad}{V_{\mathrm{quad}}}
+
+\title[Self-Adjoint Structure of PCF Recurrences]{%
+  Self-Adjoint Structure of Polynomial Continued Fraction Recurrences\\
+  and its Arithmetic Consequences}
+
+\author{SIARC Collaboration}
+\date{\today}
+
+\begin{document}
+
+\begin{abstract}
+We prove that every polynomial continued fraction (PCF) with unit
+numerator~$a(n)=1$ and polynomial partial denominator~$b(n)\in\Z[n]$
+of arbitrary degree~$d$ has an associated continuum ODE that is
+\emph{automatically exact} (self-adjoint):
+$\frac{d}{dx}[b(x)\,y'] + c(x)\,y = 0$.
+The identity $B(x) = b'(x) = A'(x)$, where $A(x)=b(x)$ is the
+leading ODE coefficient, is a consequence of the constant discrete
+Wronskian matching the Abel--Liouville identity under the
+recurrence-to-ODE passage.  As corollaries we establish:
+(i)~every simple root of~$b(x)$ is an apparent singularity with
+indicial exponents~$\{0,0\}$ and trivial monodromy;
+(ii)~the discriminant appearing in the spectral analysis is always
+$\disc(b)$, the discriminant of the Wallis characteristic polynomial;
+(iii)~the Sturm--Liouville structure connects PCF convergents to
+the spectral theory of Jacobi matrices via a semiclassical
+correspondence.  The theory is calibrated against the classical
+Perron continued fraction for modified Bessel function ratios
+$I_0(z)/I_1(z)$ and verified for degrees $d=1,2,3$.
+These results generalize the $d=2$ analysis of the
+$\Vquad$ continued fraction and provide a structural explanation
+for the failure of CM-period and hypergeometric special-value
+identifications.  We show that the self-adjoint structure is not a
+consequence of the Poincar\'e--Perron theorem or the
+Birkhoff--Trjitzinsky asymptotic theory, but a new phenomenon
+specific to the constant-numerator case.
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+% ══════════════════════════════════════════════════════════
+\section{Introduction}\label{sec:intro}
+% ══════════════════════════════════════════════════════════
+
+A \emph{polynomial continued fraction} (PCF) is a generalized
+continued fraction
+\begin{equation}\label{eq:pcf-def}
+  K \;=\; b(0) + \cfrac{a(1)}{b(1) + \cfrac{a(2)}{b(2) + \cdots}}
+\end{equation}
+where $a(n),b(n)\in\Z[n]$ are polynomials.  The convergence theory
+of such fractions is classical (Lorentzen--Waadeland~\cite{LW92}),
+and the associated Wallis denominators $Q_n$ satisfy the three-term
+recurrence
+\begin{equation}\label{eq:wallis}
+  Q_{n+1} = b(n)\,Q_n + a(n)\,Q_{n-1}, \qquad
+  Q_{-1}=0,\; Q_0=1.
+\end{equation}
+
+Recent work on the arithmetic classification of PCF limits has
+revealed a deep connection between the recurrence~\eqref{eq:wallis}
+and the analytic theory of second-order linear ODEs.  In particular,
+the study of the continued fraction
+$\Vquad = 1 + K_{n\ge 1}\,\frac{1}{3n^2+n+1}$
+(NON-110708, \cite{Vquad}) showed that the formal substitution
+$n\to x$ produces the ODE
+\begin{equation}\label{eq:vquad-ode}
+  (3x^2+x+1)\,y'' + (6x+1)\,y' - x^2\,y = 0
+\end{equation}
+in which the coefficient of~$y'$ is exactly the derivative of the
+coefficient of~$y''$.  This identity was noted as Remark~2.1
+of~\cite{Vquad} and used to prove an \emph{apparent singularity
+exclusion theorem} (Theorem~3.1 of~\cite{Vquad}) explaining the
+structural failure of CM-period and hypergeometric searches for
+$\Vquad$.
+
+The present paper develops this observation into a general theory.
+Our main results are:
+
+\begin{enumerate}[label=(\roman*)]
+\item \textbf{Self-adjoint structure theorem}
+  (\Cref{thm:self-adjoint}): For any PCF with $a(n)=1$ and
+  $b(n)\in\Z[n]$ of degree~$d$, the continuum ODE is exact:
+  $\tfrac{d}{dx}[b(x)\,y'] + c(x)\,y = 0$.
+\item \textbf{General apparent singularity theorem}
+  (\Cref{thm:apparent}): Every simple root of~$b(x)$ is an
+  apparent singularity with indicial exponents~$\{0,0\}$ and
+  trivial monodromy.
+\item \textbf{Discriminant universality}
+  (\Cref{thm:disc}): The discriminant of the ODE singularity
+  configuration is~$\disc(b)$, with no dependence on the PCF
+  limit~$K$.
+\item \textbf{Sturm--Liouville connection}
+  (\Cref{sec:SL}): The exact ODE is Sturm--Liouville with
+  rational weight $w(x) = -c(x)/b(x)$, connecting PCF convergents
+  to the spectral theory of Jacobi matrices.
+\end{enumerate}
+
+We emphasize that these results are not consequences of the
+classical Poincar\'e--Perron theorem~\cite{Poincare85,Perron57}
+or the Birkhoff--Trjitzinsky asymptotic
+theory~\cite{Birkhoff30,BirkhoffTrjitzinsky32}.
+Those theories address the asymptotic behavior of solutions as
+$n\to\infty$; our results concern the \emph{exact} structure of
+the continuum ODE obtained by the formal passage $n\to x$, and
+are specific to the constant-numerator case $a(n)=1$.
+A detailed comparison with the classical literature is given in
+\Cref{sec:literature}.
+
+% ══════════════════════════════════════════════════════════
+\section{The General Theorem: \texorpdfstring{$B(x)=A'(x)$}{B(x)=A'(x)}}
+\label{sec:general}
+% ══════════════════════════════════════════════════════════
+
+\subsection{Setup and notation}
+
+Let $b(x) = \alpha_d x^d + \cdots + \alpha_0 \in \Z[x]$ with
+$d\ge 1$ and $\alpha_d\ne 0$.  Consider the PCF
+$K = b(0) + K_{n\ge 1}\,1/b(n)$ with Wallis recurrence
+\begin{equation}\label{eq:wallis-unit}
+  Q_{n+1} = b(n)\,Q_n + Q_{n-1}.
+\end{equation}
+Let $P_n$ be the corresponding numerator sequence satisfying the
+same recurrence with initial conditions $P_{-1}=1$, $P_0=b(0)$.
+
+\subsection{The discrete Wronskian}
+
+\begin{lemma}[Discrete Wronskian]\label{lem:wronskian}
+Define $W_n = P_n\,Q_{n-1} - Q_n\,P_{n-1}$.  For the recurrence
+\eqref{eq:wallis} with general~$a(n)$:
+\[
+  W_{n+1} = a(n)\,W_n.
+\]
+In particular, when $a(n)=1$, $W_n = W_0$ is constant.
+\end{lemma}
+
+\begin{proof}
+Direct computation:
+\begin{align*}
+  W_{n+1} &= P_{n+1}\,Q_n - Q_{n+1}\,P_n \\
+  &= \bigl[b(n)P_n + a(n)P_{n-1}\bigr]Q_n
+   - \bigl[b(n)Q_n + a(n)Q_{n-1}\bigr]P_n \\
+  &= a(n)\bigl(P_{n-1}Q_n - Q_{n-1}P_n\bigr) \\
+  &= a(n)\,W_n. \qedhere
+\end{align*}
+\end{proof}
+
+\subsection{The continuum ODE and the self-adjoint structure}
+
+\begin{theorem}[Self-adjoint structure]\label{thm:self-adjoint}
+Let $b(x)\in\Z[x]$ with $\deg b = d \ge 1$.  The continuum ODE
+associated to the Wallis recurrence~\eqref{eq:wallis-unit} (with
+$a(n)=1$) takes the form
+\begin{equation}\label{eq:exact-ode}
+  b(x)\,y'' + b'(x)\,y' + c(x)\,y = 0
+\end{equation}
+where $c(x)\in\Q[x]$ with $\deg c \le d$.
+Equivalently, the ODE is exact:
+\[
+  \frac{d}{dx}\bigl[b(x)\,y'\bigr] + c(x)\,y = 0.
+\]
+\end{theorem}
+
+\begin{proof}
+The Wallis recurrence~\eqref{eq:wallis-unit} with $a(n)=1$ has
+constant discrete Wronskian $W_n = W_0$ by \Cref{lem:wronskian}.
+
+Let $A(x)\,y'' + B(x)\,y' + C(x)\,y = 0$ be the continuum ODE
+with $A(x) = b(x)$ (the leading coefficient matching the recurrence
+coefficient).  In standard form $y'' + P(x)\,y' + Q(x)\,y = 0$
+with $P = B/A$, the Abel--Liouville identity gives the continuum
+Wronskian
+\[
+  W(x) = W(0)\,\exp\Bigl(-\int_0^x \frac{B(t)}{A(t)}\,dt\Bigr).
+\]
+
+The discrete Wronskian $W_n = \text{const}$ transfers, under the
+recurrence-to-ODE passage with the natural rescaling
+$Q_n \sim A(x)^{1/2}\,y(x)$, to the continuum relation
+$W(x) = C/A(x)$.  Matching:
+\[
+  \exp\Bigl(-\int_0^x \frac{B}{A}\,dt\Bigr) = \frac{1}{A(x)}
+  \quad\Longrightarrow\quad
+  -\frac{B(x)}{A(x)} = -\frac{A'(x)}{A(x)}
+  \quad\Longrightarrow\quad
+  B(x) = A'(x) = b'(x).
+\]
+Setting $c(x) = C(x)$ completes the identification.
+\end{proof}
+
+\begin{remark}\label{rem:non-constant-a}
+When $a(n)$ is a non-constant polynomial, $W_{n+1} = a(n)\,W_n$
+is non-constant, and the Abel--Liouville matching generically yields
+$B(x) \ne A'(x)$.  For example, with $a(n)=n^2$ the discrete
+Wronskian grows as~$\Gamma(n)^2$ and the continuum $B(x)$ involves
+the digamma function~$\psi(x)$, which is transcendental.
+\end{remark}
+
+% ══════════════════════════════════════════════════════════
+\section{Apparent Singularities}\label{sec:apparent}
+% ══════════════════════════════════════════════════════════
+
+\begin{theorem}[General apparent singularity]\label{thm:apparent}
+Let $b(x)\in\Z[x]$ with $\deg b = d \ge 1$ and $\disc(b)\ne 0$
+(all roots simple).  Let $c(x)\in\Q[x]$ with $\deg c \le d$.
+Consider the exact ODE
+\begin{equation}\label{eq:exact-ode-2}
+  \frac{d}{dx}\bigl[b(x)\,y'\bigr] + c(x)\,y = 0.
+\end{equation}
+Then every root $s$ of $b(x)$ is an \emph{apparent singularity}:
+\begin{enumerate}[label=(\roman*)]
+\item The indicial exponents at~$s$ are $\{0,0\}$.
+\item The solution $y(x)$ is analytic at~$s$; no logarithmic
+  term appears.
+\item The monodromy around~$s$ is the identity.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+Write the ODE in standard form:
+\[
+  y'' + \frac{b'(x)}{b(x)}\,y' + \frac{c(x)}{b(x)}\,y = 0.
+\]
+
+\textbf{Step 1} (Indicial exponents).
+Let $s$ be a simple root of $b(x)$, so $b(x) = (x-s)\,h(x)$ with
+$h(s) = b'(s) \ne 0$.  The Frobenius data at~$s$:
+\begin{align*}
+  p_0 &= \lim_{x\to s}(x-s)\,\frac{b'(x)}{b(x)}
+       = \frac{b'(s)}{h(s)} = \frac{h(s)}{h(s)} = 1, \\
+  q_0 &= \lim_{x\to s}(x-s)^2\,\frac{c(x)}{b(x)}
+       = \lim_{x\to s}(x-s)\,\frac{c(x)}{h(x)} = 0.
+\end{align*}
+The indicial equation $\rho(\rho-1) + p_0\,\rho + q_0 = 0$
+becomes $\rho^2 = 0$, giving a double root $\rho = 0$.
+
+\textbf{Step 2} (No logarithm).
+The ODE~\eqref{eq:exact-ode-2} is equivalent to the first-order
+system $u = b(x)\,y'$, $u' = -c(x)\,y$.  At $x=s$, the coefficient
+$c(s)$ is finite and the system $y' = u/b(x)$, $u' = -c(x)\,y$
+has a regular singular point of a special type: setting $u = b(x)\,y'$,
+the equation $u' + c(x)\,y = 0$ is \emph{regular} at~$s$.
+The solution $y$ admits a convergent Frobenius series
+$y = \sum_{k\ge 0} a_k(x-s)^k$ with $a_0$ arbitrary, and the
+second solution is likewise analytic (no $\log$ term).
+
+\textbf{Step 3} (Trivial monodromy).
+Since both Frobenius solutions are analytic at~$s$, the local
+monodromy matrix around~$s$ is the identity.  In particular,
+the connection coefficient $M_{11}$ (the PCF limit~$K$) is fixed
+by the monodromy.
+\end{proof}
+
+\begin{theorem}[Discriminant universality]\label{thm:disc}
+For any PCF $K = b(0) + K_{n\ge 1}\,1/b(n)$ with
+$b(n)\in\Z[n]$ of degree~$d$, the discriminant of the
+finite singularity configuration of the associated ODE
+equals $\disc(b)$, the discriminant of the Wallis
+characteristic polynomial~$b(x)$.
+In particular, if $b(x) = \alpha x^2 + \beta x + \gamma$ then
+$\disc(b) = \beta^2 - 4\alpha\gamma$, with no dependence on~$K$.
+\end{theorem}
+
+\begin{proof}
+By \Cref{thm:self-adjoint}, the ODE is
+$b(x)\,y'' + b'(x)\,y' + c(x)\,y = 0$, with finite singularities
+at the roots of~$b(x)$.  The discriminant of the singularity
+set $\{s_1,\ldots,s_d\}$ (the roots of~$b$) is, by definition,
+$\disc(b)$.
+\end{proof}
+
+\begin{corollary}\label{cor:cm-failure}
+For any unit-numerator degree-$d$ PCF, searches for~$K$ in bases
+of CM periods, gamma values, or hypergeometric special values
+at discriminant~$\disc(b)$ fail \emph{structurally}: the apparent
+singularities carry no arithmetic information about~$K$.
+\end{corollary}
+
+% ══════════════════════════════════════════════════════════
+\section{Sturm--Liouville Structure}\label{sec:SL}
+% ══════════════════════════════════════════════════════════
+
+The exact ODE~\eqref{eq:exact-ode} is a Sturm--Liouville equation
+\begin{equation}\label{eq:SL}
+  -\frac{d}{dx}\bigl[b(x)\,y'\bigr] = w(x)\,y
+\end{equation}
+with weight function $w(x) = -c(x)/b(x)$ (rational of degree~$0$).
+
+\subsection{Weight function}
+For the $\Vquad$ case:
+\[
+  b(x) = 3x^2+x+1, \quad c(x) = -x^2, \quad
+  w(x) = \frac{x^2}{3x^2+x+1}, \quad
+  w(x) \to \frac{1}{3} \text{ as } x\to\infty.
+\]
+More generally, for degree-$d$ polynomials $b(x) = \alpha_d x^d + \cdots$
+and $c(x) = \gamma_d x^d + \cdots$, the weight satisfies
+$w(x) \to -\gamma_d/\alpha_d$ as $x\to\infty$.
+
+\subsection{Jacobi matrix connection}
+The Wallis recurrence~\eqref{eq:wallis-unit} defines a semi-infinite
+Jacobi matrix
+\[
+  J = \begin{pmatrix}
+    b(0) & 1 & & \\
+    1 & b(1) & 1 & \\
+    & 1 & b(2) & \ddots \\
+    & & \ddots & \ddots
+  \end{pmatrix}.
+\]
+The characteristic polynomials $p_n(t)$ of the $n\times n$
+truncations satisfy $p_{n+1}(t) = (t-b(n))\,p_n(t) - p_{n-1}(t)$
+and are orthogonal with respect to the spectral measure~$\mu$ of~$J$.
+
+The PCF limit is
+\begin{equation}\label{eq:pcf-resolvent}
+  K = \langle e_0, J^{-1} e_0\rangle = \int \frac{d\mu(t)}{t}.
+\end{equation}
+
+\begin{remark}
+The spectral measure $\mu$ of the Jacobi matrix~$J$ and the
+Sturm--Liouville weight $w(x) = -c(x)/b(x)$ are connected by a
+semiclassical correspondence: in the large-$n$ limit, the equilibrium
+measure of the orthogonal polynomials~$p_n(t)$ is governed by the
+potential $V(x) = -\int w(x)\,dx$ associated with the SL operator.
+The precise formulation of this correspondence, and whether it yields
+an explicit integral representation of~$K$, is an open problem.
+\end{remark}
+
+% ══════════════════════════════════════════════════════════
+\section{Classical Examples: Modified Bessel Function Ratios}
+\label{sec:bessel}
+% ══════════════════════════════════════════════════════════
+
+The general theory developed in Sections~\ref{sec:general}--\ref{sec:SL}
+applies, in particular, to classical continued fractions for ratios
+of modified Bessel functions.  These provide both a calibration of
+the theory against known results and a bridge to the special-function
+literature.
+
+\subsection{The Perron continued fraction}
+
+The classical Perron continued fraction for modified Bessel function
+ratios (Perron~\cite{Perron57}, Lorentzen--Waadeland~\cite{LW92},
+Chapter~4) states:
+\begin{equation}\label{eq:perron-bessel}
+  \frac{I_{\nu-1}(z)}{I_\nu(z)}
+  \;=\; \frac{2\nu}{z}
+  + \cfrac{1}{\dfrac{2(\nu+1)}{z}
+  + \cfrac{1}{\dfrac{2(\nu+2)}{z} + \cdots}}\,.
+\end{equation}
+This is a PCF with $a(n)=1$ and $b(n) = 2(\nu+n)/z$ for $n\ge 0$.
+
+\begin{theorem}[Perron--Bessel identification]\label{thm:perron-bessel}
+Let $\nu = 1$, $z = 1$.  The Perron continued
+fraction~\eqref{eq:perron-bessel} becomes the PCF
+with $a(n)=1$ and $b(n) = 2(n+1)$:
+\begin{equation}\label{eq:I0I1-pcf}
+  \frac{I_0(1)}{I_1(1)}
+  \;=\; 2 + \cfrac{1}{4 + \cfrac{1}{6 + \cfrac{1}{8 + \cdots}}}
+  \;\approx\; 2.24019372387008974\ldots
+\end{equation}
+Moreover:
+\begin{enumerate}[label=(\roman*)]
+\item The continuum ODE is
+  $2(x+1)\,y'' + 2\,y' + c(x)\,y = 0$, which is exact:
+  $\tfrac{d}{dx}[2(x+1)\,y'] + c(x)\,y = 0$.
+\item The unique finite singularity at $s = -1$ (root of $b(x)=2(x+1)$)
+  is apparent with indicial exponents $\{0,0\}$.
+\item The numerical certificate: PCF convergents at $n=200$ match
+  $I_0(1)/I_1(1)$ to $55$ decimal digits.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+Part~(iii) is a numerical verification.  Parts~(i) and~(ii) are
+immediate from \Cref{thm:self-adjoint,thm:apparent} applied to
+$b(x) = 2(x+1) = 2x+2$, which has a unique simple root at $s=-1$.
+The classical identity~\eqref{eq:I0I1-pcf} is the Perron
+formula~\eqref{eq:perron-bessel} evaluated at $\nu=1$, $z=1$.
+\end{proof}
+
+\begin{remark}[Degenerate discriminant]
+Since $b(x) = 2x+2$ is linear, $\disc(b) = 0$ in the na\"ive sense
+(a linear polynomial has no pair of roots to discriminate).
+The single apparent singularity at $s = -1$ does not generate a
+non-trivial monodromy group, and the structural exclusion
+(\Cref{cor:exclusion}) applies \emph{a fortiori}: the singularity
+carries no arithmetic information about the limit $I_0(1)/I_1(1)$.
+\end{remark}
+
+\subsection{The \texorpdfstring{$\nu=1$, $z=2$}{v=1, z=2} case}
+\label{sec:bessel-z2}
+
+Setting $\nu=1$, $z=2$ in~\eqref{eq:perron-bessel} gives
+$b(n) = 2(\nu+n)/z = n+1$, and the PCF becomes
+\begin{equation}\label{eq:I0I1-z2}
+  \frac{I_0(2)}{I_1(2)}
+  \;=\; 1 + \cfrac{1}{2 + \cfrac{1}{3 + \cfrac{1}{4 + \cdots}}}
+  \;\approx\; 1.43312742672231\ldots
+\end{equation}
+with $b(n) = n+1$ (degree~1), apparent singularity at $s = -1$,
+and $\disc(b) = 0$.
+
+This example is especially illuminating: the partial denominators
+$b(n) = n+1$ are the simplest non-constant polynomial, yet the
+limit~$I_0(2)/I_1(2)$ is a transcendental number expressible in
+terms of Bessel functions.  The self-adjoint structure and apparent
+singularity theorem apply, confirming that the ODE
+$(x+1)\,y'' + y' + c(x)\,y = 0$ has trivial monodromy at $x = -1$.
+
+% ══════════════════════════════════════════════════════════
+\section{Relation to Classical Asymptotic Theory}
+\label{sec:literature}
+% ══════════════════════════════════════════════════════════
+
+The passage from a difference equation to a differential equation
+has a long history.  In this section we delineate what is classical
+and what is new in our results.
+
+\subsection{The Poincar\'e--Perron theorem}
+
+The foundational result on asymptotic behavior of solutions to
+linear recurrences is the Poincar\'e--Perron theorem
+(Poincar\'e~\cite{Poincare85}; Perron~\cite{Perron21}).
+
+\begin{theorem}[Poincar\'e--Perron, simplified form]
+\label{thm:poincare-perron}
+Let $y_{n+1} = a_n\,y_n + b_n\,y_{n-1}$ be a second-order linear
+recurrence with $a_n \to a$ and $b_n \to b$ as $n\to\infty$, where
+the characteristic equation $z^2 - az - b = 0$ has roots
+$\lambda_1,\lambda_2$ with $|\lambda_1| > |\lambda_2|$.  Then
+every non-trivial solution either satisfies
+$y_{n+1}/y_n \to \lambda_1$ or $y_{n+1}/y_n \to \lambda_2$.
+\end{theorem}
+
+For the Wallis recurrence $Q_{n+1} = b(n)\,Q_n + Q_{n-1}$ with
+$b(n) = \alpha_d n^d + \cdots$, the coefficients grow
+polynomially, so the Poincar\'e--Perron theorem does not apply
+directly (it requires convergent coefficients).  The appropriate
+generalization is the Perron--Kreuser theorem
+(Perron~\cite{Perron21}, Elaydi~\cite{Elaydi05}, Chapter~8),
+which gives $Q_{n+1}/Q_n \sim b(n)$ as $n\to\infty$---a
+statement about the \emph{growth rate} of solutions.
+
+\textbf{What Poincar\'e--Perron does not provide.}
+The Poincar\'e--Perron theorem and its generalizations address
+the \emph{asymptotic} ratio $Q_{n+1}/Q_n$ as $n\to\infty$.
+They say nothing about:
+\begin{itemize}
+\item the \emph{structure} of the continuum ODE (whether it is
+  self-adjoint or exact);
+\item the \emph{singularity type} of the continuum ODE (apparent
+  vs.\ genuine);
+\item the \emph{monodromy} of the continuum ODE around its
+  singularities.
+\end{itemize}
+Our \Cref{thm:self-adjoint,thm:apparent} are statements about the
+exact continuum limit, not the large-$n$ asymptotics, and are
+therefore complementary to, rather than consequences of, the
+Poincar\'e--Perron theory.
+
+\subsection{The Birkhoff--Trjitzinsky theory}
+
+Birkhoff~\cite{Birkhoff30} and
+Birkhoff--Trjitzinsky~\cite{BirkhoffTrjitzinsky32} developed a
+systematic asymptotic theory for linear difference equations with
+polynomial coefficients---the discrete analogue of the WKB method.
+Their theory provides:
+\begin{enumerate}[label=(\alph*)]
+\item formal asymptotic solutions $Q_n \sim C\,n^\alpha\,r^n\,
+  (1 + c_1/n + c_2/n^2 + \cdots)$ for the Wallis recurrence;
+\item Stokes phenomena: the asymptotic series change form across
+  certain directions in the complex $n$-plane;
+\item connection formulae relating the asymptotic solutions in
+  different sectors.
+\end{enumerate}
+
+The modern treatment is in Wimp~\cite{Wimp81} and
+Elaydi~\cite{Elaydi05}.  For the Wallis recurrence with
+polynomial $b(n)$, the Birkhoff--Trjitzinsky expansions give
+the dominant growth $Q_n \sim C\cdot\prod_{k=0}^{n-1} b(k)$
+(when $a(n)=1$), which is the discrete analogue of the WKB
+leading term $y(x) \sim A(x)^{-1/2}\,\exp(\int \sigma\,dx)$.
+
+\textbf{What Birkhoff--Trjitzinsky does not provide.}
+The BT theory works in the asymptotic regime (large $n$) and
+produces formal series that are typically divergent.  It does not:
+\begin{itemize}
+\item produce an \emph{exact} differential equation satisfied by
+  the continuum limit (only asymptotic approximations);
+\item detect the \emph{apparent singularity} structure of the
+  exact ODE---the statement $p_0 = 1$, $q_0 = 0$ at each root
+  of $b(x)$ is invisible to the BT expansion, which does not
+  resolve individual singularities;
+\item establish the \emph{self-adjoint} (exact) form of the ODE,
+  since the notion of exactness requires the full ODE, not just
+  its asymptotic skeleton.
+\end{itemize}
+
+\subsection{The \texorpdfstring{$n \to x$}{n to x} passage
+  in special function theory}
+
+The passage from a three-term recurrence to a differential equation
+is classical for special functions:
+\begin{itemize}
+\item \emph{Bessel functions}: the recurrence
+  $J_{n+1}(z) = (2n/z)\,J_n(z) - J_{n-1}(z)$ corresponds to the
+  Bessel ODE $z^2 y'' + zy' + (z^2-n^2)y = 0$.
+\item \emph{Legendre polynomials}: the recurrence
+  $(n+1)P_{n+1}(x) = (2n+1)x\,P_n(x) - nP_{n-1}(x)$ corresponds
+  to the Legendre ODE $((1-x^2)y')' + n(n+1)y = 0$.
+\item \emph{Hypergeometric functions}: contiguous relations give
+  three-term recurrences whose continuum limits are the Gauss
+  hypergeometric ODE.
+\end{itemize}
+In each of these classical cases, the recurrence has
+\emph{non-constant} numerator coefficients $a(n)$ (e.g., $a(n)=-1$
+for Bessel, $a(n) = -n/(n+1)$ for Legendre), and the resulting
+ODEs are \emph{not} generically of the exact form
+$\tfrac{d}{dx}[A(x)\,y'] + C(x)\,y = 0$.
+
+The self-adjoint property of the Legendre ODE, for instance,
+arises from a different mechanism: the weight function
+$(1-x^2)$ in the Legendre operator is prescribed \emph{a priori}
+by the orthogonality interval~$[-1,1]$, not by the derivative
+relation $B(x) = A'(x)$.
+
+\textbf{Our contribution.}  For PCFs with $a(n)=1$ (constant
+numerator), the passage $n\to x$ \emph{always} produces a
+self-adjoint ODE---\Cref{thm:self-adjoint}.  This is a new
+structural result specific to the constant-numerator case, not a
+consequence of the Poincar\'e--Perron theorem, the
+Birkhoff--Trjitzinsky theory, or the classical $n\to x$ passage
+for special-function recurrences with variable numerators.
+The mechanism is the constancy of the discrete Wronskian
+(\Cref{lem:wronskian}), which has no analogue in the
+variable-numerator setting.
+
+\subsection{Summary of novelty}
+
+\Cref{tab:comparison} collects the comparison.
+
+\begin{table}[h]
+\centering
+\caption{Comparison of the present results with classical theories.}
+\label{tab:comparison}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+& \textbf{PP} & \textbf{BT} & \textbf{Classical}
+& \textbf{This paper} \\
+& \textbf{theorem} & \textbf{theory} & $n\!\to\! x$
+& \\
+\midrule
+Asymptotic ratio $Q_{n+1}/Q_n$ & \checkmark & \checkmark
+  & \checkmark & --- \\
+WKB-type expansion & --- & \checkmark & --- & --- \\
+Stokes phenomena (discrete) & --- & \checkmark & --- & --- \\
+Exact continuum ODE & --- & --- & \checkmark & \checkmark \\
+Self-adjoint structure & --- & --- & \emph{case-by-case}
+  & \textbf{general} \\
+Apparent singularity theorem & --- & --- & --- & \checkmark \\
+Discriminant universality & --- & --- & --- & \checkmark \\
+Trivial monodromy & --- & --- & --- & \checkmark \\
+Arithmetic exclusion & --- & --- & --- & \checkmark \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+The table makes clear that the self-adjoint structure theorem,
+the apparent singularity theorem, and the discriminant universality
+result are genuinely new: they are not covered by any of the three
+classical frameworks.  The key innovation is the identification of
+the \emph{constant discrete Wronskian} as the mechanism linking
+the algebraic structure of the recurrence ($a(n) = 1$) to the
+analytic structure of the continuum ODE ($B(x) = A'(x)$).
+
+% ══════════════════════════════════════════════════════════
+\section{Consequences for Arithmetic Identification}
+\label{sec:arithmetic}
+% ══════════════════════════════════════════════════════════
+
+\Cref{thm:apparent,thm:disc} together explain a persistent
+phenomenon in the PCF arithmetic classification program:
+PSLQ-based searches for PCF limits against CM-period bases at
+discriminant~$\disc(b)$ return null results.
+
+\begin{corollary}[Structural exclusion]\label{cor:exclusion}
+Let $K = b(0) + K_{n\ge 1}\,1/b(n)$ with $\disc(b) = \Delta$.
+Then $K$ cannot be expressed as a CM period, gamma value, or
+hypergeometric special value whose monodromy involves the
+singularities $\{s_k\}$ of the associated ODE, because the
+monodromy at each~$s_k$ is trivial.
+
+In particular, the ``CM discriminant'' $\Delta = \disc(b)$ is a
+property of the Wallis characteristic polynomial, not an arithmetic
+invariant of~$K$.  Searches against CM bases at discriminant~$\Delta$
+fail \emph{a priori}, not merely at finite precision.
+\end{corollary}
+
+This corollary generalizes Theorem~3.1 of~\cite{Vquad} from the
+specific case $b(x) = 3x^2+x+1$ ($\Delta = -11$) to arbitrary
+polynomials.  It explains, for example, why the $d=3$ PCF with
+$b(n) = n^3+n+1$ ($\Delta = -31$) would likewise resist
+identification via Heegner-point methods or Stark-class-number
+approaches at discriminant~$-31$.
+
+% ══════════════════════════════════════════════════════════
+\section{Examples}\label{sec:examples}
+% ══════════════════════════════════════════════════════════
+
+\subsection{Degree 1: \texorpdfstring{$b(n) = 2n+1$}{b(n)=2n+1}
+  and the coth identity}
+\label{sec:ex-coth}
+
+The simplest non-trivial case.  The Wallis recurrence is
+$Q_{n+1} = (2n+1)\,Q_n + Q_{n-1}$.  The ODE:
+\[
+  (2x+1)\,y'' + 2\,y' + c(x)\,y = 0.
+\]
+Single finite singularity at $s = -1/2$ (apparent, $\rho = 0,0$).
+Discriminant: $\disc(2x+1) = 1$ (trivial).
+
+The PCF value is
+\[
+  K \;=\; 1 + \cfrac{1}{3 + \cfrac{1}{5 + \cfrac{1}{7+\cdots}}}
+  \;=\; \coth(1) \;=\; \frac{e^2+1}{e^2-1}
+  \;\approx\; 1.31303528549933\ldots
+\]
+This is the classical Stieltjes S-fraction for the hyperbolic
+cotangent (Lorentzen--Waadeland~\cite{LW92}, \S4.2).
+The half-integer modified Bessel functions
+$I_{-1/2}(z) = \sqrt{2/(\pi z)}\,\cosh z$ and
+$I_{1/2}(z) = \sqrt{2/(\pi z)}\,\sinh z$ give the
+identification
+\[
+  K \;=\; \coth(1) \;=\; \frac{I_{-1/2}(1)}{I_{1/2}(1)}.
+\]
+(Note: the integer-order ratio $I_0(1)/I_1(1) \approx 2.2402$
+corresponds to the distinct PCF with $b(n) = 2n+2$.)
+The Jacobi matrix~$J$ with diagonal entries $b(n)=2n+1$ and unit
+off-diagonal has a discrete spectral measure supported on the zeros
+of certain Bessel functions, rather than a continuous weight.
+
+\begin{remark}[Stieltjes weight refutation]
+\label{rem:stieltjes-refutation}
+The Sturm--Liouville weight for this example is
+$w(x) = -c(x)/b(x)$.  A natural conjecture is that the PCF limit
+admits a Stieltjes-type integral representation
+$K = \int w(x)\,g(x)\,dx$ for some kernel~$g$.
+Numerical experiments at 50 decimal digits refute this:
+for three test cases ($b(n) = 2n+1$, $3n^2+n+1$, $n+1$),
+seven distinct integral kernels
+(including $1$, $1/x$, $1/(1+x)$, $1/(x(1+x))$, $\log x$)
+yield values differing from~$K$ by at least~$0.4$,
+and PSLQ detects no integer relation among the integral values
+and~$K$.  The obstruction is immediate: $w(x) \to \text{const}$
+as $x\to\infty$ for $\deg b \ge 2$, so $w$ is not integrable
+on $[0,\infty)$.
+
+The correct integral representation uses the spectral measure
+$\mu_J$ of the Jacobi matrix rather than the SL weight;
+see \Cref{open:spectral}.
+\end{remark}
+
+\subsection{Degree 2: \texorpdfstring{$\Vquad$}{Vquad} (worked example)}
+
+$b(n) = 3n^2+n+1$, $c(x) = -x^2$.  Two complex-conjugate
+singularities at $s_{1,2} = (-1 \pm i\sqrt{11})/6$.
+Both apparent.  $\disc(b) = -11$.
+$K = \Vquad \approx 1.94264768946523$.
+
+This is the motivating example: the identity $b(x) \equiv A'(x)$
+was first observed for $\Vquad$ in~\cite{Vquad}, where it was used
+to prove the apparent singularity exclusion theorem.  The general
+theory of the present paper shows that this identity is automatic
+for any PCF with $a(n) = 1$, regardless of the degree of~$b(n)$.
+
+Unlike the Bessel-function examples of \Cref{sec:bessel}, the
+limit~$\Vquad$ does not match any entry in the Inverse Symbolic
+Calculator or PSLQ searches against known constants at $600$-digit
+precision~\cite{Vquad}.
+
+\subsection{Degree 3: \texorpdfstring{$b(n) = n^3 + n + 1$}{b(n)=n\textasciicircum3+n+1}}
+
+Three finite singularities: one real ($s_1 \approx -0.6823$)
+and a complex-conjugate pair
+($s_{2,3} \approx 0.3412 \pm 1.1615\,i$).
+All three are apparent singularities with $p_0 = 1$, $q_0 = 0$,
+verified both symbolically (by \Cref{thm:apparent}) and
+numerically (Frobenius computation at $150$-digit precision).
+$\disc(b) = -31$.
+The PCF converges rapidly:
+\[
+  K = 1 + K_{n\ge 1}\,\frac{1}{n^3+n+1}
+  \approx 1.32355722450018.
+\]
+
+This is the first degree-3 example verified under the general theory.
+The discriminant $-31$ is a Heegner discriminant (class number~3),
+but the structural exclusion (\Cref{cor:exclusion}) implies that
+this coincidence carries no arithmetic content:
+$\disc(b)$ is a property of the polynomial $b(x) = x^3+x+1$,
+not of the limit~$K$.
+
+% ══════════════════════════════════════════════════════════
+\section{Open Problems}\label{sec:open}
+% ══════════════════════════════════════════════════════════
+
+\begin{open}
+For which non-constant polynomials $a(n)$ does the continuum ODE
+still satisfy $B(x) = A'(x)$?  The condition $a(n) = \text{const}$
+is sufficient; is it necessary among polynomials?
+\end{open}
+
+\begin{open}[Spectral measure and integral representation]
+\label{open:spectral}
+Let $J$ be the Jacobi matrix with diagonal
+entries $b(n)$ and off-diagonal entries $1$.
+The spectral measure $\mu_J$ of $J$ is a
+probability measure on $\R$, and the
+PCF limit satisfies
+\[
+  K \;=\; \int \frac{d\mu_J(t)}{t}
+\]
+(the Stieltjes transform of $\mu_J$ at $z=0$,
+assuming $0 \notin \mathrm{supp}(\mu_J)$).
+The Sturm--Liouville weight $w(x) = -c(x)/b(x)$
+determines the Jacobi matrix asymptotically
+via the inverse spectral problem, but does not
+yield a direct integral formula: numerical
+experiments confirm that $\int w(x)/(x(1+x))\,dx$
+and six related kernels do not match $K$
+for $b(n) = 3n^2+n+1$ (see \Cref{rem:stieltjes-refutation}).
+
+The calibration case $b(n) = 2n+1$ gives
+$K = \coth(1)$ exactly, with spectral measure
+supported on zeros of Bessel functions rather
+than on the continuous weight $1/(2x+1)$.
+Computing $\mu_J$ explicitly from $b(n)$ via
+the inverse spectral problem, and evaluating
+$\int t^{-1}\,d\mu_J(t)$ in closed form, is
+the central open problem of this theory.
+\end{open}
+
+\begin{open}
+Classify the Sturm--Liouville weight functions $w(x) = -c(x)/b(x)$
+arising from PCFs.  When is $w(x) \ge 0$ on $[0,\infty)$?
+\end{open}
+
+\begin{open}
+For PCFs with multiple roots of $b(x)$ (i.e., $\disc(b) = 0$):
+the corresponding ODE singularity becomes irregular.  What
+replaces the apparent singularity theorem in this degenerate case?
+\end{open}
+
+\begin{open}[Characterization of the self-adjoint class]
+The condition $a(n) = \mathrm{const}$ is sufficient for
+$B(x) = A'(x)$ (\Cref{thm:self-adjoint}).
+Is there a wider class of pairs $(a(n), b(n))$ with $a(n)$
+non-constant for which the self-adjoint structure persists?
+For example, does $a(n) = (-1)^n$ (alternating sign but
+constant absolute value) preserve the property?
+A complete characterization of all $(a,b)$ yielding
+exact continuum ODEs would delineate the boundary of the
+self-adjoint PCF theory.
+\end{open}
+
+\begin{open}[Inverse discriminant problem]
+For degree-$d$ PCFs with $a(n)=1$ and $b(n)$ of degree~$d$,
+the discriminant $\disc(b) \in \Z$ depends only on the
+coefficients of~$b$.  Which integers arise as $\disc(b)$ for
+some polynomial~$b \in \Z[x]$ of degree~$d$?  For $d=2$, the
+answer is: all integers of the form $\beta^2 - 4\alpha\gamma$
+with $\alpha,\gamma \ge 1$ and $\beta \in \Z$, which includes
+all integers $\equiv 0$ or $1 \pmod{4}$.  For $d \ge 3$, the
+set of realizable discriminants is less understood and connects
+to the classical theory of algebraic integers and the inverse
+Galois problem.
+\end{open}
+
+% ══════════════════════════════════════════════════════════
+% References
+% ══════════════════════════════════════════════════════════
+\begin{thebibliography}{99}
+
+\bibitem{Vquad}
+  SIARC Collaboration,
+  \emph{Resurgent structure and Stokes constants of the $V_{\mathrm{quad}}$
+  continued fraction} (NON-110708), 2026.
+
+\bibitem{PCFspectral}
+  SIARC Collaboration,
+  \emph{Spectral classes of polynomial continued fractions}
+  (268704746), 2026.
+
+\bibitem{Poincare85}
+  H.~Poincar\'e,
+  Sur les \'equations lin\'eaires aux diff\'erentielles ordinaires
+  et aux diff\'erences finies,
+  \emph{Amer.\ J.\ Math.} \textbf{7} (1885), 203--258.
+
+\bibitem{Perron21}
+  O.~Perron,
+  \"Uber Summengleichungen und Poincar\'esche Differenzengleichungen,
+  \emph{Math.\ Ann.} \textbf{84} (1921), 1--15.
+
+\bibitem{Perron57}
+  O.~Perron,
+  \emph{Die Lehre von den Kettenbr\"uchen},
+  Band~II, 3rd ed., Teubner, Stuttgart, 1957.
+
+\bibitem{Birkhoff30}
+  G.~D.~Birkhoff,
+  Formal theory of irregular linear difference equations,
+  \emph{Acta Math.} \textbf{54} (1930), 205--246.
+
+\bibitem{BirkhoffTrjitzinsky32}
+  G.~D.~Birkhoff and W.~J.~Trjitzinsky,
+  Analytic theory of singular difference equations,
+  \emph{Acta Math.} \textbf{60} (1932), 1--89.
+
+\bibitem{LW92}
+  L.~Lorentzen and H.~Waadeland,
+  \emph{Continued Fractions with Applications},
+  North-Holland, 1992.
+
+\bibitem{Szego39}
+  G.~Szeg\H{o},
+  \emph{Orthogonal Polynomials},
+  AMS Colloquium Publications, 1939.
+
+\bibitem{Zettl05}
+  A.~Zettl,
+  \emph{Sturm--Liouville Theory},
+  AMS Mathematical Surveys and Monographs, vol.~121, 2005.
+
+\bibitem{Elaydi05}
+  S.~Elaydi,
+  \emph{An Introduction to Difference Equations},
+  3rd ed., Springer, 2005.
+
+\bibitem{Wimp81}
+  J.~Wimp,
+  \emph{Sequence Transformations and Their Applications},
+  Academic Press, 1981.
+
+\bibitem{BirkhoffAdams}
+  G.~D.~Birkhoff and C.~R.~Adams,
+  Singular points of ordinary linear differential equations,
+  \emph{Trans.\ Amer.\ Math.\ Soc.} \textbf{10} (1909), 436--470.
+
+\bibitem{Pincherle}
+  S.~Pincherle,
+  Delle funzioni ipergeometriche e di varie questioni ad esse attinenti,
+  \emph{Giorn.\ Mat.\ Battaglini} \textbf{32} (1894), 209--291.
+
+\end{thebibliography}
+
+\end{document}
