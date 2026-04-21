@@ -1,0 +1,76 @@
+{
+  "territory": "T2",
+  "iteration": 21,
+  "series_terms": 501,
+  "beta_estimate": "-0.192450237546126039",
+  "mu_diff_exact": "-0.192450089729875255",
+  "beta_match_digits": 6,
+  "beta_claim": "near_miss",
+  "S_dingle_richardson": "0.437705261745959",
+  "S_hyperasymptotic": "0.437706042536611",
+  "S_consistency_digits": 7,
+  "S_pslq_hit": false,
+  "pslq_beta": {
+    "\u03b2=\u03bc_diff": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "\u03b2\u2208Q(\u221a3)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "\u03b2_alg3": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    }
+  },
+  "pslq_S": {
+    "pi_sqrt3": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "gamma_thirds": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "gamma_sixths": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "exp_basis": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "wider": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "S_algebraic": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "gamma_beta": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "stokes_norm": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    }
+  },
+  "ahs": 0.6125,
+  "governance": "HALT",
+  "vquad_20": "1.1973739906883576024",
+  "timestamp": "2026-04-20 16:34:28"
+}

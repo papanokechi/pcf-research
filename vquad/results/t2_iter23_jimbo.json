@@ -1,0 +1,25 @@
+{
+  "territory": "T2",
+  "iteration": 23,
+  "task": "Jimbo 1982 PIII(D6) connection formula for V_quad Stokes constant S",
+  "S_target": "0.43770528073458",
+  "parameters": {
+    "alpha": "1/6",
+    "beta": "0",
+    "gamma": "0",
+    "delta": "-1/2",
+    "sigma": "1/sqrt(3)"
+  },
+  "claim_type": "near_miss",
+  "expression": "S ~ 0.43770528, Jimbo formula search over 10 variants null. Closest: F19_mixed (diff=9.79e-03)",
+  "closest": {
+    "source": "(d) t0=(-d)^(1/4), t",
+    "formula": "F19_mixed",
+    "value": 0.4474916683627919,
+    "diff": 0.009786387628211931
+  },
+  "F2_status": "open",
+  "governance": "CLEAN",
+  "recommendation": "Extend S to 12+ digits, then retry PSLQ",
+  "total_formulas_tried": 245
+}

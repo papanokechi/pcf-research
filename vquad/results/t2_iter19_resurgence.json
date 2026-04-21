@@ -1,0 +1,90 @@
+{
+  "territory": "T2",
+  "iteration": 19,
+  "vquad_20": "1.1973739906883576024",
+  "agreement_digits": 200,
+  "xi_0": "1.1547211828183760444",
+  "xi_0_algebraic": false,
+  "xi_0_matches_stokes_gap": true,
+  "stokes_constant_S": "0.00032215755898467566154",
+  "pslq_xi_results": {
+    "surds": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "pi_basis": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "algebraic_deg4": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "direct_2sqrt3": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    }
+  },
+  "pslq_S_results": {
+    "full": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "gamma_basis": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "algebraic": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    }
+  },
+  "trans_info": {
+    "status": "trans-series valid for x>>1 only",
+    "xi_0": "1.1547211828183760444",
+    "S": "0.00032215755898467566154",
+    "checks": {
+      "5": {
+        "optimal_n": 6,
+        "phi0_opt": 0.9652835187825156,
+        "correction_mag": 1.0014358552491143e-06,
+        "smallest_term": 0.0001749361443268528
+      },
+      "8": {
+        "optimal_n": 10,
+        "phi0_opt": 0.9790744000916649,
+        "correction_mag": 3.134411580750153e-08,
+        "smallest_term": 3.905967204024828e-06
+      },
+      "10": {
+        "optimal_n": 12,
+        "phi0_opt": 0.9834740722895247,
+        "correction_mag": 3.112991591254978e-09,
+        "smallest_term": 3.3342905730258183e-07
+      },
+      "15": {
+        "optimal_n": 18,
+        "phi0_opt": 0.9891842062971179,
+        "correction_mag": 9.676822131372124e-12,
+        "smallest_term": 7.81790104736765e-10
+      },
+      "20": {
+        "optimal_n": 24,
+        "phi0_opt": 0.9919677720920062,
+        "correction_mag": 3.00806744307532e-14,
+        "smallest_term": 1.994423442835511e-12
+      }
+    },
+    "x0_evaluation": "not_applicable (series diverges at x=0)"
+  },
+  "governance": "CLEAN",
+  "f2_status": "partial",
+  "timestamp": "2026-04-20 12:32:32"
+}

@@ -1,0 +1,77 @@
+{
+  "territory": "T2",
+  "iteration": 18,
+  "vquad_20": "1.1973739906883576024",
+  "agreement_digits": 200,
+  "painleve_info": {
+    "type": "PV (degenerate \u2192 PIII(D6))",
+    "alpha": "1/6",
+    "beta": "0",
+    "gamma": "0",
+    "delta": "-1/2",
+    "theta_0": "0 (apparent)",
+    "theta_t": "0 (apparent)",
+    "sigma_gap": "2/sqrt(3)",
+    "degeneration": "PV with apparent singularities \u2192 PIII(D6)",
+    "status": "identified"
+  },
+  "pslq_results": {
+    "tau_1 (\u03c3=1/\u221a6)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "tau_2 (\u03c3=1/\u221a6)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "tau_3 (\u03c3=1/\u221a6)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "tau_5 (\u03c3=1/\u221a6)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "tau_6 (\u03c3=1/\u221a3)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "tau_7 (\u03c3=1/\u221a3)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "tau_8 (\u03c3=1/\u221a3)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "ext_tau_3 (\u03c3=1/\u221a6)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "ext_tau_8 (\u03c3=1/\u221a3)": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    }
+  },
+  "borel_info": {
+    "formal_series_terms": 70,
+    "gevrey_order": 1,
+    "summability": "Borel summable in Stokes sector",
+    "direct_evaluation_at_zero": "not possible (singular)",
+    "connection_to_vquad": "V_quad = y_rec(0) = Borel-resumed value transported to x=0",
+    "status": "tautological_with_ode_integration",
+    "cross_check": "Frobenius-to-WKB ratio at x=30 computed"
+  },
+  "governance": "CLEAN",
+  "f2_status": "open",
+  "timestamp": "2026-04-20 12:10:19"
+}

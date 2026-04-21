@@ -1,0 +1,115 @@
+{
+  "territory": "T2",
+  "iteration": 22,
+  "series_terms": 1001,
+  "dps": 100,
+  "beta_estimate": "-0.1924500879128964",
+  "mu_diff_exact": "-0.19245008972987525484",
+  "beta_match_digits": 8,
+  "beta_claim": "near_miss",
+  "beta_pslq": {
+    "beta_mu_diff": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "beta_sqrt3": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "beta_alg": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    }
+  },
+  "S_best": "0.43770528073458051568",
+  "S_all": {
+    "rich": "0.437705280734580516",
+    "regress5": "0.43770528619149185",
+    "regress7": "0.437705286171981",
+    "wynn": "0.437705607181224671"
+  },
+  "S_consistency_digits": 8,
+  "split_half_diff": "2.69111e-9",
+  "pslq_results": {
+    "gamma16_basic": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "gamma16_sqrt2pi": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "gamma16_extended": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "jimbo_basic": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "jimbo_product": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "exp_cm": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "exp_cm_reduced": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "algebraic_q3": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "algebraic_simple": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "barnes_g": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "barnes_g_ext": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "gamma_thirds": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "pi_combos": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    },
+    "stokes_norm": {
+      "relation": null,
+      "residual": null,
+      "hit": false
+    }
+  },
+  "pslq_hits": [],
+  "s_claim": "near_miss",
+  "f2_status": "open",
+  "ahs": 0.5467,
+  "governance": "HALT",
+  "vquad": "1.1973739906883576024",
+  "timestamp": "2026-04-20 16:44:00"
+}
