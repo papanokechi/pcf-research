@@ -1,0 +1,20 @@
+{
+  "halt": true,
+  "reasons": [
+    {
+      "invariant": "log_abs_j",
+      "label": "unweighted_full50",
+      "rho_or_eta": -0.6905728801720901,
+      "bonferroni_p": 4.00975487778072e-07,
+      "raw_p": 2.8641106269862284e-08
+    },
+    {
+      "invariant": "log_abs_j",
+      "label": "exclude_fam31",
+      "rho_or_eta": -0.6714296826785688,
+      "bonferroni_p": 1.802291706382317e-06,
+      "raw_p": 1.2873512188445122e-07
+    }
+  ],
+  "precision_failed": []
+}

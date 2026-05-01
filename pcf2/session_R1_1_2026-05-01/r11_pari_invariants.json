@@ -1,0 +1,8 @@
+{
+  "status": {
+    "available": false,
+    "reason": "no gp binary, no cypari2",
+    "deferred": true
+  },
+  "per_family": {}
+}

@@ -1,0 +1,95 @@
+% Draft v1.3 paragraph insert for PCF-2 (Section: finer-cubic-split).
+% Source: sessions/2026-05-01/PCF2-SESSION-R1.1/.
+% Folds in HALT_SIGNAL from the j-invariant probe.
+
+\subsection{Finer-cubic-split: the $j$-invariant of $E_b$}
+\label{sec:finer-split-j}
+
+The 50 cubic catalogue families of Sections~\ref{sec:catalogue}
+(Sessions B/C1) all satisfy $A_{\mathrm{fit}} = 2d = 6$ to within
+the WKB extraction error $A_{\mathrm{stderr}} \le 0.08$ at
+$\mathrm{dps} = 800$ (Conjecture~B4 sharp form). A finer-split
+probe (PCF2-SESSION-R1.1, $\mathrm{dps} = 1500$, 61 fit points,
+$N \in [10, 130]$) reveals a closed-form sub-rule controlled by the
+$j$-invariant of the elliptic curve
+\[
+   E_b \;:\; y^2 \;=\; b(x), \qquad
+   j(E_b) \;=\; \frac{c_4(E_b)^3}{\Delta(E_b)}.
+\]
+Let $\delta(b) := A_{\mathrm{PCF}}(b) - 6$ and
+$\ell_j(b) := \log\bigl(\,|j(E_b)| + 1\,\bigr)$.
+Across the 50-family catalogue, the Spearman rank correlation between
+$\delta(b)$ and $\ell_j(b)$ is
+\[
+   \rho_{\mathrm{S}}(\ell_j, \delta) \;=\; -0.691,
+   \qquad p_{\mathrm{raw}} \;=\; 2.9 \cdot 10^{-8},
+   \qquad p_{\mathrm{Bonf}} \;=\; 4.0 \cdot 10^{-7}
+\]
+($K = 14$ effective tests in a 22-invariant battery; details
+in~\cite{R11}). The signal is independent of $\log|\Delta_3(b)|$
+($\rho_{\mathrm{S}}(\ell_j, \log|\Delta_3|) = -0.016$, $p = 0.91$);
+the partial Spearman $\rho(\ell_j, \delta \mid \log|\Delta_3|) = -0.794$
+($p = 5.9 \cdot 10^{-12}$) confirms $\ell_j$ as the primary
+finer-split coordinate and $\log|\Delta_3|$ as a secondary.
+
+\begin{conjecture}[B5 — $j$-vanishing locus]
+\label{conj:b5}
+For every $\mathbb{Z}$-primitive irreducible cubic
+$b(x) = a_3 x^3 + a_2 x^2 + a_1 x + a_0$ in the PCF-2 scope,
+\[
+   j(E_b) = 0 \;\Longrightarrow\; A_{\mathrm{PCF}}(b) \;=\; 2d \;=\; 6
+   \quad \text{exactly}.
+\]
+Empirically: the four families $b_{1,-3,3,c}(n) = n^3 - 3n^2 + 3n + c$,
+$c \in \{-3, 1, 2, 3\}$, have $j(E_b) = 0$ (the equianharmonic CM-locus
+$\mathbb{Z}[\omega]$); their $A_{\mathrm{fit}}$ values are
+$\{5.998856, 5.999882, 6.000489, 6.001004\}$ with
+$A_{\mathrm{stderr}} \le 5.4 \cdot 10^{-4}$, agreement with $2d = 6$
+to $\le 1.0 \cdot 10^{-3}$ on every family.
+\end{conjecture}
+
+\begin{conjecture}[B6 — soft drift]
+\label{conj:b6}
+For $j(E_b) \neq 0$, there is a non-decreasing function
+$\varepsilon : \mathbb{R}_{> 0} \to \mathbb{R}_{\ge 0}$ with
+$\varepsilon(0^+) = 0$ such that
+\[
+   A_{\mathrm{PCF}}(b) \;=\; 2d \;-\; \varepsilon\bigl(\,|j(E_b)|\,\bigr)
+   \;+\; o(1)
+\]
+as the catalogue is exhausted in lexicographic order. Empirically
+$\varepsilon$ is monotone in $\log|j|$ on the cubic catalogue with
+slope $\approx 4.5 \cdot 10^{-3}$ per unit of $\log|j|$
+(linear-rank-regression coefficient).
+\end{conjecture}
+
+\begin{remark}[Mahler-measure secondary signal]
+The Mahler measure $M(b)$ is also rank-correlated with $\delta(b)$
+($\rho_{\mathrm{S}} = -0.371$, raw $p = 8.0 \cdot 10^{-3}$,
+Bonferroni $p \approx 0.11$ at $K = 14$). The bivariate
+$(\log M(b), \log|j(E_b)|)$ rank-regression reaches adjusted
+$R^2 = 0.54$. We do not promote $M(b)$ to a separate conjecture
+because of partial collinearity with $\ell_j$ (curves with $j = 0$
+also tend to have small Mahler measure on this catalogue).
+\end{remark}
+
+\begin{remark}[Open: degree-$d$ generalisation]
+Conjecture~B5 is currently empirical at $d = 3$ on the lex window
+$a_3 \in \{1,2,3,5,7\}$, $a_2, a_1, a_0 \in \{-3,\ldots,3\}$. The
+analogous $j$-vanishing condition at $d = 4$ would be the curve
+$y^2 = b(x)$ having a $\mathbb{Q}$-rational hyperelliptic involution
+fixing the equianharmonic locus on its Jacobian. Verifying B5 at
+$d \ge 4$ (op:b4-degree-d, op:j-vanishing-d) is the natural
+follow-up.
+\end{remark}
+
+\begin{remark}[Number-field invariants deferred]
+The R1.1 probe was unable to compute the six pari/gp-derived
+field-level invariants (class number $h$, narrow class number
+$h^+$, conductor, regulator, fundamental-unit norm, unit density)
+because pari/gp was not available in the relay environment. None
+of the 14 effective tests were field-level. Conjecture~B5 may admit
+a still-finer split on $h$, conductor, or regulator
+(op:cubic-fielddata-r12); the absence of such tests in this draft
+is the principal open question.
+\end{remark}

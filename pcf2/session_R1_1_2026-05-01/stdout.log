@@ -1,0 +1,27 @@
+[16:36:04] ============================================================
+[16:36:04] PCF2-SESSION-R1.1 finer-cubic-split probe
+[16:36:04] ============================================================
+[16:36:04] Phase R11-1: pari/gp NOT available (gp.exe not on PATH, cypari2 not installed). All 6 field-level invariants stay NaN.
+[16:36:04] Phase R11-2: Mahler measure + j-invariant + genus
+[16:36:06]   Mahler measures computed for 50 families (min=0.7910, max=1.6307)
+[16:36:06]   j-invariants computed for 50 families
+[16:36:06] Phase R11-3: precision escalation at dps=1500, N grid 10..130 step 2 (61 pts)
+[16:36:06]   family 24: coeffs=[1, -3, 2, -3]
+[16:36:08]     A=5.996050, A_stderr=0.0002003, npts=61, fit window [10, 130], elapsed=2.2s
+[16:36:08]   family 30: coeffs=[1, -3, 3, -3]
+[16:36:10]     A=5.998856, A_stderr=6.462e-05, npts=61, fit window [10, 130], elapsed=1.6s
+[16:36:10]   family 31: coeffs=[1, -3, 3, 1]
+[16:36:11]     A=5.999882, A_stderr=8.259e-06, npts=61, fit window [10, 130], elapsed=1.7s
+[16:36:11]   family 37: coeffs=[1, -2, -3, 1]
+[16:36:13]     A=5.988162, A_stderr=0.0005424, npts=61, fit window [10, 130], elapsed=2.0s
+[16:36:13] Phase R11-4: assemble dataframe + correlations
+[16:36:13]   assembled 50 rows -> assembled_data_v2.csv
+[16:36:14]   best pair regression: ('log_abs_Delta_3', 'log_abs_j', 0.7178873985106762, 0.7058826069579389)
+[16:36:14]   best triple regression: ('log_abs_Delta_3', 'j_invariant', 'log_abs_j', 0.7608077112726837, 0.7452082141817717)
+[16:36:14] VERDICT: HALT_SIGNAL
+[16:36:14]   Headline (unweighted full50): log_abs_j rho=-0.691, Bonf p=4.01e-07
+[16:36:14]   Headline (no fam-31): log_abs_j rho=-0.671, Bonf p=1.8e-06
+[16:36:14]   log|Delta_3| unw: rho=-0.480, Bonf p=0.00594, K=14
+[16:36:14]   log|Delta_3| no31: rho=-0.478, Bonf p=0.00709, K=14
+[16:36:14] AEAL claims written: 5
+[16:36:14] DONE

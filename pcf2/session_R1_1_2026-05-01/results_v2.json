@@ -1,0 +1,1272 @@
+{
+  "task_id": "PCF2-SESSION-R1.1",
+  "date": "2026-05-01",
+  "n_families": 50,
+  "K_bonferroni_used": 14,
+  "K_target_per_prompt": 20,
+  "K_actual_valid": 14,
+  "verdict": "HALT_SIGNAL",
+  "halt_triggered": true,
+  "halt_reasons": [
+    {
+      "invariant": "log_abs_j",
+      "label": "unweighted_full50",
+      "rho_or_eta": -0.6905728801720901,
+      "bonferroni_p": 4.00975487778072e-07,
+      "raw_p": 2.8641106269862284e-08
+    },
+    {
+      "invariant": "log_abs_j",
+      "label": "exclude_fam31",
+      "rho_or_eta": -0.6714296826785688,
+      "bonferroni_p": 1.802291706382317e-06,
+      "raw_p": 1.2873512188445122e-07
+    }
+  ],
+  "pari_status": {
+    "available": false,
+    "reason": "no gp binary, no cypari2",
+    "deferred": true
+  },
+  "pari_invariants_populated": 0,
+  "precision_targets": [
+    24,
+    30,
+    31,
+    37
+  ],
+  "precision_failed_threshold": [],
+  "precision_overrides": {
+    "24": {
+      "A": 5.996049587271335,
+      "A_stderr": 0.00020025814384551832
+    },
+    "30": {
+      "A": 5.998856243256358,
+      "A_stderr": 6.462063329481264e-05
+    },
+    "31": {
+      "A": 5.999882482212149,
+      "A_stderr": 8.259359459283807e-06
+    },
+    "37": {
+      "A": 5.9881623155799515,
+      "A_stderr": 0.0005424212445601645
+    }
+  },
+  "delta_summary": {
+    "mean": -0.016348141318430896,
+    "std": 0.009921961949000677,
+    "min": -0.04636791094785586,
+    "max": 0.0010043067175153908
+  },
+  "unweighted_full50": [
+    {
+      "invariant": "alpha_3",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "Delta_3_sign",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.20379553813701157,
+      "p": 0.15573847180219272,
+      "pearson_r": -0.1396201054287278,
+      "pearson_p": 0.333524028403515,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.27254232565383724,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "absD_parity",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.009828039493309125,
+      "p": 0.9459937197394457,
+      "pearson_r": -0.04255971936929985,
+      "pearson_p": 0.7691675584920565,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9934927658257979,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "absD_mod_8",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.0011833199998798453,
+      "p": 0.9934927658257979,
+      "pearson_r": -0.037898529923804665,
+      "pearson_p": 0.7938620492594709,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9934927658257979,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "absD_mod_12",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.008188513583069884,
+      "p": 0.9549929286898171,
+      "pearson_r": 0.006174433796219177,
+      "pearson_p": 0.9660555239940559,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9934927658257979,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "log_abs_Delta_3",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.4796330370095068,
+      "p": 0.0004244622607255963,
+      "pearson_r": -0.43753593663694385,
+      "pearson_p": 0.001485856840255773,
+      "label": "unweighted_full50",
+      "bonferroni_p": 0.0059424716501583486,
+      "bh_q": 0.0029712358250791743,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "smallest_prime_div",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.005922968831290348,
+      "p": 0.9674372147848311,
+      "pearson_r": -0.299100890225508,
+      "pearson_p": 0.03485506468453076,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9934927658257979,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "omega_Delta_3",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.23473891228371732,
+      "p": 0.10082026137726018,
+      "pearson_r": -0.18167197376682973,
+      "pearson_p": 0.20671092124529092,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.27254232565383724,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "Galois_group",
+      "kind": "categorical",
+      "n": 50,
+      "rho_or_eta": 0.009271793823911849,
+      "p": 0.5002915541053136,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.7782313063860433,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "r1",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.20379553813701157,
+      "p": 0.15573847180219272,
+      "pearson_r": -0.1396201054287278,
+      "pearson_p": 0.333524028403515,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.27254232565383724,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "r2",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.20379553813701157,
+      "p": 0.15573847180219272,
+      "pearson_r": 0.1396201054287278,
+      "pearson_p": 0.333524028403515,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.27254232565383724,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "CM_disc",
+      "kind": "ordinal",
+      "n": 47,
+      "rho_or_eta": -0.06897951329588863,
+      "p": 0.6450030229898672,
+      "pearson_r": 0.17279971691062235,
+      "pearson_p": 0.24543130137509292,
+      "label": "unweighted_full50",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9030042321858142,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "log_Mahler",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.37110534888466074,
+      "p": 0.007972760843911375,
+      "pearson_r": -0.26206446857930976,
+      "pearson_p": 0.0659911953464518,
+      "label": "unweighted_full50",
+      "bonferroni_p": 0.11161865181475926,
+      "bh_q": 0.03720621727158642,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "j_invariant",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.299555681744098,
+      "p": 0.03456634134996084,
+      "pearson_r": 0.21042649696322616,
+      "pearson_p": 0.14243444479111994,
+      "label": "unweighted_full50",
+      "bonferroni_p": 0.48392877889945174,
+      "bh_q": 0.12098219472486293,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "log_abs_j",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.6905728801720901,
+      "p": 2.8641106269862284e-08,
+      "pearson_r": -0.702096552668167,
+      "pearson_p": 1.3352466096323105e-08,
+      "label": "unweighted_full50",
+      "bonferroni_p": 4.00975487778072e-07,
+      "bh_q": 4.00975487778072e-07,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "genus",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "class_number",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "class_number_plus",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "conductor",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "regulator",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "fund_unit_norm",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "unit_density",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "unweighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    }
+  ],
+  "weighted_full50": [
+    {
+      "invariant": "alpha_3",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "Delta_3_sign",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.5974162850266048,
+      "p": NaN,
+      "pearson_r": -0.1396201054287278,
+      "pearson_p": 0.333524028403515,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "absD_parity",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.20697227570405521,
+      "p": NaN,
+      "pearson_r": -0.04255971936929985,
+      "pearson_p": 0.7691675584920565,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "absD_mod_8",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.058757891401933555,
+      "p": NaN,
+      "pearson_r": -0.037898529923804665,
+      "pearson_p": 0.7938620492594709,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "absD_mod_12",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.43212696942564294,
+      "p": NaN,
+      "pearson_r": 0.006174433796219177,
+      "pearson_p": 0.9660555239940559,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "log_abs_Delta_3",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.05349437658124316,
+      "p": NaN,
+      "pearson_r": -0.43753593663694385,
+      "pearson_p": 0.001485856840255773,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "smallest_prime_div",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.28336331453893787,
+      "p": NaN,
+      "pearson_r": -0.299100890225508,
+      "pearson_p": 0.03485506468453076,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "omega_Delta_3",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.1258739944458931,
+      "p": NaN,
+      "pearson_r": -0.18167197376682973,
+      "pearson_p": 0.20671092124529092,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "Galois_group",
+      "kind": "categorical",
+      "n": 50,
+      "rho_or_eta": 0.009271793823911849,
+      "p": 0.5002915541053136,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": 0.5002915541053136,
+      "bh_q": 0.5002915541053136,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "r1",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.5974162850266048,
+      "p": NaN,
+      "pearson_r": -0.1396201054287278,
+      "pearson_p": 0.333524028403515,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "r2",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.5974162850266048,
+      "p": NaN,
+      "pearson_r": 0.1396201054287278,
+      "pearson_p": 0.333524028403515,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "CM_disc",
+      "kind": "ordinal",
+      "n": 47,
+      "rho_or_eta": 0.36767812259048566,
+      "p": NaN,
+      "pearson_r": 0.17279971691062235,
+      "pearson_p": 0.24543130137509292,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "log_Mahler",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.39079720589652756,
+      "p": NaN,
+      "pearson_r": -0.26206446857930976,
+      "pearson_p": 0.0659911953464518,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "j_invariant",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": 0.46496560862572633,
+      "p": NaN,
+      "pearson_r": 0.21042649696322616,
+      "pearson_p": 0.14243444479111994,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "log_abs_j",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": -0.8741518160843,
+      "p": NaN,
+      "pearson_r": -0.702096552668167,
+      "pearson_p": 1.3352466096323105e-08,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "genus",
+      "kind": "ordinal",
+      "n": 50,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "class_number",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "class_number_plus",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "conductor",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "regulator",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "fund_unit_norm",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    },
+    {
+      "invariant": "unit_density",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "weighted_full50",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 1,
+      "K_bonferroni": 1
+    }
+  ],
+  "unweighted_exclude_fam31": [
+    {
+      "invariant": "alpha_3",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "Delta_3_sign",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": -0.18957893063357786,
+      "p": 0.19200788065775434,
+      "pearson_r": -0.12355383412323466,
+      "pearson_p": 0.39766580258698436,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.3360137911510701,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "absD_parity",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": 0.02936101097573517,
+      "p": 0.8412737754198232,
+      "pearson_r": -0.0030589212454488063,
+      "pearson_p": 0.9833575635774057,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9059871427598095,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "absD_mod_8",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": -0.00026163785301251555,
+      "p": 0.9985764279869718,
+      "pearson_r": -0.042216023999600207,
+      "pearson_p": 0.7733376742708941,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9985764279869718,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "absD_mod_12",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": 0.06291117596651274,
+      "p": 0.6676062644215472,
+      "pearson_r": 0.06031779777173364,
+      "pearson_p": 0.680559351611427,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.8496807001728783,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "log_abs_Delta_3",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": -0.4784506044714671,
+      "p": 0.000506523421230538,
+      "pearson_r": -0.4317078503237762,
+      "pearson_p": 0.0019531786634354445,
+      "label": "exclude_fam31",
+      "bonferroni_p": 0.007091327897227532,
+      "bh_q": 0.003545663948613766,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "smallest_prime_div",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": 0.030043740554096164,
+      "p": 0.8376320868489118,
+      "pearson_r": -0.2931239027020042,
+      "pearson_p": 0.040949845345873585,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.9059871427598095,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "omega_Delta_3",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": -0.2664285714285714,
+      "p": 0.06424751415527952,
+      "pearson_r": -0.21202104908558528,
+      "pearson_p": 0.14359894975767631,
+      "label": "exclude_fam31",
+      "bonferroni_p": 0.8994651981739132,
+      "bh_q": 0.17989303963478265,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "Galois_group",
+      "kind": "categorical",
+      "n": 49,
+      "rho_or_eta": 0.011739130434782178,
+      "p": 0.4528621834187784,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.7044522853180997,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "r1",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": -0.18957893063357786,
+      "p": 0.19200788065775434,
+      "pearson_r": -0.12355383412323466,
+      "pearson_p": 0.39766580258698436,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.3360137911510701,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "r2",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": 0.18957893063357786,
+      "p": 0.19200788065775434,
+      "pearson_r": 0.12355383412323466,
+      "pearson_p": 0.39766580258698436,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.3360137911510701,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "CM_disc",
+      "kind": "ordinal",
+      "n": 46,
+      "rho_or_eta": -0.09886144813540404,
+      "p": 0.513329357246552,
+      "pearson_r": 0.1693603441550876,
+      "pearson_p": 0.26050527592964956,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.0,
+      "bh_q": 0.7186611001451728,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "log_Mahler",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": -0.43192614906274956,
+      "p": 0.001941745007593509,
+      "pearson_r": -0.3015725695842518,
+      "pearson_p": 0.03522062829238847,
+      "label": "exclude_fam31",
+      "bonferroni_p": 0.027184430106309127,
+      "bh_q": 0.009061476702103043,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "j_invariant",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": 0.295118785052076,
+      "p": 0.03953251559273466,
+      "pearson_r": 0.2094244516386299,
+      "pearson_p": 0.148683598151451,
+      "label": "exclude_fam31",
+      "bonferroni_p": 0.5534552182982853,
+      "bh_q": 0.13836380457457131,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "log_abs_j",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": -0.6714296826785688,
+      "p": 1.2873512188445122e-07,
+      "pearson_r": -0.6815527050257792,
+      "pearson_p": 7.013955374691697e-08,
+      "label": "exclude_fam31",
+      "bonferroni_p": 1.802291706382317e-06,
+      "bh_q": 1.802291706382317e-06,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "genus",
+      "kind": "ordinal",
+      "n": 49,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "class_number",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "class_number_plus",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "conductor",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "regulator",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "fund_unit_norm",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    },
+    {
+      "invariant": "unit_density",
+      "kind": "ordinal",
+      "n": 0,
+      "rho_or_eta": NaN,
+      "p": NaN,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "label": "exclude_fam31",
+      "bonferroni_p": NaN,
+      "bh_q": NaN,
+      "m_tests": 14,
+      "K_bonferroni": 14
+    }
+  ],
+  "best_pair_regressions": [
+    {
+      "c1": "log_abs_Delta_3",
+      "c2": "log_abs_j",
+      "r2": 0.7178873985106762,
+      "adj_r2": 0.7058826069579389
+    },
+    {
+      "c1": "log_Mahler",
+      "c2": "log_abs_j",
+      "r2": 0.5586942272168383,
+      "adj_r2": 0.5399152581622357
+    },
+    {
+      "c1": "omega_Delta_3",
+      "c2": "log_abs_j",
+      "r2": 0.5341219622916442,
+      "adj_r2": 0.5142973649423525
+    },
+    {
+      "c1": "Delta_3_sign",
+      "c2": "j_invariant",
+      "r2": 0.5308011811504492,
+      "adj_r2": 0.5108352739653619
+    },
+    {
+      "c1": "r1",
+      "c2": "j_invariant",
+      "r2": 0.5308011811504492,
+      "adj_r2": 0.5108352739653619
+    },
+    {
+      "c1": "r2",
+      "c2": "j_invariant",
+      "r2": 0.5308011811504492,
+      "adj_r2": 0.5108352739653619
+    },
+    {
+      "c1": "j_invariant",
+      "c2": "log_abs_j",
+      "r2": 0.5081512654130409,
+      "adj_r2": 0.48722153202636176
+    },
+    {
+      "c1": "Delta_3_sign",
+      "c2": "log_abs_j",
+      "r2": 0.49007500054038233,
+      "adj_r2": 0.4683760643931645
+    },
+    {
+      "c1": "r1",
+      "c2": "log_abs_j",
+      "r2": 0.49007500054038233,
+      "adj_r2": 0.4683760643931645
+    },
+    {
+      "c1": "r2",
+      "c2": "log_abs_j",
+      "r2": 0.490075000540382,
+      "adj_r2": 0.46837606439316426
+    }
+  ],
+  "best_triple_regressions": [
+    {
+      "c1": "log_abs_Delta_3",
+      "c2": "j_invariant",
+      "c3": "log_abs_j",
+      "r2": 0.7608077112726837,
+      "adj_r2": 0.7452082141817717
+    },
+    {
+      "c1": "Delta_3_sign",
+      "c2": "log_abs_Delta_3",
+      "c3": "j_invariant",
+      "r2": 0.7485070164203762,
+      "adj_r2": 0.732105300099966
+    },
+    {
+      "c1": "log_abs_Delta_3",
+      "c2": "r1",
+      "c3": "j_invariant",
+      "r2": 0.7485070164203762,
+      "adj_r2": 0.732105300099966
+    },
+    {
+      "c1": "log_abs_Delta_3",
+      "c2": "r2",
+      "c3": "j_invariant",
+      "r2": 0.7485070164203762,
+      "adj_r2": 0.732105300099966
+    },
+    {
+      "c1": "Delta_3_sign",
+      "c2": "log_abs_Delta_3",
+      "c3": "log_abs_j",
+      "r2": 0.7446943894843574,
+      "adj_r2": 0.7280440235811634
+    },
+    {
+      "c1": "log_abs_Delta_3",
+      "c2": "r2",
+      "c3": "log_abs_j",
+      "r2": 0.7446943894843574,
+      "adj_r2": 0.7280440235811634
+    },
+    {
+      "c1": "log_abs_Delta_3",
+      "c2": "r1",
+      "c3": "log_abs_j",
+      "r2": 0.7446943894843573,
+      "adj_r2": 0.7280440235811632
+    },
+    {
+      "c1": "log_abs_Delta_3",
+      "c2": "CM_disc",
+      "c3": "log_abs_j",
+      "r2": 0.7310764460833431,
+      "adj_r2": 0.7135379534366046
+    },
+    {
+      "c1": "absD_mod_12",
+      "c2": "log_abs_Delta_3",
+      "c3": "log_abs_j",
+      "r2": 0.7253449694406144,
+      "adj_r2": 0.7074326848389154
+    },
+    {
+      "c1": "absD_mod_8",
+      "c2": "log_abs_Delta_3",
+      "c3": "log_abs_j",
+      "r2": 0.7244728887536107,
+      "adj_r2": 0.7065037293244983
+    }
+  ],
+  "flags": {
+    "nan_columns": [
+      "conductor",
+      "class_number",
+      "class_number_plus",
+      "regulator",
+      "fund_unit_norm",
+      "unit_density"
+    ],
+    "pair_with_adj_r2_gt_0p4": [
+      {
+        "c1": "log_abs_Delta_3",
+        "c2": "log_abs_j",
+        "r2": 0.7178873985106762,
+        "adj_r2": 0.7058826069579389
+      },
+      {
+        "c1": "log_Mahler",
+        "c2": "log_abs_j",
+        "r2": 0.5586942272168383,
+        "adj_r2": 0.5399152581622357
+      },
+      {
+        "c1": "omega_Delta_3",
+        "c2": "log_abs_j",
+        "r2": 0.5341219622916442,
+        "adj_r2": 0.5142973649423525
+      },
+      {
+        "c1": "Delta_3_sign",
+        "c2": "j_invariant",
+        "r2": 0.5308011811504492,
+        "adj_r2": 0.5108352739653619
+      },
+      {
+        "c1": "r1",
+        "c2": "j_invariant",
+        "r2": 0.5308011811504492,
+        "adj_r2": 0.5108352739653619
+      },
+      {
+        "c1": "r2",
+        "c2": "j_invariant",
+        "r2": 0.5308011811504492,
+        "adj_r2": 0.5108352739653619
+      },
+      {
+        "c1": "j_invariant",
+        "c2": "log_abs_j",
+        "r2": 0.5081512654130409,
+        "adj_r2": 0.48722153202636176
+      },
+      {
+        "c1": "Delta_3_sign",
+        "c2": "log_abs_j",
+        "r2": 0.49007500054038233,
+        "adj_r2": 0.4683760643931645
+      },
+      {
+        "c1": "r1",
+        "c2": "log_abs_j",
+        "r2": 0.49007500054038233,
+        "adj_r2": 0.4683760643931645
+      },
+      {
+        "c1": "r2",
+        "c2": "log_abs_j",
+        "r2": 0.490075000540382,
+        "adj_r2": 0.46837606439316426
+      }
+    ],
+    "triple_with_adj_r2_gt_0p4": [
+      {
+        "c1": "log_abs_Delta_3",
+        "c2": "j_invariant",
+        "c3": "log_abs_j",
+        "r2": 0.7608077112726837,
+        "adj_r2": 0.7452082141817717
+      },
+      {
+        "c1": "Delta_3_sign",
+        "c2": "log_abs_Delta_3",
+        "c3": "j_invariant",
+        "r2": 0.7485070164203762,
+        "adj_r2": 0.732105300099966
+      },
+      {
+        "c1": "log_abs_Delta_3",
+        "c2": "r1",
+        "c3": "j_invariant",
+        "r2": 0.7485070164203762,
+        "adj_r2": 0.732105300099966
+      },
+      {
+        "c1": "log_abs_Delta_3",
+        "c2": "r2",
+        "c3": "j_invariant",
+        "r2": 0.7485070164203762,
+        "adj_r2": 0.732105300099966
+      },
+      {
+        "c1": "Delta_3_sign",
+        "c2": "log_abs_Delta_3",
+        "c3": "log_abs_j",
+        "r2": 0.7446943894843574,
+        "adj_r2": 0.7280440235811634
+      },
+      {
+        "c1": "log_abs_Delta_3",
+        "c2": "r2",
+        "c3": "log_abs_j",
+        "r2": 0.7446943894843574,
+        "adj_r2": 0.7280440235811634
+      },
+      {
+        "c1": "log_abs_Delta_3",
+        "c2": "r1",
+        "c3": "log_abs_j",
+        "r2": 0.7446943894843573,
+        "adj_r2": 0.7280440235811632
+      },
+      {
+        "c1": "log_abs_Delta_3",
+        "c2": "CM_disc",
+        "c3": "log_abs_j",
+        "r2": 0.7310764460833431,
+        "adj_r2": 0.7135379534366046
+      },
+      {
+        "c1": "absD_mod_12",
+        "c2": "log_abs_Delta_3",
+        "c3": "log_abs_j",
+        "r2": 0.7253449694406144,
+        "adj_r2": 0.7074326848389154
+      },
+      {
+        "c1": "absD_mod_8",
+        "c2": "log_abs_Delta_3",
+        "c3": "log_abs_j",
+        "r2": 0.7244728887536107,
+        "adj_r2": 0.7065037293244983
+      }
+    ]
+  },
+  "environment_notes": "pari/gp NOT available; field-level invariants (h, h+, conductor, regulator, fund_unit_norm, unit_density) recorded as NaN; deferred sub-issue per HALT clause. Effective Bonferroni K = number of valid tests = 14 (vs prompt target 20). Genus is constant=1 across all families (deg-3 squarefree monic) and is excluded from correlation by zero-variance gate."
+}
