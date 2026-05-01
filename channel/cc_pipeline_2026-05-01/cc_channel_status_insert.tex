@@ -1,0 +1,43 @@
+% CC-channel status insert -- to be folded into
+% sessions/2026-05-01/CHANNEL-THEORY-OUTLINE/channel_theory_outline.tex
+% before Zenodo posting (v1.1).
+%
+% Suggested location: end of \subsection{The connection-coefficient
+% channel $\CC$} (Sec 3.3 / \Cref{ssec:cc}), as a new paragraph before
+% the "Open implementation questions" paragraph.
+
+\paragraph{Status (CC-PIPELINE-F, 2026-05-01).}
+A first attempt to numerically extract the CC-channel datum
+$(\xi_{0}, \beta_{\exp}, S_{1})$ for $\Vquad$ from the
+BoT-channel trans-series $\{h_{k}\}$ of $\log|\dn|$ via
+Domb--Sykes ratio analysis was carried out under the
+scope-limited brief of CC-PIPELINE-F. The recovery
+\emph{failed}: the literature anchor $\xi_{0} = 2/\sqrt{3}$
+was matched to $-0.5$ digits across two precision tiers
+(depth $\in \{240, 360\}$, $\mathrm{dps} \in \{4000, 6000\}$,
+$K \in \{22, 32\}$), well below the $20$-digit prompt
+threshold. The \emph{structural} reading is that the BoT
+trans-series $1/n$-expansion of $\log|\dn|$ is a different
+formal series from the Gevrey-$1$ formal solution at $z=0$
+of the linear ODE attached to $f(z) = \sum Q_{n} z^{n}$ (the
+Birkhoff-factored asymptotic series at $n=\infty$ of the
+underlying difference operator), which is where the
+literature $\xi_{0}$ lives. This sharpens
+\Cref{def:channel}: $\BoT$ and $\CC$ differ in their
+formal-series space $D$, not just in their section $S$. The
+re-test of Q$_{L15}$ and Q$_{L26}$ in the same pipeline
+returned no $P_{III}(D_{6})$ ratio fingerprint
+($\beta/\xi_{0}=-1/6$) at $\geq 15$ digits, so the
+\cite{siarc_borel_kscan} ``BOTH ARTEFACT'' verdict is
+\emph{confirmed} (not flipped). A positive byproduct: the
+WKB closed form $\alpha = A - 2\log c_{b} + \log|c_{a}|$
+matches the LSQ-extracted $\alpha$ to $\geq 23$ digits for
+all five non-$\Vquad$ families (best $29.79$ digits for
+Q$_{L15}$; \Cref{prop:wkb} can be strengthened from the
+published $13$-digit floor accordingly). The op:cc-pipeline
+problem (\Cref{sec:open}) is therefore split into a Newton-
+polygon / Birkhoff-formal-solution sub-problem
+(\textsf{op:cc-formal-solution}, the actual numerical
+anchor) and the broader Riemann--Hilbert / isomonodromic
+matching question (\textsf{op:cc-pipeline} restricted), each
+of which is now its own multi-session enterprise.

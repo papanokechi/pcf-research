@@ -1,0 +1,16 @@
+{
+  "unexpected_finds": [
+    {
+      "id": "UF-1",
+      "finding": "CC and BoT channels are GENUINELY DISTINCT in the formal-series space D, not just in the section S. The BoT-extracted trans-series h_k of log|delta_n| does not carry the literature V_quad Borel singularity at xi_0 = 2/sqrt(3); |h_k|^(1/k) sequence trends towards a value near 1.74 at k=12 (not the literature 1.155...).",
+      "evidence": "diagnose_gevrey.log + results_vquad.json T1+T2 tiers; reproducible at all (depth, dps, K) tested.",
+      "structural_consequence": "Sharpens CHANNEL-THEORY-OUTLINE Definition 1: the channel triple (D, T, S) varies in D between BoT and CC, not just in S. Suggests adding a Remark to Sec 3 of the outline before Zenodo upload."
+    },
+    {
+      "id": "UF-2",
+      "finding": "WKB closed-form alpha = A - 2 log c_b + log|c_a| matches the LSQ-extracted alpha to 28.86 digits for QL26 and 29.79 digits for QL15 at depth=240, dps=4000, K=22 -- substantially exceeding the published K-SCAN match of 13-15 digits.",
+      "evidence": "results_ql15.json (digits_match = 29.789), results_ql26.json (digits_match = 28.858).",
+      "structural_consequence": "The WKB closed-form is empirically tighter than the K-SCAN publication acknowledges; this is positive evidence for Proposition prop:wkb in the outline. Could be folded into a strengthened version of the proposition (claim: closed-form to >= 28 digits at K = 22, depth = 240) but is NOT urgent for Zenodo posting."
+    }
+  ]
+}

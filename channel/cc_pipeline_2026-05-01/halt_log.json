@@ -1,0 +1,13 @@
+{
+  "halt_clause": "V_quad CC-channel recovery clause (PROMPT)",
+  "trigger": "V_quad fails to recover P-III(D_6) at >= 20 digits",
+  "best_xi_0_digits_match": -0.497,
+  "threshold_digits": 20,
+  "diagnosis": "The CC-channel as proposed in CHANNEL-THEORY-OUTLINE Sec 3.3 is operationalised in this session via Domb-Sykes ratio analysis on the trans-series h_k extracted by LSQ fit of log|delta_n| (the BoT-channel object). This approach FAILS for V_quad: |h_k|^(1/k) does not converge to 2/sqrt(3) (literature Borel singularity); high-k h_k are LSQ-noise-corrupted at every accessible (depth, dps, K) tier (T1: 240/4000/22, T2: 360/6000/32). Best digits-of-agreement on xi_0 = -0.497.",
+  "structural_finding": "The literature xi_0 = 2/sqrt(3) lives in a DIFFERENT formal series (Gevrey-1 solution at z=0 of the linear ODE associated to f(z) = sum Q_n z^n, equivalently the Birkhoff-factored asymptotic series at n=infinity of the V_quad linear difference operator), NOT in the trans-series 1/n-expansion of log|delta_n|. This sharpens CHANNEL-THEORY-OUTLINE Definition 1: BoT and CC are distinct in their formal-series space D, not just in their section S.",
+  "user_call_required": "(a) invest a separate session in a Newton-polygon / Birkhoff formal-solution extractor for the linear difference operator, OR (b) accept CC-channel as a structural definition with V_quad's literature datum (Papanokechi2026Vquad) as the only known instance, and proceed to Zenodo posting of CHANNEL-THEORY-OUTLINE without a numerical CC-pipeline anchor for the other five families.",
+  "user_response_2026-05-01": "Continue diagnostic: run QL15/QL26 probe + finalise deliverables, label as scope-limited diagnostic, document HALT.",
+  "phase_5_consequence": "QL15/QL26 probe output is diagnostic only -- the same BoT->CC repurposing blocker applies. Phase-5 was nonetheless useful: it (i) reproduced the BOREL-CHANNEL-K-SCAN WKB closed-form to 28-29 digits for QL15/QL26 (extends published 13-15 digits), (ii) found NO P-III(D6) ratio signature (beta/xi = -1/6) at >= 15 digits, so K-SCAN Variant-A 'BOTH ARTEFACT' verdict STANDS.",
+  "session": "CC-PIPELINE-F",
+  "date": "2026-05-01"
+}
