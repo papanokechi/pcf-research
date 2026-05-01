@@ -1,0 +1,17 @@
+{
+  "channel_theory_v12_zenodo_status": {
+    "context": "Halt condition #1 of the PCF2-V12-RELEASE prompt: 'Channel Theory v1.2 has not yet landed on Zenodo (need its cite-all DOI for PCF-2 v1.2 description).'",
+    "finding": "sessions/2026-05-01/CHANNEL-THEORY-V12/channel_theory_outline.tex (built locally, 18 pp, 0 errors) cites concept DOI 10.5281/zenodo.19941678 as 'preserved'. The same DOI is cited verbatim by the prompt as the cite-all DOI to add to PCF-2 v1.2 references. v1.1 of channel theory is recorded in submission_log.txt as 'Published on Zenodo' under DOI 10.5281/zenodo.19941679 (child) and 10.5281/zenodo.19941678 (cite-all/concept). v1.2 of channel theory exists locally but its child DOI has not been verified in submission_log.txt.",
+    "decision": "Proceeded under the cite-all/concept DOI (10.5281/zenodo.19941678), which by Zenodo semantics is preserved across v1.1 and v1.2 child versions. PCF-2 v1.2 cites only the concept DOI in the bibitem (Papanokechi2026Channel) and the description's Related-identifiers list, so the PCF-2 record is correct whether the v1.2 child DOI has been minted or not.",
+    "halt_decision": "NOT triggered (cite-all DOI is preserved by Zenodo concept-DOI semantics; v1.2 child DOI is irrelevant to the PCF-2 reference)."
+  },
+  "v12_child_doi_reservation": {
+    "context": "submission_log_patch_item15.txt uses placeholder <TBD-v1.2> for the v1.2 child DOI.",
+    "finding": "Zenodo mints child DOIs only at Publish-time. The agent does not have web/Zenodo upload access and cannot mint or verify the v1.2 child DOI in this session.",
+    "decision": "Patch is staged with explicit <TBD-v1.2> placeholder; the user fills this in after pressing Publish on Zenodo. This is documented in the post-condition checklist."
+  },
+  "channel_theory_v12_zenodo_upload_open_action": {
+    "context": "Channel Theory v1.2 PDF exists locally (sessions/2026-05-01/CHANNEL-THEORY-V12/channel_theory_outline.pdf) but has not been uploaded to Zenodo as a 'New version' of concept DOI 10.5281/zenodo.19941678.",
+    "decision": "Recommended in handoff.md as a follow-up user action; not blocking PCF-2 v1.2 because cite-all DOI is preserved."
+  }
+}

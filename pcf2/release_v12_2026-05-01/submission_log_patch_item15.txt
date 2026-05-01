@@ -1,0 +1,59 @@
+SUBMISSION LOG patch — item 15 (PCF-2 v1.2 absorption)
+======================================================
+Source: sessions/2026-05-01/PCF2-V12-RELEASE/
+Patch type: in-place edit of item 15 of the Zenodo subsection of
+            tex/submitted/submission_log.txt.
+Apply by: replacing the existing item-15 block (≈ 28 lines, current
+          v1.1 entry) with the following block.
+
+REPLACEMENT BLOCK (paste verbatim in place of current item 15):
+
+15. Filename: pcf2_program_statement.pdf
+    Title: PCF-2: A Program Statement for the Cubic Extension of
+           the Δ-Discriminant Transcendence Predicate
+    Series: P13 / PCF-2 (program statement, 18pp v1.2)
+    Submitted on: 1st May 2026
+    Status: Published on Zenodo (Version 1.2 current)
+    Submission ID: DOI 10.5281/zenodo.<TBD-v1.2>  (v1.2, current — 18pp,
+                       folds in Sessions Q1 (quartic harvest at d=4)
+                       and R1 (finer-cubic-split correlation probe);
+                       Conjecture B4 sharpened: A=2d verified at
+                       d∈{3,4} on 110/110 jointly harvested families
+                       (cubic mean A_fit=5.978, σ=0.026; quartic mean
+                       A_fit=7.954, σ=0.0037); universal Newton-polygon
+                       characteristic root ξ₀(b)=d/β_d^(1/d) (Prop.,
+                       c(d)=d, verified at d=4 to spread 0); v1.1
+                       Channel-Theory candidate c(d)=2√((d-1)!)
+                       empirically falsified at d=4; R1 flags
+                       log|Δ₃| as borderline candidate slow-trend
+                       invariant (ρ∈[−0.49,−0.45], Bonferroni
+                       p∈[3.7e−3, 1.1e−2], R1 HALT not triggered);
+                       op:b4-degree-d narrowed to d≥5;
+                       op:finer-cubic-split reformulated as R1.1
+                       follow-up.)
+                   DOI 10.5281/zenodo.19939463 (v1.1, superseded)
+                   DOI 10.5281/zenodo.19936298 (v1.0, superseded)
+                   Cite-all DOI: 10.5281/zenodo.19936297
+    Related identifiers:
+                   Continues → 10.5281/zenodo.19937196 (PCF-1 v1.3)
+                   Is part of → 10.5281/zenodo.19885550 (SIARC umbrella)
+                   Is supplemented by → 10.5281/zenodo.19941678 (Channel theory v1.2 cite-all)
+                   Is supplemented by → https://github.com/papanokechi/pcf-research
+                   Is supplemented by → https://github.com/papanokechi/siarc-relay-bridge
+                   Is new version of → 10.5281/zenodo.19939463 (v1.1)
+    Verdict: N/A
+    Notes: Cubic+quartic extension of PCF-1; carries the original
+           program Conjecture B3(i)-(iv), the unsplit sharp
+           Conjecture B4 (now joint d∈{3,4}, 110/110), and the
+           universal ξ₀-identity Proposition (Q1-B). v1.2 supersedes
+           v1.1; concept DOI preserved (10.5281/zenodo.19936297).
+
+NOTES
+-----
+- The v1.2 child DOI is reserved on upload; replace <TBD-v1.2> after
+  Zenodo "Publish" returns the minted DOI.
+- v1.1 line is retained as a superseded child DOI (per AEAL append-only
+  history requirement).
+- "Is supplemented by → 10.5281/zenodo.19941678" is the Channel
+  Theory v1.2 cite-all DOI, newly added in v1.2.
+- The series-line page-count is updated 14pp → 18pp.

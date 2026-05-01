@@ -1,0 +1,43 @@
+<!-- ===== v1.0 description (preserved verbatim) ===== -->
+
+PCF-2 (P13): A Program Statement for the Cubic Extension of the Δ-Discriminant Transcendence Predicate.
+
+This program statement opens PCF-2, the cubic (d=3) instantiation of the SIARC research program on polynomial continued fractions (PCFs), extending the degree-2 work of PCF-1 (Zenodo concept DOI 10.5281/zenodo.19934553). The natural invariant of the denominator polynomial b(n) = α₃n³ + α₂n² + α₁n + α₀ is the cubic discriminant Δ₃, whose sign and Galois-group structure (S₃, A₃ = C₃, or split) jointly determine the splitting field and the analytic obstruction. We propose a four-part conjecture B₃: (i) a cubic analogue of the sign dichotomy with the Galois-group axis, (ii) a Galois-stratified CM-field structure replacing the binary imaginary-quadratic predicate, (iii) a Stokes signal calibrated for irreducible-cubic-CM families, and (iv) an alignment with the Painlevé hierarchy (heuristically P-IV) rather than P-III. We sketch a four-to-six-week computational plan that reuses the infrastructure of PCF-1 and identifies three concrete first sessions (PCF-2 A/B/C). PCF-2 is positioned to either confirm that the Δ-predicate of PCF-1 extends to higher degree (universality) or to identify degree two as a special boundary (specificity).
+
+Method: AEAL/SIARC multi-agent methodology (cf. Paper P8). AI tools (GitHub Copilot powered by Anthropic Claude Opus 4.7, and Anthropic Claude) used for literature synthesis, prose drafting, and consistency-checking; all conjectures and editorial decisions are the author's.
+
+<!-- ===== v1.1 update paragraph (appended 2026-05-01) ===== -->
+
+v1.1 update (2026-05-01). The cubic-catalogue empirical harvest of Sessions A2 (conductor-7 anchor, family 46), B (PSLQ scan of the −_S₃_CM bin: 37/37 BIN-CONSISTENT, 0 BIN-VIOLATING at PSLQ tol 1e-35, dps 80, four-tier basis), and C1 (WKB completion on the 13 non-CM cubic families) brings v1.1 to full 50/50 cubic coverage. The headline result is the new, sharp Conjecture B4: log|δₙ| ~ −A·n·log n + α·n − β·log n + γ with A = 2d (so A = 6 for every cubic PCF in scope). The unsplit form is verified across all 50 cubic families with mean A_fit = 5.978 and standard deviation σ = 0.026. A bin-driven refinement Conjecture B4' was tested and EMPIRICALLY FALSIFIED at d = 3: 0/13 elementary-positive cubic families approach A = 5. The trichotomy bin is therefore not the invariant controlling A at d = 3, in contrast to PCF-1 v1.3 Theorem 5 where sgn(Δ₂) does split A ∈ {3, 4} at d = 2.
+
+<!-- ===== v1.2 update paragraph (appended 2026-05-01) ===== -->
+
+v1.2 update (2026-05-01). v1.2 folds in the empirical harvest of Session Q1 (quartic, d=4) and Session R1 (finer-cubic-split correlation probe), and is the joint-degree consolidation of Conjecture B4. Two claims are absorbed:
+
+Q1-A (B4 at d=4): the WKB-decay exponent A = 2d is verified on a 60-family lex-window catalogue of Z-primitive irreducible quartics with empirical mean A_fit = 7.954, σ = 0.0037, and 60/60 b4_consistent_at_8 verdict (no A=7 branch detected). Combined with v1.1 Sessions B+C1 (50/50 at d=3, mean 5.978), v1.2 records 110/110 jointly across d∈{3,4}.
+
+Q1-B (universal ξ₀-identity): a Newton-polygon derivation gives the master characteristic-root identity ξ₀(b) = d/β_d^(1/d) with c(d) = d, verified at d=4 to spread 0 across 8 representative quartics. This recovers the proven d=2 Channel-Theory Proposition 3.3.A (ξ₀ = 2/√β₂) and corrects the v1.1 Channel-Theory candidate c(d) = 2√((d-1)!), which is empirically falsified at d=4. The corrected identity is now Channel Theory v1.2 Conjecture 3.3.A* (concept DOI 10.5281/zenodo.19941678).
+
+R1 (finer-cubic-split): a 12-invariant Spearman-rank correlation battery against the residual A_fit − 6 over the 50 cubic families flags log|Δ₃| as a borderline candidate slow-trend invariant (Spearman ρ = −0.45 to −0.49 unweighted, Bonferroni-corrected p in [3.7e−3, 1.1e−2] across 11 valid tests; signal sharpens upon excluding the loose-fit family 31 and weakens under inverse-variance weighting). The R1 HALT threshold (|ρ|>0.6 at Bonferroni p<1e−3) is NOT met. Conjecture B4 is retained as stated; log|Δ₃| is recorded as an R1.1 follow-up candidate together with six pari/gp-only number-field invariants (h, h⁺, conductor, regulator, fundamental-unit norm, unit density) deferred from the present session.
+
+Conjecture B4 (sharpened): for every degree-d PCF (1, b) of generic type in scope at d∈{3,4} [empirical, 110/110], A = 2d. Conjectured at all d ≥ 2; the d = 2 split A∈{3,4} of PCF-1 v1.3 Theorem 5 is the sole known anomaly (op:d2-anomaly). Open Problem op:b4-degree-d is narrowed to d ≥ 5 (Q1 closes d = 4). Open Problem op:finer-cubic-split is reformulated as the R1.1 follow-up cycle.
+
+Concept DOI preserved (10.5281/zenodo.19936297); v1.0 and v1.1 are superseded by this version. The 60-row Q1 quartic harvest, the Newton-polygon Proposition (op:xi0-degree-d at d=4), the cross-degree d∈{2,3,4} compilation table, and the R1 correlation battery are reproduced in §"Quartic harvest at d=4 (Session Q1)" and §"Finer cubic split: log|Δ₃| as candidate slow-trend invariant (Session R1)" of the PDF and on the SIARC bridge at https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/ (folders PCF2-SESSION-Q1, PCF2-SESSION-R1, PCF2-V12-RELEASE).
+
+<!-- ===== Related Identifiers (Zenodo "Related identifiers" field) ===== -->
+
+isPartOf:
+  10.5281/zenodo.19885550   (SIARC umbrella program statement, P-9)
+  10.5281/zenodo.19934553   (PCF-1, v1.3, concept DOI)
+isSupplementedBy:
+  10.5281/zenodo.19941678   (Channel theory for PCFs, v1.2, concept DOI; cite-all)
+references:
+  10.5281/zenodo.19565086   (P8 AEAL methodology)
+  10.5281/zenodo.19562751   (P7 AI Behavior Science)
+isCompiledBy:
+  https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF2-V12-RELEASE/   (this release)
+  https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF2-SESSION-Q1/   (Q1 deliverables)
+  https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF2-SESSION-R1/   (R1 deliverables)
+  https://github.com/papanokechi/pcf-research/tree/main/pcf2/release_v12_2026-05-01/                 (pcf-research mirror)
+isNewVersionOf:
+  10.5281/zenodo.19939463   (PCF-2, v1.1)
