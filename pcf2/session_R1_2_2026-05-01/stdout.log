@@ -1,0 +1,27 @@
+[23:19:41] === PCF2-SESSION-R1.2 START ===
+[23:19:41] Phase R12-1: Igusa I,J and j(Jac(C_b)) for 60 Q1 quartics
+[23:19:41]   wrote quartic_jacobian_invariants.json; j_zero cell = [32]; j_1728 cell = []
+[23:19:41] Phase R12-7: precision escalation (dps=1500) for selected quartic families
+[23:19:41]   escalating families: [32, 39, 44, 9]
+[23:19:42]   fam 32: A=7.9786791330199005 +/- 0.0010374381853498458 (dt=0.6s, n=53)
+[23:19:43]   fam 39: A=7.9802895421847495 +/- 0.0009907385546570348 (dt=0.6s, n=53)
+[23:19:43]   fam 44: A=7.9805917627552345 +/- 0.0009693407420395825 (dt=0.7s, n=53)
+[23:19:44]   fam 9: A=7.977133424017872 +/- 0.001147741871598604 (dt=0.6s, n=53)
+[23:19:44]   using TAIL-WINDOW overrides for all 60 quartics (dps=2000, N=[50..250], N_ref=400)
+[23:19:44] Phase R12-2: build joined 110-row dataframe
+[23:19:44]   wrote assembled_data_v3.csv: 110 rows (50 cubic + 60 quartic)
+[23:19:44] Phase R12-3,4: per-degree and joint Spearman correlations
+[23:19:44]   d=3: n=50 rho(log|j|,delta)=-0.6906 p=2.86e-08 bonf_p=3.44e-07; j_zero_cell n=4
+[23:19:44]   d=4: n=60 rho(log|j|,delta)=0.0732 p=0.578 bonf_p=1; j_zero_cell n=1
+[23:19:44]   joint: n=110 rho=-0.5444 p=7.88e-10 bonf_p=9.46e-09
+[23:19:44] Phase R12-5: lemniscatic (j=1728) cell
+[23:19:44]   d=3: j=1728 cell n=0, delta=[]
+[23:19:44]   d=4: j=1728 cell n=0, delta=[]
+[23:19:45] Phase R12-6: pari/gp probe
+[23:19:45]   pari/gp not available, deferring (matches R1.1)
+[23:19:45]   wrote results_v3.json
+[23:19:45]   wrote correlation_table_v3.tex
+[23:19:45]   wrote quartic_j_zero_cell.tex
+[23:19:45]   wrote v13_paragraph_insert_v2.tex
+[23:19:45]   wrote claims.jsonl (9 entries)
+[23:19:45] === PCF2-SESSION-R1.2 COMPLETE ===

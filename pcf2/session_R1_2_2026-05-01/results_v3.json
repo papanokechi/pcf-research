@@ -1,0 +1,141 @@
+{
+  "task_id": "PCF2-SESSION-R1.2",
+  "date": "2026-05-01",
+  "preconditions": {
+    "Q1_catalogue": "C:\\Users\\shkub\\OneDrive\\Documents\\archive\\admin\\VSCode\\claude-chat\\sessions\\2026-05-01\\PCF2-SESSION-Q1\\quartic_family_catalogue.json",
+    "Q1_results": "C:\\Users\\shkub\\OneDrive\\Documents\\archive\\admin\\VSCode\\claude-chat\\sessions\\2026-05-01\\PCF2-SESSION-Q1\\results.json",
+    "R1_1_csv": "C:\\Users\\shkub\\OneDrive\\Documents\\archive\\admin\\VSCode\\claude-chat\\sessions\\2026-05-01\\PCF2-SESSION-R1.1\\assembled_data_v2.csv"
+  },
+  "j_zero_cells": {
+    "d3": {
+      "n": 4,
+      "delta_mean": 5.795346123260714e-05,
+      "delta_min": -0.001143756743641866,
+      "delta_max": 0.0010043067175153908,
+      "A_stderr_max": 0.0001239824551185,
+      "consistent_with_zero_count": 2,
+      "family_ids": [
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    "d4": {
+      "n": 1,
+      "delta_mean": -0.003708583763223139,
+      "delta_min": -0.003708583763223139,
+      "delta_max": -0.003708583763223139,
+      "A_stderr_max": 7.709149500220138e-05,
+      "consistent_with_zero_count": 0,
+      "family_ids": [
+        32
+      ]
+    }
+  },
+  "j_1728_cells": {
+    "3": {
+      "n": 0,
+      "family_ids": [],
+      "delta_values": []
+    },
+    "4": {
+      "n": 0,
+      "family_ids": [],
+      "delta_values": []
+    }
+  },
+  "correlations": {
+    "per_degree": {
+      "3": {
+        "n": 50,
+        "spearman_log_abs_j_vs_delta": {
+          "rho": -0.6905728801720901,
+          "p": 2.8641106269862284e-08,
+          "bonferroni_p": 3.436932752383474e-07
+        },
+        "pearson_log_abs_j_vs_delta": {
+          "r": -0.7020965526681641,
+          "p": 1.3352466096325512e-08
+        },
+        "spearman_log_abs_Delta_vs_delta": {
+          "rho": -0.4796330370095068,
+          "p": 0.0004244622607255963
+        },
+        "j_zero_cell": {
+          "n": 4,
+          "delta_mean": 5.795346123260714e-05,
+          "delta_min": -0.001143756743641866,
+          "delta_max": 0.0010043067175153908,
+          "A_stderr_max": 0.0001239824551185,
+          "consistent_with_zero_count": 2,
+          "family_ids": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "delta_summary": {
+          "mean": -0.016348141318430844,
+          "min": -0.04636791094785586,
+          "max": 0.0010043067175153908,
+          "std": 0.00992196194900068
+        }
+      },
+      "4": {
+        "n": 60,
+        "spearman_log_abs_j_vs_delta": {
+          "rho": 0.07318699638788553,
+          "p": 0.5783990175522301,
+          "bonferroni_p": 1.0
+        },
+        "pearson_log_abs_j_vs_delta": {
+          "r": 0.04158816390558273,
+          "p": 0.7523816606362114
+        },
+        "spearman_log_abs_Delta_vs_delta": {
+          "rho": -0.17816060016671303,
+          "p": 0.17322313612074497
+        },
+        "j_zero_cell": {
+          "n": 1,
+          "delta_mean": -0.003708583763223139,
+          "delta_min": -0.003708583763223139,
+          "delta_max": -0.003708583763223139,
+          "A_stderr_max": 7.709149500220138e-05,
+          "consistent_with_zero_count": 0,
+          "family_ids": [
+            32
+          ]
+        },
+        "delta_summary": {
+          "mean": -0.003551826996335879,
+          "min": -0.0038265045357794847,
+          "max": -0.003186185361388816,
+          "std": 0.0002696126021203305
+        }
+      }
+    },
+    "joint": {
+      "n": 110,
+      "spearman_log_abs_j_vs_delta": {
+        "rho": -0.5443806999098115,
+        "p": 7.882177934795196e-10,
+        "bonferroni_p": 9.458613521754234e-09
+      }
+    },
+    "K_bonferroni": 12
+  },
+  "pari_status": {
+    "available": false,
+    "reason": "no gp binary, no cypari2 (same status as R1.1)",
+    "results": {}
+  },
+  "verdicts": {
+    "R12-A_B5_at_d4": "FALSIFIED",
+    "R12-B_B6_at_d4": "INCONCLUSIVE",
+    "R12-C_cross_degree": "SUPPORTED"
+  },
+  "claims_count": 9
+}

@@ -1,0 +1,7 @@
+[23:15:20] Deep WKB escalation for family 32 (j=0 quartic).
+[23:15:21]   dps=1500, N=[10..130], N_ref=200: A=7.978679 +/- 1.04e-03, delta=-2.1321e-02, dt=0.9s
+[23:15:23]   dps=1500, N=[10..200], N_ref=300: A=7.978679 +/- 1.04e-03, delta=-2.1321e-02, dt=1.8s
+[23:15:26]   dps=2000, N=[10..250], N_ref=400: A=7.983973 +/- 7.49e-04, delta=-1.6027e-02, dt=3.2s
+[23:15:26] Tail-window-only fit (drop N < 50)
+[23:15:29]   TAIL dps=2000, N=[50..250], N_ref=400: A=7.996291 +/- 7.71e-05, delta=-3.7086e-03, dt=2.9s
+[23:15:29]   wrote fam32_deep_escalation.json

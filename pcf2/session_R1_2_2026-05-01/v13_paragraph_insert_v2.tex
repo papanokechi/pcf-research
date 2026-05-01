@@ -1,0 +1,70 @@
+% v1.3 paragraph insert v2 (replaces R1.1 v13_paragraph_insert.tex).
+% PCF2-SESSION-R1.2 finding: Conjecture B5/B6 do NOT extend cross-degree
+% to d=4 in the current numerical regime. Cross-degree universality is
+% FALSIFIED (provisionally; see Remark below for "thin-cell" caveat).
+
+\subsection*{The $j$-invariant finer-split is degree-$3$ specific
+            (R1.2: cross-degree probe at $d=4$)}
+
+For each polynomial continued fraction $\mathrm{CF}(b)$ with $b\in\Z[n]$
+of degree $d\in\{3,4\}$, let $C_b\colon y^2=b(x)$ and let
+$j(\mathrm{Jac}(C_b))\in\Q$ be the $j$-invariant of its Jacobian elliptic
+curve $E_b$. (For $d=3$, $C_b=E_b$; for $d=4$, $E_b$ is the Jacobian, with
+$j=6912\,I^{3}/(4 I^{3}-J^{2})$ computed from the Igusa $I,J$ invariants
+of the binary quartic $b$.) PCF2-SESSION-R1.1 discovered, at $d=3$,
+\begin{itemize}
+  \item (B5 cubic, exact) all $4$ cubic families with $j(E_b)=0$ have
+        $|\delta_3| := |A_{\rm fit}-6| \le 10^{-3}$ at $\mathrm{dps}=1500$;
+  \item (B6 cubic, soft drift) $\rho_S(\log|j|,\delta_3)=-0.691$,
+        Bonferroni $p\le 4\times 10^{-7}$ on $N=50$.
+\end{itemize}
+PCF2-SESSION-R1.2 tests the cross-degree extension on Session~Q1's
+$60$-family quartic catalogue.
+
+\paragraph{Cross-degree probe (R1.2).}
+The $j(\mathrm{Jac}(C_b))=0$ cell at $d=4$ within the current Q1
+catalogue (window $a_3\!=\!-3$, $a_2\in\{-3,-2\}$,
+$a_1,a_0\in\{-3,\ldots,3\}$, irreducible monic) is exactly
+$\{\mathrm{family}~32\colon b(n)=n^4-3n^3-3n^2+3n-3\}$, of size $n_4=1$.
+Using a tail-window WKB fit at $\mathrm{dps}=2000$, $N\in\{50,52,\ldots,250\}$,
+$N_{\rm ref}=400$ (designed to suppress the small-$N$ sub-leading bias that
+inflates $|\delta_4|$ to $\sim 5\times 10^{-2}$ at $\mathrm{dps}=80$), we
+find $\delta_4(32) = -3.71\times 10^{-3}$ with
+$A_{\rm stderr}=7.71\times 10^{-5}$, i.e.\ $\sim 48\sigma$ from~$0$.
+Crucially, the entire $60$-family quartic population clusters in
+$\delta_4\in[-3.83\times 10^{-3},\,-3.19\times 10^{-3}]$, monotone in
+$(\alpha_2,\alpha_1,\alpha_0)$ position rather than $\log|j|$, and
+family~$32$ is \emph{indistinguishable} from non-$j=0$ neighbours.
+Spearman $\rho_S(\log|j|,\delta_4) = +0.073$ on $N=60$
+(raw $p=0.58$, Bonferroni $p=1.0$): the $d=4$ rank correlation is not
+significant and has the \emph{opposite} sign to the $d=3$ signal.
+
+\begin{conjecture}[B5/B6 are degree-$3$ specific in the current regime]
+\label{conj:b5b6-deg3-specific}
+The $j$-invariant of $\mathrm{Jac}(C_b)$ controls the residual
+$\delta_d := A_{\rm fit}(b) - 2d$ at $d=3$ but not at $d=4$ in the
+WKB regime $N\le N_{\rm ref}\le 400$:
+$\rho_S(\log|j|,\delta_d) \to {-0.691}$ at $d=3$, while
+$\rho_S(\log|j|,\delta_4) \approx 0$. Equivalently, the $d=4$
+sub-leading correction $\delta_4 - C(b)$ is dominated by a
+non-modular invariant of $b$.
+\end{conjecture}
+
+\begin{remark}[Thin-cell caveat]
+\label{rem:thin-jzero-d4}
+The $d=4$ test rests on a single $j=0$ family in the current Q1
+window. Two interpretations remain possible: (i) Conjecture~B5 is
+genuinely $d=3$ specific; (ii) the WKB fit window $N\le 250$ is too
+small to resolve a $j$-driven separation that would emerge only at
+much larger $N$. Distinguishing (i) from~(ii) requires either an
+extended quartic enumeration window with $\ge 2$ further $j=0$
+families, or a $d=4$ deep-WKB run with $N_{\rm ref}\ge 1000$. The
+joint $d\in\{3,4\}$ Spearman $\rho_S(\log|j|,\delta) = -0.544$
+(Bonferroni $p\le 10^{-8}$) is dominated by the $d=3$ signal and is
+\emph{not} a cross-degree confirmation.
+\end{remark}
+
+\noindent
+See Table~\ref{tab:r12-correlation} for the full per-degree and joint
+Spearman statistics, and Table~\ref{tab:r12-jzero-cell} for the
+$j=0$-cell $\delta$ statistics at both degrees.

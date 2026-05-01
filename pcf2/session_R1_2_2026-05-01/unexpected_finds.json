@@ -1,0 +1,4 @@
+{
+  "thin_jzero_cell_d4": "exactly 1 quartic in Q1 has j(Jac(C_b))=0; cross-degree B5 confirmation is thin (N=1). Recommend extending the quartic enumeration window to harvest more candidates.",
+  "lemniscatic_cell_empty": "is_j_1728 cell empty at d in {3,4} in current catalogues; op:lemniscatic-cell remains untestable."
+}
