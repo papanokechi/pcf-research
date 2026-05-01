@@ -1,0 +1,14 @@
+Picked 8 representatives
+  mixed_S_4_smallD                     a4=1  xi_0 = 4.0  c(4) = 4.0  err = 0.0
+  mixed_S_4_largeD                     a4=1  xi_0 = 4.0  c(4) = 4.0  err = 0.0
+  mixed_D_4                            a4=1  xi_0 = 4.0  c(4) = 4.0  err = 0.0
+  +_real_D_4                           a4=1  xi_0 = 4.0  c(4) = 4.0  err = 0.0
+  anchor_x4_minus_2_D_4                a4=1  xi_0 = 4.0  c(4) = 4.0  err = 0.0
+  anchor_x4_plus_1_V_4                 a4=1  xi_0 = 4.0  c(4) = 4.0  err = 0.0
+  anchor_x4_minus_x_minus_1            a4=1  xi_0 = 4.0  c(4) = 4.0  err = 0.0
+  alpha4_eq_7_synthetic                a4=7  xi_0 = 2.45915261180505746086535722212  c(4) = 4.0  err = 1.96819e-51
+
+Verdict claim Q1-B: SUPPORTED
+c(4) = 4
+spread = 0.0
+Wrote: newton_d4_results.json, claims_phaseQ1_3.jsonl

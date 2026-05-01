@@ -1,0 +1,78 @@
+\section*{Newton polygon at $d=4$ and the universal $\xi_0$ identity (Phase Q1-3)}
+
+\subsection*{Operator}
+
+For a quartic PCF with $a_n=1$ and $b(n)=a_4 n^4 + a_3 n^3 + a_2 n^2
++a_1 n + a_0$, the partial-denominator generating function
+$f(z)=\sum_{n\ge 0} Q_n z^n$ satisfies the inhomogeneous linear ODE
+$L\,f = (\text{polynomial in } z\text{ of degree }\le 1)$ with
+\[
+L\ =\ 1\ -\ z\,B(\theta+1)\ -\ z^2,\qquad
+B(t)\ =\ a_4 t^4 + a_3 t^3 + a_2 t^2 + a_1 t + a_0,\qquad
+\theta\ =\ z\,\partial_z.
+\]
+The same construction at degree $d$ gives
+$L_d=1-z\,B_d(\theta+1)-z^2$.
+
+\subsection*{Newton polygon at $z=0$}
+
+Nonzero monomial points $(i,j)\in\mathbb{Z}_{\ge 0}^2$ of $L$:
+$(0,0)$ with coefficient $+1$, $(1,j)$ for $j\in\{0,1,2,3,4\}$ with
+coefficients drawn from $-B(t+1)$, and $(2,0)$ with coefficient $-1$.
+
+The lower-left convex hull at $z=0$ has the single nontrivial edge
+\[
+E:\ (0,0)\ \longrightarrow\ (1,4)
+\qquad\text{slope } 1/d = 1/4,
+\]
+so $L$ has a single irregular singularity at $z=0$ of Gevrey class $d=4$
+in $z$, equivalently Gevrey-$1$ in the variable $u$ defined by $z=u^d$.
+
+\subsection*{Characteristic equation along $E$}
+
+Substituting the WKB ansatz $f\sim\exp(c/u)$ with $z=u^4$ and computing
+$\theta\,\exp(c/u) = -(c/(d u))\,\exp(c/u)$ gives
+\[
+\chi(c)\ =\ 1\ -\ \frac{a_4}{4^4}\,c^4\ =\ 1\ -\ \frac{a_4}{256}\,c^4,
+\]
+with positive real root
+\[
+\boxed{\ \xi_0(b)\ =\ \frac{4}{a_4^{1/4}}\ =\ \frac{d}{\beta_d^{1/d}}\Big|_{d=4}.\ }
+\]
+
+\subsection*{Empirical verification (5+ representatives)}
+
+\begin{tabular}{lrll}
+\hline
+representative & $a_4$ & $\xi_0$ (50 dp) & error vs.\ $4/a_4^{1/4}$ \\
+\hline
+mixed\_$S_4$ smallest $|\Delta_4|$ & $1$ & $4.000000\ldots$ & $0$ \\
+mixed\_$S_4$ largest  $|\Delta_4|$ & $1$ & $4.000000\ldots$ & $0$ \\
+mixed\_$D_4$                       & $1$ & $4.000000\ldots$ & $0$ \\
+$+$\_real\_$D_4$                   & $1$ & $4.000000\ldots$ & $0$ \\
+$x^4-2$ ($D_4$)                    & $1$ & $4.000000\ldots$ & $0$ \\
+$x^4+1$ ($V_4$)                    & $1$ & $4.000000\ldots$ & $0$ \\
+$x^4-x-1$ ($S_4$)                  & $1$ & $4.000000\ldots$ & $0$ \\
+$\alpha_4=7$ sample                & $7$ & $2.45915261180505746086535722212\ldots$ & $0$ \\
+\hline
+\end{tabular}
+
+The inferred constant
+\[
+c(4)\ :=\ \xi_0(b)\,\cdot\,a_4^{1/4}\ =\ 4
+\]
+is constant across all $8$ representatives to better than $10^{-50}$
+(spread $0$).  \textbf{Claim Q1-B verdict: SUPPORTED}, $c(4)=4$.
+
+\subsection*{General-$d$ formula}
+
+By the same Newton-polygon derivation,
+\[
+\boxed{\ \xi_0(b)\ =\ \frac{d}{\beta_d^{1/d}}\quad\text{for all }d\ge 1,\ }
+\]
+in particular $c(d)=d$.  This recovers Proposition~3.3.A of
+\textsc{channel-theory-v11} ($\xi_0=2/\sqrt{\beta_2}$ at $d=2$) and
+predicts $\xi_0=3/\beta_3^{1/3}$ at $d=3$. The identity is an
+\emph{operational} characteristic root of the irregular singularity,
+not yet a Borel-plane radius identity (the latter remains open
+per CC-PIPELINE-G).

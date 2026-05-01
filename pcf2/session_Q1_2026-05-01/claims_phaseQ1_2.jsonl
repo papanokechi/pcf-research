@@ -1,0 +1,1 @@
+{"claim": "WKB-quartic harvest (60 cataloged families): 60/60 within 0.10 of A=2d=8; mean=7.9544, sigma=0.0037, min=7.9488, max=7.9605; verdict counts: {'b4_consistent_at_8': 60}", "evidence_type": "computation", "dps": 1200, "reproducible": true, "script": "session_q1_wkb.py", "output_hash": "f8317f53fb5d00b93d36600b0f116a7af0ca78f020406ceaaa105f4fc767f611"}

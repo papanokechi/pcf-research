@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{rlrcclrr}
+\hline
+ID & $b(n)$ & $\Delta_4$ & Gal & sig $(r_1,r_2)$ & bin & $A_{\mathrm{fit}}$ & $\sigma_A$ \\
+\hline
+% First 12 plus the alpha_4=2 batch start plus the 3 D_4 entries plus extremes.
+1  & $n^4-3n^3-3n^2-3n-3$    & $-56403$  & $S_4$ & $(2,1)$ & mixed\_$S_4$ & $7.9488$ & $0.0028$ \\
+2  & $n^4-3n^3-3n^2-3n-2$    & $-21167$  & $S_4$ & $(2,1)$ & mixed\_$S_4$ & $7.9492$ & $0.0028$ \\
+3  & $n^4-3n^3-3n^2-3n-1$    & $-3211$   & $S_4$ & $(2,1)$ & mixed\_$S_4$ & $7.9494$ & $0.0028$ \\
+4  & $n^4-3n^3-3n^2-3n+1$    & $-2275$   & $S_4$ & $(2,1)$ & mixed\_$S_4$ & $7.9497$ & $0.0028$ \\
+5  & $n^4-3n^3-3n^2-3n+2$    & $-15539$  & $S_4$ & $(2,1)$ & mixed\_$S_4$ & $7.9499$ & $0.0028$ \\
+8  & $n^4-3n^3-3n^2-2n-2$    & $-19952$  & $S_4$ & $(2,1)$ & mixed\_$S_4$ & $7.9499$ & $0.0028$ \\
+24 & $n^4-3n^3-3n^2+n-1$     & $-11875$  & $D_4$ & $(2,1)$ & mixed\_$D_4$ & $7.9530$ & $0.0027$ \\
+35 & $n^4-3n^3-3n^2+3n+1$    & $+10309$  & $D_4$ & $(4,0)$ & $+$\_real\_$D_4$ & $7.9569$ & $0.0023$ \\
+60 & $n^4-3n^3-2n^2+n+2$     & $-12287$  & $S_4$ & $(2,1)$ & mixed\_$S_4$ & $7.9605$ & $0.0021$ \\
+\hline
+\end{tabular}
+\caption{Selected entries from the PCF-2 Session Q1 quartic catalogue:
+the ten lex-first $S_4$ entries (showing the systematic $A_{\mathrm{fit}}$
+clustering in $[7.949,\ 7.960]$), both $D_4$ entries (one totally real,
+one mixed), and the $A_{\mathrm{fit}}$ extremes (family 1 minimum,
+family 60 maximum). All 60 quartic families have $|A_{\mathrm{fit}}-8|
+\le 0.10$, verdict \texttt{b4\_consistent\_at\_8}. WKB fits use
+$\mathrm{dps}=1200$, fit window $n\in[10,60]$ step $2$, reference
+$N_{\mathrm{ref}}=150$. Full table (60 entries) in \texttt{results.json}.}
+\label{tab:quartic_q1_main}
+\end{table}

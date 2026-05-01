@@ -1,0 +1,200 @@
+% session_Q1_results.tex -- Companion note for PCF-2 v1.2 absorption.
+% Empirical evidence for Conjecture B4 at d=4 and op:xi0-degree-d at d=4.
+%
+% Standalone, drop-in section for PCF-2 v1.2.
+
+\documentclass[11pt]{amsart}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+
+\title{Empirical evidence for the sharp Conjecture~B4 at $d=4$ and the
+universal $\xi_0$-identity $\xi_0(b)=d/\beta_d^{1/d}$}
+\author{papanokechi (with the SIARC research pipeline)}
+\date{2026-05-01}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We extend the PCF-2 v1.1 quartic test of Conjecture~B4 (PCF-2 v1.1,
+Sessions~A2/B/C1) from $d=3$ to $d=4$ on a lex-window catalogue of
+$60$ Z-primitive irreducible quartics. The empirical
+$A$-distribution is unimodal at $A=8$: $60/60$ families lie within
+$0.10$ of $A=2d=8$, mean $\overline{A}=7.954$, $\sigma_A=0.0037$.
+We additionally derive and verify a universal Newton-polygon
+characteristic root $\xi_0(b)=d/\beta_d^{1/d}$ at $d=4$, recovering
+the proven $d=2$ identity $\xi_0=2/\sqrt{\beta_2}$ and supplying
+\emph{op:xi0-degree-d} from \textsc{channel-theory-v11}. Together, the
+two results refine \emph{op:d2-anomaly}: the $\{2d-1,2d\}$
+splitting at $d=2$ is so far the unique multi-branch instance, with
+$d\in\{3,4\}$ both populating only the sharp branch $A=2d$ within the
+lex-window catalogue.
+\end{abstract}
+
+\section{Setup and conjectures}
+
+Recall PCF-2 v1.1, Conjecture~B4 (sharp form, Session~B):
+\begin{conjecture}[B4, sharp]\label{conj:B4-sharp}
+For every Z-primitive irreducible $b(n)\in\mathbb{Z}[n]$ of degree
+$d\ge 3$ with $a_n=1$, the WKB-decay exponent of the partial-tail
+errors $\delta_n=L_n - L$ satisfies $A=2d$ in the asymptotic ansatz
+$\log|\delta_n|\sim -A\,n\log n + \alpha n - \beta\log n + \gamma$.
+\end{conjecture}
+At $d=2$ Conjecture~B4 fails as stated: PCF-1 v1.3 Theorem~5 proves
+the split $A\in\{2d-1,2d\}=\{3,4\}$ driven by $\mathrm{sgn}(\Delta_2)$.
+
+The companion conjecture introduced in \textsc{channel-theory-v11},
+\emph{op:xi0-degree-d}, asks whether the proven $d=2$ identity
+$\xi_0(b)=2/\sqrt{\beta_2}$ (Proposition~3.3.A) extends to all $d\ge 1$
+in the form $\xi_0(b)=c(d)/\beta_d^{1/d}$.
+
+\section{Catalogue}
+
+We enumerate $b(n) = a_4 n^4 + a_3 n^3 + a_2 n^2 + a_1 n + a_0$ with
+$a_4\in\{1,2,3,5,7\}$, $a_{0,1,2,3}\in\{-3,\ldots,3\}$ in lex order
+($a_4, a_3, a_2, a_1, a_0$), keeping $\gcd=1$ and irreducible
+over $\mathbb{Q}$, until $60$ entries. Galois group distribution:
+$57\times S_4 + 3\times D_4 + 0\times V_4/C_4/A_4$. Real signature:
+$(r_1,r_2)=(2,1)$ for $59$, $(4,0)$ for $1$. The catalogue contains
+no CM-quartic ($r_1=0$). The window is dominated by mixed $S_4$;
+this is a structural fact about the lex window and not a sampling
+artefact.
+
+Calibration anchors $x^4-2\ (D_4),\ x^4+1\ (V_4),\ x^4-x-1\ (S_4)$
+all reproduce expected Galois group.
+
+\section{Empirical evidence for Conjecture~B4 at $d=4$}
+
+For each cataloged family we compute $L_b$ at $\mathrm{dps}=1200$
+for $N\in[10,60]$ step $2$, with reference $N_{\mathrm{ref}}=150$, and
+fit the ansatz of Conjecture~\ref{conj:B4-sharp} by linear LSQ in
+$(\log N\cdot N,\,N,\,\log N,\,1)$. The protocol matches
+Session~B's $d=3$ harvest with adjusted window $[10,60]$ (vs.\ $[10,100]$)
+because at $d=4$ the $A\,N\log N$ decay is faster and $N=60$ already
+yields $|\delta_N|\sim 10^{-700}$ within the working precision floor.
+
+\paragraph{Results (Phase~Q1-2).}
+\begin{itemize}
+  \item Verdict counts: $\mathtt{b4\_consistent\_at\_8}: 60/60$;
+        $\mathtt{b4\_split\_candidate\_at\_7}: 0$;
+        $\mathtt{b4\_violating}: 0$.
+  \item Empirical $A$-distribution: $\overline{A}=7.9544$,
+        $\sigma_A=0.0037$, $A_{\min}=7.9488$, $A_{\max}=7.9605$.
+  \item All $60$ families satisfy $|A_{\mathrm{fit}}-8|\le 0.0512 < 0.10$
+        and $|A_{\mathrm{fit}}-7|\ge 0.95\gg 0.30$.
+  \item Stderr range $[0.0021,\,0.0028]$ uniformly.
+\end{itemize}
+
+\begin{remark}[Systematic offset]\label{rem:offset}
+The cluster $\overline{A}=7.954$ sits $0.046$ below $A=8$. The same
+4-parameter ansatz at $d=3$ produced $\overline{A}=5.973$
+($\sigma=0.026$, Session~B), at $d=2$ produced $\overline{A}=3.97$ on the
+$A=4$ stratum (PCF-1 v1.3). The offset scales roughly as $0.05$ per
+unit increase in $d$ and is consistent with a fit-window bias from
+the absence of a $-(\log\log N)$ correction in the ansatz. None of
+the $60$ families in this catalogue is thereby pushed toward $A=7$.
+\end{remark}
+
+\section{Universal $\xi_0$-identity at $d=4$}
+
+For a degree-$d$ PCF with $a_n=1$ and
+$b(n)=\sum_{k=0}^{d}\beta_k n^k$, the partial-denominator generating
+function $f(z)=\sum_n Q_n z^n$ satisfies
+\[
+L_d\,f \;=\; (\text{polynomial in } z\text{ of degree }\le 1),\qquad
+L_d \;=\; 1 - z\,B_d(\theta+1) - z^2,\quad \theta=z\partial_z,
+\]
+where $B_d(t)=\sum_{k=0}^{d}\beta_k\,t^k$.
+
+\begin{proposition}[Universal $\xi_0$-identity, derived]\label{prop:xi0-univ}
+The Newton polygon of $L_d$ at $z=0$ has a unique nontrivial slope-$(1/d)$
+edge $E:(0,0)\to(1,d)$. The characteristic polynomial along $E$ under
+the WKB ansatz $f\sim\exp(c/u)$, $z=u^d$, is
+\[
+\chi_d(c)\;=\;1\;-\;\frac{\beta_d}{d^d}\,c^d.
+\]
+Its leading positive real root is
+\[
+\boxed{\ \xi_0(b)\;=\;\frac{d}{\beta_d^{1/d}}\;=\;c(d)/\beta_d^{1/d}\ \text{with}\ c(d)=d\ }.
+\]
+\end{proposition}
+
+\begin{proof}
+$\theta\,\exp(c/u)=(u/d)\,\partial_u\exp(c/u)=-(c/(d u))\,\exp(c/u)$.
+So $\theta^j$ acts as $(-c/(d u))^j$ at leading order. The single
+edge $E$ of $L_d$ at slope $1/d$ joins $(0,0)$ (coefficient $+1$)
+and $(1,d)$ (coefficient $-\beta_d$). Substituting $z=u^d$ and
+collecting the $u^0$ coefficient of $L_d \exp(c/u)$ gives
+$1 - \beta_d (-c)^d/d^d=0$, equivalently $1=\beta_d c^d/d^d$.
+The positive real root is $c=d/\beta_d^{1/d}$.
+\end{proof}
+
+\paragraph{Numerical verification at $d=4$ (Phase~Q1-3).}
+On $8$ representative quartics --- one per available bin
+($\mathtt{mixed\_S_4}$ smallest $|\Delta_4|$, $\mathtt{mixed\_S_4}$
+largest $|\Delta_4|$, $\mathtt{mixed\_D_4}$, $\mathtt{+\_real\_D_4}$),
+three out-of-window anchors ($x^4-2,\ x^4+1,\ x^4-x-1$), and one
+$a_4=7$ sample --- the inferred constant
+$c(4):=\xi_0(b)\,a_4^{1/4}$ takes the value $4$ to spread $0$ at
+$\mathrm{dps}=80$. The conjecture is verified at $d=4$ with
+$c(4)=d=4$, as predicted by Proposition~\ref{prop:xi0-univ}.
+
+\section{Cross-degree compilation and refined op:d2-anomaly}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{cllll}
+\hline
+$d$ & $A$ branches predicted & $A$ branches empirical & $\xi_0(b)$ & source \\
+\hline
+$2$ & $\{3,4\}$ & $\{3,4\}$ split by $\mathrm{sgn}(\Delta_2)$ &
+$2/\sqrt{\beta_2}$ & PCF-1 v1.3 Thm 5 \\
+$3$ & $\{5,6\}$ & $\{6\}$ alone (50/50) &
+$3/\beta_3^{1/3}$ (predicted) & PCF-2 v1.1 \\
+$4$ & $\{7,8\}$ & $\{8\}$ alone (60/60) &
+$4/\beta_4^{1/4}$ (verified) & this note \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{Refined op:d2-anomaly status.}
+The $\{2d-1,2d\}$ split at $d=2$ is so far the unique populated
+multi-branch instance. Both $d=3$ (Session~B/C1) and $d=4$ (this note)
+populate only the sharp branch $A=2d$ within their respective lex
+windows.
+
+\paragraph{Caveats.}
+(i)~The $d=4$ catalogue contains no CM quartic ($r_1=0$, $V_4/C_4$);
+a CM-quartic harvest is the natural follow-up.  (ii)~The
+$\overline{A}\approx 2d-0.05$ cluster is fit-window bias, not a
+genuine displacement (Remark~\ref{rem:offset}).  (iii)~Universality
+of $\xi_0$ is an \emph{operational} (Newton-polygon) statement, not
+yet a Borel-radius identity; the latter remains open per
+\textsc{cc-pipeline-g} / \textsc{borel-channel-5x}.
+
+\section{Conjecture B4 at $d\ge 3$: status after Q1}
+
+Combining Sessions~B/C1 ($d=3$) and Q1 ($d=4$):
+$50/50$ cubic $+\,60/60$ quartic $=\,110/110$ families verdict
+\emph{$A=2d$, no $A=2d-1$ branch detected} within the joint lex
+window. Conjecture~\ref{conj:B4-sharp} (B4 sharp form for $d\ge 3$)
+remains the working program statement; B4$'$ (the conjectured $A=2d-1$
+elementary-positive branch) is empirically empty in both degrees.
+
+\subsection*{Acknowledgments.}
+This is a Copilot-pipeline session output (SIARC). Strategic direction
+and final review are by Claude (claude.ai); execution and code are by
+GitHub Copilot. The cubic baseline is from PCF-2 v1.1 Sessions B and
+C1; the $\xi_0$ proposition recovers and generalises Proposition~3.3.A
+of CHANNEL-THEORY-V11.
+
+\end{document}

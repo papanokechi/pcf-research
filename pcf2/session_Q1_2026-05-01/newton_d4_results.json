@@ -1,0 +1,303 @@
+{
+  "task_id": "PCF2-SESSION-Q1",
+  "phase": "Q1-3",
+  "summary": {
+    "n_representatives": 8,
+    "c_d_min_50dp": "4.0",
+    "c_d_max_50dp": "4.0",
+    "c_d_spread": "0.0",
+    "claim_Q1_B_verdict": "SUPPORTED",
+    "claim_Q1_B_c_d_value": "4",
+    "claim_Q1_B_general_formula": "xi_0(b) = d / beta_d^{1/d} for any degree-d PCF in the standard class"
+  },
+  "representatives": [
+    {
+      "label": "mixed_S_4_smallD",
+      "coeffs_a4_a3_a2_a1_a0": [
+        1,
+        -3,
+        -3,
+        1,
+        1
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-1",
+        "(1,3)": "-1",
+        "(1,2)": "6",
+        "(1,1)": "10",
+        "(1,0)": "3",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - c**4/256",
+      "xi_0_value_50dp": "4.0",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "4.0",
+      "abs_error_vs_predicted": "0.0"
+    },
+    {
+      "label": "mixed_S_4_largeD",
+      "coeffs_a4_a3_a2_a1_a0": [
+        1,
+        -3,
+        -3,
+        -3,
+        3
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-1",
+        "(1,3)": "-1",
+        "(1,2)": "6",
+        "(1,1)": "14",
+        "(1,0)": "5",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - c**4/256",
+      "xi_0_value_50dp": "4.0",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "4.0",
+      "abs_error_vs_predicted": "0.0"
+    },
+    {
+      "label": "mixed_D_4",
+      "coeffs_a4_a3_a2_a1_a0": [
+        1,
+        -3,
+        -3,
+        -3,
+        1
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-1",
+        "(1,3)": "-1",
+        "(1,2)": "6",
+        "(1,1)": "14",
+        "(1,0)": "7",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - c**4/256",
+      "xi_0_value_50dp": "4.0",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "4.0",
+      "abs_error_vs_predicted": "0.0"
+    },
+    {
+      "label": "+_real_D_4",
+      "coeffs_a4_a3_a2_a1_a0": [
+        1,
+        -3,
+        -3,
+        3,
+        1
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-1",
+        "(1,3)": "-1",
+        "(1,2)": "6",
+        "(1,1)": "8",
+        "(1,0)": "1",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - c**4/256",
+      "xi_0_value_50dp": "4.0",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "4.0",
+      "abs_error_vs_predicted": "0.0"
+    },
+    {
+      "label": "anchor_x4_minus_2_D_4",
+      "coeffs_a4_a3_a2_a1_a0": [
+        1,
+        0,
+        0,
+        0,
+        -2
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-1",
+        "(1,3)": "-4",
+        "(1,2)": "-6",
+        "(1,1)": "-4",
+        "(1,0)": "1",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - c**4/256",
+      "xi_0_value_50dp": "4.0",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "4.0",
+      "abs_error_vs_predicted": "0.0"
+    },
+    {
+      "label": "anchor_x4_plus_1_V_4",
+      "coeffs_a4_a3_a2_a1_a0": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-1",
+        "(1,3)": "-4",
+        "(1,2)": "-6",
+        "(1,1)": "-4",
+        "(1,0)": "-2",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - c**4/256",
+      "xi_0_value_50dp": "4.0",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "4.0",
+      "abs_error_vs_predicted": "0.0"
+    },
+    {
+      "label": "anchor_x4_minus_x_minus_1",
+      "coeffs_a4_a3_a2_a1_a0": [
+        1,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-1",
+        "(1,3)": "-4",
+        "(1,2)": "-6",
+        "(1,1)": "-3",
+        "(1,0)": "1",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - c**4/256",
+      "xi_0_value_50dp": "4.0",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "4.0",
+      "abs_error_vs_predicted": "0.0"
+    },
+    {
+      "label": "alpha4_eq_7_synthetic",
+      "coeffs_a4_a3_a2_a1_a0": [
+        7,
+        0,
+        0,
+        1,
+        0
+      ],
+      "operator_pts": {
+        "(0,0)": "1",
+        "(1,4)": "-7",
+        "(1,3)": "-28",
+        "(1,2)": "-42",
+        "(1,1)": "-29",
+        "(1,0)": "-8",
+        "(2,0)": "-1"
+      },
+      "newton_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "edge_slope": "1/4",
+      "char_poly_chi": "1 - 7*c**4/256",
+      "xi_0_value_50dp": "2.4591526118050574608653572221207512521143004075619",
+      "c_d_inferred": "4.0",
+      "expected_xi_0_formula": "4 / alpha_4^{1/4}",
+      "expected_xi_0_50dp": "2.4591526118050577309759319177828729152679443359375",
+      "abs_error_vs_predicted": "1.96819e-51"
+    }
+  ]
+}

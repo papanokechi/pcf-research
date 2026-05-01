@@ -1,0 +1,1915 @@
+{
+  "families": [
+    {
+      "family_id": 1,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -3,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 3",
+      "Delta_4_exact": -56403,
+      "Delta_4_factorization": {
+        "3": 3,
+        "2089": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-56403",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 2,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -3,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 2",
+      "Delta_4_exact": -19724,
+      "Delta_4_factorization": {
+        "2": 2,
+        "4931": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-19724",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 3,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -3,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 1",
+      "Delta_4_exact": -4027,
+      "Delta_4_factorization": {
+        "4027": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-4027",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 4,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -3,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 1",
+      "Delta_4_exact": -29435,
+      "Delta_4_factorization": {
+        "5": 1,
+        "7": 1,
+        "29": 2,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-29435",
+      "Galois_group": "D_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_D_4"
+    },
+    {
+      "family_id": 5,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -3,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 2",
+      "Delta_4_exact": -67468,
+      "Delta_4_factorization": {
+        "2": 2,
+        "101": 1,
+        "167": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-67468",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 6,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -3,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 3",
+      "Delta_4_exact": -120339,
+      "Delta_4_factorization": {
+        "3": 3,
+        "4457": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-120339",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 7,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -2,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n - 2",
+      "Delta_4_exact": -23576,
+      "Delta_4_factorization": {
+        "2": 3,
+        "7": 1,
+        "421": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-23576",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 8,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -2,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n - 1",
+      "Delta_4_exact": -3559,
+      "Delta_4_factorization": {
+        "3559": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-3559",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 9,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -2,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 1",
+      "Delta_4_exact": -16871,
+      "Delta_4_factorization": {
+        "16871": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-16871",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 10,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -2,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 2",
+      "Delta_4_exact": -47128,
+      "Delta_4_factorization": {
+        "2": 3,
+        "43": 1,
+        "137": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-47128",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 11,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -2,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 3",
+      "Delta_4_exact": -91071,
+      "Delta_4_factorization": {
+        "3": 3,
+        "3373": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-91071",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 12,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -1,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - n - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - n - 3",
+      "Delta_4_exact": -71739,
+      "Delta_4_factorization": {
+        "3": 3,
+        "2657": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-71739",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 13,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -1,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - n - 1",
+      "Delta_4_exact": -6331,
+      "Delta_4_factorization": {
+        "13": 1,
+        "487": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-6331",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 14,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -1,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - n + 1",
+      "Delta_4_exact": -9491,
+      "Delta_4_factorization": {
+        "9491": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-9491",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 15,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -1,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - n + 2",
+      "Delta_4_exact": -32944,
+      "Delta_4_factorization": {
+        "2": 4,
+        "29": 1,
+        "71": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-32944",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 16,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -1,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - n + 3",
+      "Delta_4_exact": -68931,
+      "Delta_4_factorization": {
+        "3": 4,
+        "23": 1,
+        "37": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-68931",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 17,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 0,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 3",
+      "Delta_4_exact": -78759,
+      "Delta_4_factorization": {
+        "3": 3,
+        "2917": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-78759",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 18,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 0,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} - 2",
+      "Delta_4_exact": -35492,
+      "Delta_4_factorization": {
+        "2": 2,
+        "19": 1,
+        "467": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-35492",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 19,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 0,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 1",
+      "Delta_4_exact": -4703,
+      "Delta_4_factorization": {
+        "4703": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-4703",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 20,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 0,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 2",
+      "Delta_4_exact": -22324,
+      "Delta_4_factorization": {
+        "2": 2,
+        "5581": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-22324",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 21,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 0,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 3",
+      "Delta_4_exact": -51327,
+      "Delta_4_factorization": {
+        "3": 3,
+        "1901": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-51327",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 22,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 1,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + n - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + n - 3",
+      "Delta_4_exact": -82539,
+      "Delta_4_factorization": {
+        "3": 4,
+        "1019": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-82539",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 23,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 1,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + n - 2",
+      "Delta_4_exact": -39020,
+      "Delta_4_factorization": {
+        "2": 2,
+        "5": 1,
+        "1951": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-39020",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 24,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 1,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + n - 1",
+      "Delta_4_exact": -11875,
+      "Delta_4_factorization": {
+        "5": 4,
+        "19": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-11875",
+      "Galois_group": "D_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_D_4"
+    },
+    {
+      "family_id": 25,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 1,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + n + 1",
+      "Delta_4_exact": -563,
+      "Delta_4_factorization": {
+        "563": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-563",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 26,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 1,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + n + 2",
+      "Delta_4_exact": -13324,
+      "Delta_4_factorization": {
+        "2": 2,
+        "3331": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-13324",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 27,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 1,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + n + 3",
+      "Delta_4_exact": -36315,
+      "Delta_4_factorization": {
+        "3": 3,
+        "5": 1,
+        "269": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-36315",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 28,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 2,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 3",
+      "Delta_4_exact": -81783,
+      "Delta_4_factorization": {
+        "3": 3,
+        "13": 1,
+        "233": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-81783",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 29,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 2,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 2",
+      "Delta_4_exact": -38984,
+      "Delta_4_factorization": {
+        "2": 3,
+        "11": 1,
+        "443": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-38984",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 30,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 2,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 1",
+      "Delta_4_exact": -11407,
+      "Delta_4_factorization": {
+        "11": 1,
+        "17": 1,
+        "61": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-11407",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 31,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 2,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n + 2",
+      "Delta_4_exact": -4648,
+      "Delta_4_factorization": {
+        "2": 3,
+        "7": 1,
+        "83": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-4648",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 32,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 3,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 3",
+      "Delta_4_exact": -75843,
+      "Delta_4_factorization": {
+        "3": 3,
+        "53": 2,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-75843",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 33,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 3,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 2",
+      "Delta_4_exact": -34736,
+      "Delta_4_factorization": {
+        "2": 4,
+        "13": 1,
+        "167": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-34736",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 34,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 3,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 1",
+      "Delta_4_exact": -7699,
+      "Delta_4_factorization": {
+        "7699": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-7699",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 35,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 3,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n + 1",
+      "Delta_4_exact": 10309,
+      "Delta_4_factorization": {
+        "13": 2,
+        "61": 1
+      },
+      "Delta_4_sign": 1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "10309",
+      "Galois_group": "D_4",
+      "signature_r1_r2": [
+        4,
+        0
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "+_real_D_4"
+    },
+    {
+      "family_id": 36,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 3,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 3 n^{2} + 3 n + 3",
+      "Delta_4_exact": -9531,
+      "Delta_4_factorization": {
+        "3": 3,
+        "353": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-9531",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 37,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -3,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n - 2",
+      "Delta_4_exact": -20871,
+      "Delta_4_factorization": {
+        "3": 3,
+        "773": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-20871",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 38,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -3,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n - 1",
+      "Delta_4_exact": -6352,
+      "Delta_4_factorization": {
+        "2": 4,
+        "397": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-6352",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 39,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -3,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n + 2",
+      "Delta_4_exact": -50095,
+      "Delta_4_factorization": {
+        "5": 1,
+        "43": 1,
+        "233": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-50095",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 40,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -3,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 3 n + 3",
+      "Delta_4_exact": -88656,
+      "Delta_4_factorization": {
+        "2": 4,
+        "3": 1,
+        "1847": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-88656",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 41,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -2,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 3",
+      "Delta_4_exact": -52723,
+      "Delta_4_factorization": {
+        "11": 1,
+        "4793": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-52723",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 42,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -2,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 2",
+      "Delta_4_exact": -20332,
+      "Delta_4_factorization": {
+        "2": 2,
+        "13": 1,
+        "17": 1,
+        "23": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-20332",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 43,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -2,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 1",
+      "Delta_4_exact": -3899,
+      "Delta_4_factorization": {
+        "7": 1,
+        "557": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-3899",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 44,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -2,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 1",
+      "Delta_4_exact": -12763,
+      "Delta_4_factorization": {
+        "12763": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-12763",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 45,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -2,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 2",
+      "Delta_4_exact": -34988,
+      "Delta_4_factorization": {
+        "2": 2,
+        "8747": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-34988",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 46,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -2,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 3",
+      "Delta_4_exact": -67027,
+      "Delta_4_factorization": {
+        "97": 1,
+        "691": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-67027",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 47,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -1,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - n - 2",
+      "Delta_4_exact": -22231,
+      "Delta_4_factorization": {
+        "11": 1,
+        "43": 1,
+        "47": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-22231",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 48,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -1,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - n - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - n - 1",
+      "Delta_4_exact": -4568,
+      "Delta_4_factorization": {
+        "2": 3,
+        "571": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-4568",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 49,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -1,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - n + 1",
+      "Delta_4_exact": -7516,
+      "Delta_4_factorization": {
+        "2": 2,
+        "1879": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-7516",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 50,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -1,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - n + 2",
+      "Delta_4_exact": -25055,
+      "Delta_4_factorization": {
+        "5": 1,
+        "5011": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-25055",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 51,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": -1,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - n + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - n + 3",
+      "Delta_4_exact": -51256,
+      "Delta_4_factorization": {
+        "2": 3,
+        "43": 1,
+        "149": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-51256",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 52,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 0,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 3",
+      "Delta_4_exact": -56163,
+      "Delta_4_factorization": {
+        "3": 1,
+        "97": 1,
+        "193": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-56163",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 53,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 0,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} - 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} - 1",
+      "Delta_4_exact": -6091,
+      "Delta_4_factorization": {
+        "6091": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-6091",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 54,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 0,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} + 1",
+      "Delta_4_exact": -4491,
+      "Delta_4_factorization": {
+        "3": 2,
+        "499": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-4491",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 55,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 0,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} + 2",
+      "Delta_4_exact": -18028,
+      "Delta_4_factorization": {
+        "2": 2,
+        "4507": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-18028",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 56,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 0,
+      "alpha_0": 3,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} + 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} + 3",
+      "Delta_4_exact": -39075,
+      "Delta_4_factorization": {
+        "3": 1,
+        "5": 2,
+        "521": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-39075",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 57,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 1,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} + n - 3",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} + n - 3",
+      "Delta_4_exact": -55492,
+      "Delta_4_factorization": {
+        "2": 2,
+        "13873": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-55492",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 58,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 1,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} + n - 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} + n - 2",
+      "Delta_4_exact": -24919,
+      "Delta_4_factorization": {
+        "24919": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-24919",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 59,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 1,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} + n + 1",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} + n + 1",
+      "Delta_4_exact": -2068,
+      "Delta_4_factorization": {
+        "2": 2,
+        "11": 1,
+        "47": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-2068",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    },
+    {
+      "family_id": 60,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -2,
+      "alpha_1": 1,
+      "alpha_0": 2,
+      "b_latex": "n^{4} - 3 n^{3} - 2 n^{2} + n + 2",
+      "irreducible": true,
+      "factorization": "n^{4} - 3 n^{3} - 2 n^{2} + n + 2",
+      "Delta_4_exact": -12287,
+      "Delta_4_factorization": {
+        "11": 1,
+        "1117": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": "-12287",
+      "Galois_group": "S_4",
+      "signature_r1_r2": [
+        2,
+        1
+      ],
+      "CM_field_candidate": "n/a (not totally imaginary)",
+      "trichotomy_bin": "mixed_S_4"
+    }
+  ],
+  "reducible_control": [
+    {
+      "family_id": 1001,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -3,
+      "alpha_0": 0,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 3 n",
+      "irreducible": false,
+      "factorization": "n \\left(n^{3} - 3 n^{2} - 3 n - 3\\right)",
+      "Delta_4_exact": -7776,
+      "Delta_4_factorization": {
+        "2": 5,
+        "3": 5,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 1
+    },
+    {
+      "family_id": 1002,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -2,
+      "alpha_0": -3,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n - 3",
+      "irreducible": false,
+      "factorization": "\\left(n + 1\\right) \\left(n^{3} - 4 n^{2} + n - 3\\right)",
+      "Delta_4_exact": -63423,
+      "Delta_4_factorization": {
+        "3": 7,
+        "29": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 2
+    },
+    {
+      "family_id": 1003,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -2,
+      "alpha_0": 0,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 2 n",
+      "irreducible": false,
+      "factorization": "n \\left(n^{3} - 3 n^{2} - 3 n - 2\\right)",
+      "Delta_4_exact": -1836,
+      "Delta_4_factorization": {
+        "2": 2,
+        "3": 3,
+        "17": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 3
+    },
+    {
+      "family_id": 1004,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -1,
+      "alpha_0": -2,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - n - 2",
+      "irreducible": false,
+      "factorization": "\\left(n + 1\\right) \\left(n^{3} - 4 n^{2} + n - 2\\right)",
+      "Delta_4_exact": -29696,
+      "Delta_4_factorization": {
+        "2": 10,
+        "29": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 4
+    },
+    {
+      "family_id": 1005,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": -1,
+      "alpha_0": 0,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - n",
+      "irreducible": false,
+      "factorization": "n \\left(n^{3} - 3 n^{2} - 3 n - 1\\right)",
+      "Delta_4_exact": -108,
+      "Delta_4_factorization": {
+        "2": 2,
+        "3": 3,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 5
+    },
+    {
+      "family_id": 1006,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 0,
+      "alpha_0": -1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} - 1",
+      "irreducible": false,
+      "factorization": "\\left(n + 1\\right) \\left(n^{3} - 4 n^{2} + n - 1\\right)",
+      "Delta_4_exact": -9751,
+      "Delta_4_factorization": {
+        "7": 2,
+        "199": 1,
+        "-1": 1
+      },
+      "Delta_4_sign": -1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 6
+    },
+    {
+      "family_id": 1007,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 0,
+      "alpha_0": 0,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2}",
+      "irreducible": false,
+      "factorization": "n^{2} \\left(n^{2} - 3 n - 3\\right)",
+      "Delta_4_exact": 0,
+      "Delta_4_factorization": {
+        "0": 1
+      },
+      "Delta_4_sign": 0,
+      "Delta_4_is_square": true,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 7
+    },
+    {
+      "family_id": 1008,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 1,
+      "alpha_0": 0,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + n",
+      "irreducible": false,
+      "factorization": "n \\left(n + 1\\right) \\left(n^{2} - 4 n + 1\\right)",
+      "Delta_4_exact": 432,
+      "Delta_4_factorization": {
+        "2": 4,
+        "3": 3
+      },
+      "Delta_4_sign": 1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 8
+    },
+    {
+      "family_id": 1009,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 2,
+      "alpha_0": 0,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n",
+      "irreducible": false,
+      "factorization": "n \\left(n^{3} - 3 n^{2} - 3 n + 2\\right)",
+      "Delta_4_exact": 2484,
+      "Delta_4_factorization": {
+        "2": 2,
+        "3": 3,
+        "23": 1
+      },
+      "Delta_4_sign": 1,
+      "Delta_4_is_square": false,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 9
+    },
+    {
+      "family_id": 1010,
+      "alpha_4": 1,
+      "alpha_3": -3,
+      "alpha_2": -3,
+      "alpha_1": 2,
+      "alpha_0": 1,
+      "b_latex": "n^{4} - 3 n^{3} - 3 n^{2} + 2 n + 1",
+      "irreducible": false,
+      "factorization": "\\left(n + 1\\right) \\left(n^{3} - 4 n^{2} + n + 1\\right)",
+      "Delta_4_exact": 4225,
+      "Delta_4_factorization": {
+        "5": 2,
+        "13": 2
+      },
+      "Delta_4_sign": 1,
+      "Delta_4_is_square": true,
+      "depressed_disc_f": null,
+      "Galois_group": "reducible",
+      "signature_r1_r2": [
+        -1,
+        -1
+      ],
+      "CM_field_candidate": "n/a",
+      "trichotomy_bin": "out",
+      "control_id": 10
+    }
+  ]
+}

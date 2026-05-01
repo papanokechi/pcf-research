@@ -1,0 +1,367 @@
+[16:05:34] === PCF-2 SESSION Q1 :: Phase Q1-2 WKB harvest at d=4 ===
+[16:05:34] Loaded 60 families
+[16:05:34] [1/60] family 1 elapsed=0.0s
+[16:05:34] --- family 1: b = n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 3, D4 = -56403 Gal = S_4 bin = mixed_S_4 ---
+[16:05:34]   L stability: 50/100=999.0  100/150=999.0
+[16:05:34]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:35]     A_fit = 7.9488 +/- 0.0029, alpha = 7.702, beta = -0.648, npts = 26, t = 0.3s
+[16:05:35]     verdict: b4_consistent_at_8
+[16:05:35] [2/60] family 2 elapsed=0.4s
+[16:05:35] --- family 2: b = n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 2, D4 = -19724 Gal = S_4 bin = mixed_S_4 ---
+[16:05:35]   L stability: 50/100=999.0  100/150=999.0
+[16:05:35]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:35]     A_fit = 7.9489 +/- 0.0029, alpha = 7.702, beta = -0.645, npts = 26, t = 0.3s
+[16:05:35]     verdict: b4_consistent_at_8
+[16:05:35] [3/60] family 3 elapsed=0.7s
+[16:05:35] --- family 3: b = n^{4} - 3 n^{3} - 3 n^{2} - 3 n - 1, D4 = -4027 Gal = S_4 bin = mixed_S_4 ---
+[16:05:35]   L stability: 50/100=999.0  100/150=999.0
+[16:05:35]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:35]     A_fit = 7.9490 +/- 0.0029, alpha = 7.703, beta = -0.642, npts = 26, t = 0.3s
+[16:05:35]     verdict: b4_consistent_at_8
+[16:05:35] [4/60] family 4 elapsed=1.1s
+[16:05:35] --- family 4: b = n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 1, D4 = -29435 Gal = D_4 bin = mixed_D_4 ---
+[16:05:35]   L stability: 50/100=999.0  100/150=999.0
+[16:05:35]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:36]     A_fit = 7.9491 +/- 0.0028, alpha = 7.703, beta = -0.636, npts = 26, t = 0.3s
+[16:05:36]     verdict: b4_consistent_at_8
+[16:05:36] [5/60] family 5 elapsed=1.4s
+[16:05:36] --- family 5: b = n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 2, D4 = -67468 Gal = S_4 bin = mixed_S_4 ---
+[16:05:36]   L stability: 50/100=999.0  100/150=999.0
+[16:05:36]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:36]     A_fit = 7.9492 +/- 0.0028, alpha = 7.704, beta = -0.632, npts = 26, t = 0.4s
+[16:05:36]     verdict: b4_consistent_at_8
+[16:05:36] [6/60] family 6 elapsed=1.8s
+[16:05:36] --- family 6: b = n^{4} - 3 n^{3} - 3 n^{2} - 3 n + 3, D4 = -120339 Gal = S_4 bin = mixed_S_4 ---
+[16:05:36]   L stability: 50/100=999.0  100/150=999.0
+[16:05:36]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:36]     A_fit = 7.9493 +/- 0.0028, alpha = 7.704, beta = -0.629, npts = 26, t = 0.4s
+[16:05:36]     verdict: b4_consistent_at_8
+[16:05:36] [7/60] family 7 elapsed=2.3s
+[16:05:36] --- family 7: b = n^{4} - 3 n^{3} - 3 n^{2} - 2 n - 2, D4 = -23576 Gal = S_4 bin = mixed_S_4 ---
+[16:05:37]   L stability: 50/100=999.0  100/150=999.0
+[16:05:37]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:37]     A_fit = 7.9498 +/- 0.0028, alpha = 7.707, beta = -0.608, npts = 26, t = 0.3s
+[16:05:37]     verdict: b4_consistent_at_8
+[16:05:37] [8/60] family 8 elapsed=2.6s
+[16:05:37] --- family 8: b = n^{4} - 3 n^{3} - 3 n^{2} - 2 n - 1, D4 = -3559 Gal = S_4 bin = mixed_S_4 ---
+[16:05:37]   L stability: 50/100=999.0  100/150=999.0
+[16:05:37]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:37]     A_fit = 7.9499 +/- 0.0028, alpha = 7.708, beta = -0.605, npts = 26, t = 0.3s
+[16:05:37]     verdict: b4_consistent_at_8
+[16:05:37] [9/60] family 9 elapsed=3.0s
+[16:05:37] --- family 9: b = n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 1, D4 = -16871 Gal = S_4 bin = mixed_S_4 ---
+[16:05:37]   L stability: 50/100=999.0  100/150=999.0
+[16:05:37]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:38]     A_fit = 7.9500 +/- 0.0028, alpha = 7.709, beta = -0.598, npts = 26, t = 0.3s
+[16:05:38]     verdict: b4_consistent_at_8
+[16:05:38] [10/60] family 10 elapsed=3.3s
+[16:05:38] --- family 10: b = n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 2, D4 = -47128 Gal = S_4 bin = mixed_S_4 ---
+[16:05:38]   L stability: 50/100=999.0  100/150=999.0
+[16:05:38]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:38]     A_fit = 7.9501 +/- 0.0028, alpha = 7.709, beta = -0.595, npts = 26, t = 0.3s
+[16:05:38]     verdict: b4_consistent_at_8
+[16:05:38] [11/60] family 11 elapsed=3.7s
+[16:05:38] --- family 11: b = n^{4} - 3 n^{3} - 3 n^{2} - 2 n + 3, D4 = -91071 Gal = S_4 bin = mixed_S_4 ---
+[16:05:38]   L stability: 50/100=999.0  100/150=999.0
+[16:05:38]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:38]     A_fit = 7.9502 +/- 0.0028, alpha = 7.710, beta = -0.592, npts = 26, t = 0.3s
+[16:05:38]     verdict: b4_consistent_at_8
+[16:05:38] [12/60] family 12 elapsed=4.0s
+[16:05:38] --- family 12: b = n^{4} - 3 n^{3} - 3 n^{2} - n - 3, D4 = -71739 Gal = S_4 bin = mixed_S_4 ---
+[16:05:38]   L stability: 50/100=999.0  100/150=999.0
+[16:05:38]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:39]     A_fit = 7.9506 +/- 0.0027, alpha = 7.712, beta = -0.574, npts = 26, t = 0.3s
+[16:05:39]     verdict: b4_consistent_at_8
+[16:05:39] [13/60] family 13 elapsed=4.4s
+[16:05:39] --- family 13: b = n^{4} - 3 n^{3} - 3 n^{2} - n - 1, D4 = -6331 Gal = S_4 bin = mixed_S_4 ---
+[16:05:39]   L stability: 50/100=999.0  100/150=999.0
+[16:05:39]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:39]     A_fit = 7.9508 +/- 0.0027, alpha = 7.713, beta = -0.568, npts = 26, t = 0.3s
+[16:05:39]     verdict: b4_consistent_at_8
+[16:05:39] [14/60] family 14 elapsed=4.8s
+[16:05:39] --- family 14: b = n^{4} - 3 n^{3} - 3 n^{2} - n + 1, D4 = -9491 Gal = S_4 bin = mixed_S_4 ---
+[16:05:39]   L stability: 50/100=999.0  100/150=999.0
+[16:05:39]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:39]     A_fit = 7.9509 +/- 0.0027, alpha = 7.714, beta = -0.561, npts = 26, t = 0.3s
+[16:05:39]     verdict: b4_consistent_at_8
+[16:05:39] [15/60] family 15 elapsed=5.2s
+[16:05:39] --- family 15: b = n^{4} - 3 n^{3} - 3 n^{2} - n + 2, D4 = -32944 Gal = S_4 bin = mixed_S_4 ---
+[16:05:39]   L stability: 50/100=999.0  100/150=999.0
+[16:05:39]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:40]     A_fit = 7.9510 +/- 0.0027, alpha = 7.714, beta = -0.558, npts = 26, t = 0.4s
+[16:05:40]     verdict: b4_consistent_at_8
+[16:05:40] [16/60] family 16 elapsed=5.6s
+[16:05:40] --- family 16: b = n^{4} - 3 n^{3} - 3 n^{2} - n + 3, D4 = -68931 Gal = S_4 bin = mixed_S_4 ---
+[16:05:40]   L stability: 50/100=999.0  100/150=999.0
+[16:05:40]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:40]     A_fit = 7.9511 +/- 0.0027, alpha = 7.715, beta = -0.555, npts = 26, t = 0.5s
+[16:05:40]     verdict: b4_consistent_at_8
+[16:05:40] [17/60] family 17 elapsed=6.1s
+[16:05:40] --- family 17: b = n^{4} - 3 n^{3} - 3 n^{2} - 3, D4 = -78759 Gal = S_4 bin = mixed_S_4 ---
+[16:05:40]   L stability: 50/100=999.0  100/150=999.0
+[16:05:40]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:41]     A_fit = 7.9515 +/- 0.0027, alpha = 7.717, beta = -0.537, npts = 26, t = 0.4s
+[16:05:41]     verdict: b4_consistent_at_8
+[16:05:41] [18/60] family 18 elapsed=6.5s
+[16:05:41] --- family 18: b = n^{4} - 3 n^{3} - 3 n^{2} - 2, D4 = -35492 Gal = S_4 bin = mixed_S_4 ---
+[16:05:41]   L stability: 50/100=999.0  100/150=999.0
+[16:05:41]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:41]     A_fit = 7.9516 +/- 0.0027, alpha = 7.718, beta = -0.534, npts = 26, t = 0.3s
+[16:05:41]     verdict: b4_consistent_at_8
+[16:05:41] [19/60] family 19 elapsed=6.8s
+[16:05:41] --- family 19: b = n^{4} - 3 n^{3} - 3 n^{2} + 1, D4 = -4703 Gal = S_4 bin = mixed_S_4 ---
+[16:05:41]   L stability: 50/100=999.0  100/150=999.0
+[16:05:41]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:41]     A_fit = 7.9518 +/- 0.0026, alpha = 7.719, beta = -0.524, npts = 26, t = 0.3s
+[16:05:41]     verdict: b4_consistent_at_8
+[16:05:41] [20/60] family 20 elapsed=7.2s
+[16:05:41] --- family 20: b = n^{4} - 3 n^{3} - 3 n^{2} + 2, D4 = -22324 Gal = S_4 bin = mixed_S_4 ---
+[16:05:41]   L stability: 50/100=999.0  100/150=999.0
+[16:05:41]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:42]     A_fit = 7.9519 +/- 0.0026, alpha = 7.719, beta = -0.521, npts = 26, t = 0.3s
+[16:05:42]     verdict: b4_consistent_at_8
+[16:05:42] [21/60] family 21 elapsed=7.5s
+[16:05:42] --- family 21: b = n^{4} - 3 n^{3} - 3 n^{2} + 3, D4 = -51327 Gal = S_4 bin = mixed_S_4 ---
+[16:05:42]   L stability: 50/100=999.0  100/150=999.0
+[16:05:42]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:42]     A_fit = 7.9520 +/- 0.0026, alpha = 7.720, beta = -0.518, npts = 26, t = 0.3s
+[16:05:42]     verdict: b4_consistent_at_8
+[16:05:42] [22/60] family 22 elapsed=7.9s
+[16:05:42] --- family 22: b = n^{4} - 3 n^{3} - 3 n^{2} + n - 3, D4 = -82539 Gal = S_4 bin = mixed_S_4 ---
+[16:05:42]   L stability: 50/100=999.0  100/150=999.0
+[16:05:42]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:42]     A_fit = 7.9524 +/- 0.0026, alpha = 7.722, beta = -0.500, npts = 26, t = 0.3s
+[16:05:42]     verdict: b4_consistent_at_8
+[16:05:42] [23/60] family 23 elapsed=8.2s
+[16:05:42] --- family 23: b = n^{4} - 3 n^{3} - 3 n^{2} + n - 2, D4 = -39020 Gal = S_4 bin = mixed_S_4 ---
+[16:05:42]   L stability: 50/100=999.0  100/150=999.0
+[16:05:42]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:43]     A_fit = 7.9525 +/- 0.0026, alpha = 7.723, beta = -0.497, npts = 26, t = 0.3s
+[16:05:43]     verdict: b4_consistent_at_8
+[16:05:43] [24/60] family 24 elapsed=8.6s
+[16:05:43] --- family 24: b = n^{4} - 3 n^{3} - 3 n^{2} + n - 1, D4 = -11875 Gal = D_4 bin = mixed_D_4 ---
+[16:05:43]   L stability: 50/100=999.0  100/150=999.0
+[16:05:43]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:43]     A_fit = 7.9526 +/- 0.0026, alpha = 7.723, beta = -0.494, npts = 26, t = 0.3s
+[16:05:43]     verdict: b4_consistent_at_8
+[16:05:43] [25/60] family 25 elapsed=8.9s
+[16:05:43] --- family 25: b = n^{4} - 3 n^{3} - 3 n^{2} + n + 1, D4 = -563 Gal = S_4 bin = mixed_S_4 ---
+[16:05:43]   L stability: 50/100=999.0  100/150=999.0
+[16:05:43]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:43]     A_fit = 7.9527 +/- 0.0026, alpha = 7.724, beta = -0.487, npts = 26, t = 0.3s
+[16:05:43]     verdict: b4_consistent_at_8
+[16:05:43] [26/60] family 26 elapsed=9.2s
+[16:05:43] --- family 26: b = n^{4} - 3 n^{3} - 3 n^{2} + n + 2, D4 = -13324 Gal = S_4 bin = mixed_S_4 ---
+[16:05:43]   L stability: 50/100=999.0  100/150=999.0
+[16:05:43]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:44]     A_fit = 7.9528 +/- 0.0026, alpha = 7.725, beta = -0.484, npts = 26, t = 0.3s
+[16:05:44]     verdict: b4_consistent_at_8
+[16:05:44] [27/60] family 27 elapsed=9.5s
+[16:05:44] --- family 27: b = n^{4} - 3 n^{3} - 3 n^{2} + n + 3, D4 = -36315 Gal = S_4 bin = mixed_S_4 ---
+[16:05:44]   L stability: 50/100=999.0  100/150=999.0
+[16:05:44]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:44]     A_fit = 7.9529 +/- 0.0025, alpha = 7.725, beta = -0.481, npts = 26, t = 0.2s
+[16:05:44]     verdict: b4_consistent_at_8
+[16:05:44] [28/60] family 28 elapsed=9.8s
+[16:05:44] --- family 28: b = n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 3, D4 = -81783 Gal = S_4 bin = mixed_S_4 ---
+[16:05:44]   L stability: 50/100=999.0  100/150=999.0
+[16:05:44]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:44]     A_fit = 7.9533 +/- 0.0025, alpha = 7.727, beta = -0.463, npts = 26, t = 0.2s
+[16:05:44]     verdict: b4_consistent_at_8
+[16:05:44] [29/60] family 29 elapsed=10.0s
+[16:05:44] --- family 29: b = n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 2, D4 = -38984 Gal = S_4 bin = mixed_S_4 ---
+[16:05:44]   L stability: 50/100=999.0  100/150=999.0
+[16:05:44]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:45]     A_fit = 7.9534 +/- 0.0025, alpha = 7.728, beta = -0.460, npts = 26, t = 0.4s
+[16:05:45]     verdict: b4_consistent_at_8
+[16:05:45] [30/60] family 30 elapsed=10.4s
+[16:05:45] --- family 30: b = n^{4} - 3 n^{3} - 3 n^{2} + 2 n - 1, D4 = -11407 Gal = S_4 bin = mixed_S_4 ---
+[16:05:45]   L stability: 50/100=999.0  100/150=999.0
+[16:05:45]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:45]     A_fit = 7.9535 +/- 0.0025, alpha = 7.728, beta = -0.457, npts = 26, t = 0.2s
+[16:05:45]     verdict: b4_consistent_at_8
+[16:05:45] [31/60] family 31 elapsed=10.7s
+[16:05:45] --- family 31: b = n^{4} - 3 n^{3} - 3 n^{2} + 2 n + 2, D4 = -4648 Gal = S_4 bin = mixed_S_4 ---
+[16:05:45]   L stability: 50/100=999.0  100/150=999.0
+[16:05:45]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:45]     A_fit = 7.9537 +/- 0.0025, alpha = 7.730, beta = -0.447, npts = 26, t = 0.2s
+[16:05:45]     verdict: b4_consistent_at_8
+[16:05:45] [32/60] family 32 elapsed=10.8s
+[16:05:45] --- family 32: b = n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 3, D4 = -75843 Gal = S_4 bin = mixed_S_4 ---
+[16:05:45]   L stability: 50/100=999.0  100/150=999.0
+[16:05:45]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:45]     A_fit = 7.9542 +/- 0.0025, alpha = 7.733, beta = -0.426, npts = 26, t = 0.2s
+[16:05:45]     verdict: b4_consistent_at_8
+[16:05:45] [33/60] family 33 elapsed=11.0s
+[16:05:45] --- family 33: b = n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 2, D4 = -34736 Gal = S_4 bin = mixed_S_4 ---
+[16:05:45]   L stability: 50/100=999.0  100/150=999.0
+[16:05:45]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:45]     A_fit = 7.9543 +/- 0.0024, alpha = 7.733, beta = -0.423, npts = 26, t = 0.2s
+[16:05:45]     verdict: b4_consistent_at_8
+[16:05:45] [34/60] family 34 elapsed=11.2s
+[16:05:45] --- family 34: b = n^{4} - 3 n^{3} - 3 n^{2} + 3 n - 1, D4 = -7699 Gal = S_4 bin = mixed_S_4 ---
+[16:05:45]   L stability: 50/100=999.0  100/150=999.0
+[16:05:45]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:46]     A_fit = 7.9544 +/- 0.0024, alpha = 7.733, beta = -0.420, npts = 26, t = 0.2s
+[16:05:46]     verdict: b4_consistent_at_8
+[16:05:46] [35/60] family 35 elapsed=11.4s
+[16:05:46] --- family 35: b = n^{4} - 3 n^{3} - 3 n^{2} + 3 n + 1, D4 = 10309 Gal = D_4 bin = +_real_D_4 ---
+[16:05:46]   L stability: 50/100=999.0  100/150=999.0
+[16:05:46]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:46]     A_fit = 7.9546 +/- 0.0024, alpha = 7.734, beta = -0.414, npts = 26, t = 0.1s
+[16:05:46]     verdict: b4_consistent_at_8
+[16:05:46] [36/60] family 36 elapsed=11.5s
+[16:05:46] --- family 36: b = n^{4} - 3 n^{3} - 3 n^{2} + 3 n + 3, D4 = -9531 Gal = S_4 bin = mixed_S_4 ---
+[16:05:46]   L stability: 50/100=999.0  100/150=999.0
+[16:05:46]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:46]     A_fit = 7.9547 +/- 0.0024, alpha = 7.735, beta = -0.407, npts = 26, t = 0.2s
+[16:05:46]     verdict: b4_consistent_at_8
+[16:05:46] [37/60] family 37 elapsed=11.7s
+[16:05:46] --- family 37: b = n^{4} - 3 n^{3} - 2 n^{2} - 3 n - 2, D4 = -20871 Gal = S_4 bin = mixed_S_4 ---
+[16:05:46]   L stability: 50/100=999.0  100/150=999.0
+[16:05:46]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:46]     A_fit = 7.9566 +/- 0.0024, alpha = 7.747, beta = -0.251, npts = 26, t = 0.2s
+[16:05:46]     verdict: b4_consistent_at_8
+[16:05:46] [38/60] family 38 elapsed=11.9s
+[16:05:46] --- family 38: b = n^{4} - 3 n^{3} - 2 n^{2} - 3 n - 1, D4 = -6352 Gal = S_4 bin = mixed_S_4 ---
+[16:05:46]   L stability: 50/100=999.0  100/150=999.0
+[16:05:46]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:46]     A_fit = 7.9566 +/- 0.0024, alpha = 7.747, beta = -0.247, npts = 26, t = 0.1s
+[16:05:46]     verdict: b4_consistent_at_8
+[16:05:46] [39/60] family 39 elapsed=12.1s
+[16:05:46] --- family 39: b = n^{4} - 3 n^{3} - 2 n^{2} - 3 n + 2, D4 = -50095 Gal = S_4 bin = mixed_S_4 ---
+[16:05:46]   L stability: 50/100=999.0  100/150=999.0
+[16:05:46]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:46]     A_fit = 7.9569 +/- 0.0024, alpha = 7.749, beta = -0.238, npts = 26, t = 0.1s
+[16:05:46]     verdict: b4_consistent_at_8
+[16:05:46] [40/60] family 40 elapsed=12.2s
+[16:05:46] --- family 40: b = n^{4} - 3 n^{3} - 2 n^{2} - 3 n + 3, D4 = -88656 Gal = S_4 bin = mixed_S_4 ---
+[16:05:46]   L stability: 50/100=999.0  100/150=999.0
+[16:05:46]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:47]     A_fit = 7.9570 +/- 0.0024, alpha = 7.749, beta = -0.235, npts = 26, t = 0.2s
+[16:05:47]     verdict: b4_consistent_at_8
+[16:05:47] [41/60] family 41 elapsed=12.4s
+[16:05:47] --- family 41: b = n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 3, D4 = -52723 Gal = S_4 bin = mixed_S_4 ---
+[16:05:47]   L stability: 50/100=999.0  100/150=999.0
+[16:05:47]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:47]     A_fit = 7.9574 +/- 0.0024, alpha = 7.751, beta = -0.217, npts = 26, t = 0.1s
+[16:05:47]     verdict: b4_consistent_at_8
+[16:05:47] [42/60] family 42 elapsed=12.6s
+[16:05:47] --- family 42: b = n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 2, D4 = -20332 Gal = S_4 bin = mixed_S_4 ---
+[16:05:47]   L stability: 50/100=999.0  100/150=999.0
+[16:05:47]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:47]     A_fit = 7.9575 +/- 0.0024, alpha = 7.752, beta = -0.214, npts = 26, t = 0.1s
+[16:05:47]     verdict: b4_consistent_at_8
+[16:05:47] [43/60] family 43 elapsed=12.7s
+[16:05:47] --- family 43: b = n^{4} - 3 n^{3} - 2 n^{2} - 2 n - 1, D4 = -3899 Gal = S_4 bin = mixed_S_4 ---
+[16:05:47]   L stability: 50/100=999.0  100/150=999.0
+[16:05:47]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:47]     A_fit = 7.9575 +/- 0.0023, alpha = 7.752, beta = -0.211, npts = 26, t = 0.1s
+[16:05:47]     verdict: b4_consistent_at_8
+[16:05:47] [44/60] family 44 elapsed=12.9s
+[16:05:47] --- family 44: b = n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 1, D4 = -12763 Gal = S_4 bin = mixed_S_4 ---
+[16:05:47]   L stability: 50/100=999.0  100/150=999.0
+[16:05:47]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:47]     A_fit = 7.9577 +/- 0.0023, alpha = 7.753, beta = -0.205, npts = 26, t = 0.2s
+[16:05:47]     verdict: b4_consistent_at_8
+[16:05:47] [45/60] family 45 elapsed=13.1s
+[16:05:47] --- family 45: b = n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 2, D4 = -34988 Gal = S_4 bin = mixed_S_4 ---
+[16:05:47]   L stability: 50/100=999.0  100/150=999.0
+[16:05:47]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:47]     A_fit = 7.9578 +/- 0.0023, alpha = 7.754, beta = -0.202, npts = 26, t = 0.1s
+[16:05:47]     verdict: b4_consistent_at_8
+[16:05:47] [46/60] family 46 elapsed=13.2s
+[16:05:47] --- family 46: b = n^{4} - 3 n^{3} - 2 n^{2} - 2 n + 3, D4 = -67027 Gal = S_4 bin = mixed_S_4 ---
+[16:05:47]   L stability: 50/100=999.0  100/150=999.0
+[16:05:47]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:48]     A_fit = 7.9579 +/- 0.0023, alpha = 7.754, beta = -0.199, npts = 26, t = 0.1s
+[16:05:48]     verdict: b4_consistent_at_8
+[16:05:48] [47/60] family 47 elapsed=13.4s
+[16:05:48] --- family 47: b = n^{4} - 3 n^{3} - 2 n^{2} - n - 2, D4 = -22231 Gal = S_4 bin = mixed_S_4 ---
+[16:05:48]   L stability: 50/100=999.0  100/150=999.0
+[16:05:48]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:48]     A_fit = 7.9584 +/- 0.0023, alpha = 7.757, beta = -0.177, npts = 26, t = 0.1s
+[16:05:48]     verdict: b4_consistent_at_8
+[16:05:48] [48/60] family 48 elapsed=13.5s
+[16:05:48] --- family 48: b = n^{4} - 3 n^{3} - 2 n^{2} - n - 1, D4 = -4568 Gal = S_4 bin = mixed_S_4 ---
+[16:05:48]   L stability: 50/100=999.0  100/150=999.0
+[16:05:48]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:48]     A_fit = 7.9584 +/- 0.0023, alpha = 7.758, beta = -0.174, npts = 26, t = 0.2s
+[16:05:48]     verdict: b4_consistent_at_8
+[16:05:48] [49/60] family 49 elapsed=13.7s
+[16:05:48] --- family 49: b = n^{4} - 3 n^{3} - 2 n^{2} - n + 1, D4 = -7516 Gal = S_4 bin = mixed_S_4 ---
+[16:05:48]   L stability: 50/100=999.0  100/150=999.0
+[16:05:48]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:48]     A_fit = 7.9586 +/- 0.0023, alpha = 7.758, beta = -0.168, npts = 26, t = 0.1s
+[16:05:48]     verdict: b4_consistent_at_8
+[16:05:48] [50/60] family 50 elapsed=13.9s
+[16:05:48] --- family 50: b = n^{4} - 3 n^{3} - 2 n^{2} - n + 2, D4 = -25055 Gal = S_4 bin = mixed_S_4 ---
+[16:05:48]   L stability: 50/100=999.0  100/150=999.0
+[16:05:48]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:48]     A_fit = 7.9587 +/- 0.0023, alpha = 7.759, beta = -0.165, npts = 26, t = 0.1s
+[16:05:48]     verdict: b4_consistent_at_8
+[16:05:48] [51/60] family 51 elapsed=14.0s
+[16:05:48] --- family 51: b = n^{4} - 3 n^{3} - 2 n^{2} - n + 3, D4 = -51256 Gal = S_4 bin = mixed_S_4 ---
+[16:05:48]   L stability: 50/100=999.0  100/150=999.0
+[16:05:48]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:48]     A_fit = 7.9588 +/- 0.0022, alpha = 7.759, beta = -0.162, npts = 26, t = 0.1s
+[16:05:48]     verdict: b4_consistent_at_8
+[16:05:48] [52/60] family 52 elapsed=14.2s
+[16:05:48] --- family 52: b = n^{4} - 3 n^{3} - 2 n^{2} - 3, D4 = -56163 Gal = S_4 bin = mixed_S_4 ---
+[16:05:48]   L stability: 50/100=999.0  100/150=999.0
+[16:05:48]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:49]     A_fit = 7.9592 +/- 0.0022, alpha = 7.762, beta = -0.143, npts = 26, t = 0.2s
+[16:05:49]     verdict: b4_consistent_at_8
+[16:05:49] [53/60] family 53 elapsed=14.4s
+[16:05:49] --- family 53: b = n^{4} - 3 n^{3} - 2 n^{2} - 1, D4 = -6091 Gal = S_4 bin = mixed_S_4 ---
+[16:05:49]   L stability: 50/100=999.0  100/150=999.0
+[16:05:49]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:49]     A_fit = 7.9593 +/- 0.0022, alpha = 7.763, beta = -0.137, npts = 26, t = 0.1s
+[16:05:49]     verdict: b4_consistent_at_8
+[16:05:49] [54/60] family 54 elapsed=14.5s
+[16:05:49] --- family 54: b = n^{4} - 3 n^{3} - 2 n^{2} + 1, D4 = -4491 Gal = S_4 bin = mixed_S_4 ---
+[16:05:49]   L stability: 50/100=999.0  100/150=999.0
+[16:05:49]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:49]     A_fit = 7.9595 +/- 0.0022, alpha = 7.764, beta = -0.131, npts = 26, t = 0.2s
+[16:05:49]     verdict: b4_consistent_at_8
+[16:05:49] [55/60] family 55 elapsed=14.7s
+[16:05:49] --- family 55: b = n^{4} - 3 n^{3} - 2 n^{2} + 2, D4 = -18028 Gal = S_4 bin = mixed_S_4 ---
+[16:05:49]   L stability: 50/100=999.0  100/150=999.0
+[16:05:49]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:49]     A_fit = 7.9596 +/- 0.0022, alpha = 7.764, beta = -0.128, npts = 26, t = 0.1s
+[16:05:49]     verdict: b4_consistent_at_8
+[16:05:49] [56/60] family 56 elapsed=14.9s
+[16:05:49] --- family 56: b = n^{4} - 3 n^{3} - 2 n^{2} + 3, D4 = -39075 Gal = S_4 bin = mixed_S_4 ---
+[16:05:49]   L stability: 50/100=999.0  100/150=999.0
+[16:05:49]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:49]     A_fit = 7.9597 +/- 0.0022, alpha = 7.764, beta = -0.125, npts = 26, t = 0.1s
+[16:05:49]     verdict: b4_consistent_at_8
+[16:05:49] [57/60] family 57 elapsed=15.0s
+[16:05:49] --- family 57: b = n^{4} - 3 n^{3} - 2 n^{2} + n - 3, D4 = -55492 Gal = S_4 bin = mixed_S_4 ---
+[16:05:49]   L stability: 50/100=999.0  100/150=999.0
+[16:05:49]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:49]     A_fit = 7.9601 +/- 0.0022, alpha = 7.767, beta = -0.107, npts = 26, t = 0.2s
+[16:05:49]     verdict: b4_consistent_at_8
+[16:05:49] [58/60] family 58 elapsed=15.2s
+[16:05:49] --- family 58: b = n^{4} - 3 n^{3} - 2 n^{2} + n - 2, D4 = -24919 Gal = S_4 bin = mixed_S_4 ---
+[16:05:49]   L stability: 50/100=999.0  100/150=999.0
+[16:05:49]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:50]     A_fit = 7.9602 +/- 0.0021, alpha = 7.767, beta = -0.104, npts = 26, t = 0.2s
+[16:05:50]     verdict: b4_consistent_at_8
+[16:05:50] [59/60] family 59 elapsed=15.4s
+[16:05:50] --- family 59: b = n^{4} - 3 n^{3} - 2 n^{2} + n + 1, D4 = -2068 Gal = S_4 bin = mixed_S_4 ---
+[16:05:50]   L stability: 50/100=999.0  100/150=999.0
+[16:05:50]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:50]     A_fit = 7.9604 +/- 0.0021, alpha = 7.769, beta = -0.095, npts = 26, t = 0.2s
+[16:05:50]     verdict: b4_consistent_at_8
+[16:05:50] [60/60] family 60 elapsed=15.5s
+[16:05:50] --- family 60: b = n^{4} - 3 n^{3} - 2 n^{2} + n + 2, D4 = -12287 Gal = S_4 bin = mixed_S_4 ---
+[16:05:50]   L stability: 50/100=999.0  100/150=999.0
+[16:05:50]   WKB fit (dps=1200, N_ref=150, N in [10,60] step 2)
+[16:05:50]     A_fit = 7.9605 +/- 0.0021, alpha = 7.769, beta = -0.092, npts = 26, t = 0.2s
+[16:05:50]     verdict: b4_consistent_at_8
+[16:05:50] ========================================================================
+[16:05:50] Verdict counts: {'b4_consistent_at_8': 60}
+[16:05:50] WKB stats: mean=7.9544, sigma=0.0037, min=7.9488, max=7.9605
+[16:05:50] Stall fraction: 0.00%
+[16:05:50] Wrote: results.json, discrepancy_log.json, unexpected_finds.json, claims_phaseQ1_2.jsonl

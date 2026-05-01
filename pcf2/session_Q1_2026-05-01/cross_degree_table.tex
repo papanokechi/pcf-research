@@ -1,0 +1,57 @@
+\subsection*{Cross-degree compilation (op:b4-degree-d \& op:xi0-degree-d)}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{cllll}
+\hline
+$d$ & $A$ branch (predicted) & $A$ branch (empirical) & $\xi_0(b)$ formula & source \\
+\hline
+$2$ & $\{2d-1,\,2d\}=\{3,4\}$ & $\{3,4\}$ split by
+       $\mathrm{sgn}(\Delta_2)$ & $2/\sqrt{\beta_2}$ &
+       PCF-1 v1.3 Thm 5; \textsc{channel-theory-v11} Prop.~3.3.A \\
+$3$ & $\{2d-1,\,2d\}=\{5,6\}$ & $\{6\}$ alone (50/50,
+       mean $5.973$, $\sigma=0.026$) & $3/\beta_3^{1/3}$ (predicted) &
+       PCF-2 v1.1 Sessions B \& C1 \\
+$4$ & $\{2d-1,\,2d\}=\{7,8\}$ & $\{8\}$ alone (60/60,
+       mean $7.954$, $\sigma=0.0037$) & $4/\beta_4^{1/4}$ (Phase Q1-3) &
+       PCF-2 Session Q1 (this session) \\
+\hline
+\end{tabular}
+\caption{Cross-degree empirical evidence for B4 (sharp form
+$A=2d$) and op:xi0-degree-d ($\xi_0(b)=d/\beta_d^{1/d}$).
+The split at $d=2$ is sgn($\Delta_2$)-driven and is so far the unique
+degree at which the $A=2d-1$ branch is populated; $d\in\{3,4\}$ both
+populate only the $A=2d$ branch within the lex-window catalogue.}
+\label{tab:cross_degree_q1}
+\end{table}
+
+\paragraph{Universal-$\xi_0$ proposition (op:xi0-degree-d, restated).}
+For any Z-primitive irreducible $b(n)=\sum_{k=0}^{d}\beta_k n^k$ in
+PCF scope (with $a_n=1$), the slope-$(1/d)$ edge of the Newton
+polygon of the operator $L_d=1-z\,B_d(\theta+1)-z^2$ at $z=0$ has
+characteristic equation $\chi(c)=1-(\beta_d/d^d)\,c^d=0$ with
+positive real root
+\[
+\xi_0(b)\ =\ \frac{d}{\beta_d^{1/d}}.
+\]
+At $d=2$ this is the proven Prop.~3.3.A of \textsc{channel-theory-v11}.
+At $d=4$ this is verified to spread $0$ (relative $<10^{-50}$) across
+$8$ representative quartics in Phase Q1-3 of Session Q1. At $d=3$ it
+is a clean prediction (no compute performed in this session).
+
+\paragraph{Refined op:d2-anomaly status.}
+The $\{2d-1,2d\}$ split phenomenon is now observed only at $d=2$
+across the cubic and quartic catalogues. Since the cubic anchor
+$+_C3\_\mathrm{real}$ bin contains genuine elementary positives (e.g.\
+family 46 $=n^3-2n^2-n+1$) without splitting, and the quartic catalogue
+likewise produces no $A=7$ branch, the working interpretation is
+\emph{$d=2$ is genuinely anomalous; the natural sharp conjecture for
+$d\ge 3$ is $A=2d$.}  This is encoded as the unsplit form of B4 in
+PCF-2 v1.1 and not refuted by the present data.
+
+\paragraph{Caveat.}  The lex-window enumeration $a_4\in\{1,2,3,5,7\}$,
+$|a_{i<4}|\le 3$ contains no totally imaginary CM quartic.  The
+question whether a $-_\mathrm{CM}$ quartic could populate an $A=7$
+branch (analogous to $-\_S_3\_\mathrm{CM}$ at $d=3$ being the only
+populated cubic bin) is open and is recommended as the next
+relay-prompt target.

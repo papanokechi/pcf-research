@@ -1,0 +1,38 @@
+{
+  "x4_minus_2": {
+    "expected": {
+      "irreducible": true,
+      "Galois": "D_4 (Eisenstein @ 2; not a square => not V_4)"
+    },
+    "computed": {
+      "irreducible": true,
+      "Galois": "C_4_or_D_4",
+      "Delta_4": -2048,
+      "trichotomy_bin": "mixed_C_4_or_D_4"
+    },
+    "match": true
+  },
+  "x4_plus_1_phi_8": {
+    "expected": {
+      "irreducible": true,
+      "Galois": "V_4 (Phi_8, biquadratic)"
+    },
+    "computed": {
+      "irreducible": true,
+      "Galois": "V_4"
+    },
+    "match": true
+  },
+  "x4_minus_x_minus_1": {
+    "expected": {
+      "irreducible": true,
+      "Galois": "S_4"
+    },
+    "computed": {
+      "irreducible": true,
+      "Galois": "S_4"
+    },
+    "match": true
+  },
+  "all_match": true
+}

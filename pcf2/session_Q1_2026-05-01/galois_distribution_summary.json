@@ -1,0 +1,17 @@
+{
+  "n_families": 60,
+  "n_reducible_control": 10,
+  "bin_counts": {
+    "mixed_S_4": 57,
+    "mixed_D_4": 2,
+    "+_real_D_4": 1
+  },
+  "Galois_group_histogram": {
+    "S_4": 57,
+    "D_4": 3
+  },
+  "signature_histogram": {
+    "(2,1)": 59,
+    "(4,0)": 1
+  }
+}

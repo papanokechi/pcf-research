@@ -1,0 +1,7 @@
+{
+  "halts": [],
+  "stall_fraction": 0.0,
+  "stall_threshold": 0.25,
+  "publishable_b4_counterexamples": 0,
+  "comment": "No halts triggered. 60/60 b4_consistent_at_8 at d=4; claim Q1-B SUPPORTED with c(4)=4 and spread 0; max divergence from A=8 is 0.0512 (well below the publishable-counterexample threshold of 0.30 with stderr<0.05)."
+}
