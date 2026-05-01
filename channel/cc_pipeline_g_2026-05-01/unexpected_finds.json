@@ -1,0 +1,24 @@
+{
+  "session": "CC-PIPELINE-G",
+  "date": "2026-05-01",
+  "findings": [
+    {
+      "id": "UF-G1",
+      "title": "Borel-singularity radius xi_0 = 2/sqrt(beta2) is determined entirely by leading coefficient beta2 of b_n (not by b_n's discriminant Delta or by a_n).",
+      "details": "All 6 Delta<0 degree-2 PCFs share Newton-polygon slope 1/2 at z=0; the characteristic equation 1 - (beta2/4) c^2 = 0 yields |c| = 2/sqrt(beta2). Across our roster:\n  V_quad (beta2=3): |c| = 2/sqrt(3) ~ 1.1547\n  QL01    (beta2=1): |c| = 2\n  QL02    (beta2=1): |c| = 2          [SAME RADIUS as QL01]\n  QL06    (beta2=2): |c| = sqrt(2) ~ 1.4142\n  QL15    (beta2=3): |c| = 2/sqrt(3) ~ 1.1547  [SAME RADIUS as V_quad]\n  QL26    (beta2=4): |c| = 1\nThree pairs share radii: (V_quad, QL15), (QL01, QL02). The next-order invariant rho = -3/2 - beta1/beta2 distinguishes within each pair (V_quad rho=-11/6 vs QL15 rho=-5/6; QL01 rho=-5/2 vs QL02 rho=-5/2 -- still same!). The pair (QL01, QL02) shares both xi_0 AND rho but differs at a_1: 0.8125 (both!) and at a_2: 0.0332 vs -0.4668 -- they differ first at the a_2 invariant.",
+      "implications": "Confirms that Borel-radius alone is insufficient as a Painleve classifier; refines the channel-theory framework toward the higher-order formal-solution invariants as the right fingerprint."
+    },
+    {
+      "id": "UF-G2",
+      "title": "All 6 families have the SAME Newton-polygon slope (1/2) at z=0, i.e., the SAME Gevrey class (2 in z, 1 in u). No Gevrey-class anomaly detected across the Delta<0 degree-2 roster.",
+      "details": "Polygon vertices (0,0) and (1,2) for every family (the (1,2) vertex is the -beta2 entry, always nonzero for degree-2 b_n).",
+      "implications": "Channel theory: the formal-series space D is uniform across the family; what distinguishes them is monodromy/Stokes data, NOT Gevrey class."
+    },
+    {
+      "id": "UF-G3",
+      "title": "QL01 and QL02 share both xi_0 and rho exactly (rho = -5/2 in both); they decouple only at the a_2 formal coefficient.",
+      "details": "QL01: beta1=1, beta2=1 -> rho = -3/2 - 1 = -5/2.\nQL02: beta1=1, beta2=1 -> rho = -5/2.\nBoth have a_1 = 0.8125 (= 13/16 exactly), but a_2 differs: QL01: 17/512 ~ 0.033, QL02: -239/512 ~ -0.467.\nSource of split: alpha1, alpha0 (which feed only z^2 terms in the operator, contributing first at a_2 via the (2,0) and (2,1) Newton-polygon points).",
+      "implications": "The (2,0)/(2,1) Newton points (which encode a_n) are the first Painleve-distinguishing invariant within a fixed (beta1, beta2) Gauss-class."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+% Sec 3.3 insert -- REPLACES cc_channel_status_insert.tex from CC-PIPELINE-F.
+% Targets channel_theory_outline.tex Section 3.3 (CC channel definition)
+% and Section 9 (open problems list).
+
+\subsection*{CC-channel anchor: the V$_{\text{quad}}$ recovery via Newton-polygon + Birkhoff (status post CC-PIPELINE-G)}
+
+For a degree-2 partial continued fraction with linear $a_n=\alpha_1 n+\alpha_0$
+and quadratic $b_n=\beta_2 n^2+\beta_1 n+\beta_0$, the partial-denominator
+generating function $f(z)=\sum_{n\ge 0}Q_n z^n$ satisfies the order-2 linear
+ODE
+\begin{equation}
+\Bigl[1
+- z\bigl(\beta_2(\theta+1)^2+\beta_1(\theta+1)+\beta_0\bigr)
+- z^2\bigl(\alpha_1(\theta+2)+\alpha_0\bigr)\Bigr]\,f(z)=1,
+\qquad \theta=z\,\partial_z. \label{eq:Lf-cc}
+\end{equation}
+The Newton polygon of the homogeneous part of \eqref{eq:Lf-cc} at $z=0$ has a
+single slope-$1/2$ edge of multiplicity 2, with characteristic polynomial
+$1-(\beta_2/4)c^2$ and roots
+\(c=\pm 2/\sqrt{\beta_2}\); equivalently, after the substitution $z=u^2$ the
+operator carries a Gevrey-1-in-$u$ formal pair
+\[
+f_\pm(u)=\exp\bigl(\pm 2/(u\sqrt{\beta_2})\bigr)\,u^{\rho}\bigl(1+\textstyle\sum_{k\ge 1}a_k u^k\bigr),
+\qquad \rho=-\tfrac32-\tfrac{\beta_1}{\beta_2}.
+\]
+This corrects the formal-series space $\mathcal D$ identified in
+\textsc{CC-PIPELINE-F (UF-1)}: the literature constant $\xi_0=2/\sqrt{3}$ for
+V$_{\text{quad}}$ is the Borel-singularity radius $|c|$ of \eqref{eq:Lf-cc}
+(not of the BoT trans-series of $\log|\delta_n|$), and is recovered to
+$200$ digits as the exact algebraic identity $\xi_0=2/\sqrt{\beta_2}|_{\beta_2=3}$.
+
+\paragraph{Variant-A flip test in the corrected space.}
+Apply the same pipeline to QL01, QL02, QL06, QL15, QL26 (PCF-1 v1.3 Sec~5).
+Comparing the formal-solution invariants $(\xi_0,\rho,a_1,a_2,a_3,a_4)$
+with the V$_{\text{quad}}$ P-III$(D_6)$ anchor at the
+$15$-digit threshold:
+$0/5$ flip (minimum agreement $<1$ digit on every non-V$_{\text{quad}}$ family).
+The Borel-channel ``BOTH ARTEFACT'' verdict of \textsc{BOREL-CHANNEL-K-SCAN}
+therefore stands, now with structural rather than asymptotic-tail evidence
+(see Table~\ref{tab:cc-channel-v2}).
+
+\paragraph{Cross-family Borel-radius coincidences.}
+The radius $|c|=2/\sqrt{\beta_2}$ is determined entirely by the leading
+coefficient $\beta_2$ of $b_n$.  Two pairs in our roster share radii:
+$(\mathrm{V}_{\text{quad}},\mathrm{QL15})$ at $\beta_2=3$ and
+$(\mathrm{QL01},\mathrm{QL02})$ at $\beta_2=1$.
+The next invariant $\rho=-3/2-\beta_1/\beta_2$ separates V$_{\text{quad}}$
+($\rho=-11/6$) from QL15 ($\rho=-5/6$) but coincides for the QL01/QL02
+pair ($\rho=-5/2$ in both).  The first invariant that separates QL01 from
+QL02 is $a_2$ (QL01: $17/512$; QL02: $-239/512$), which feeds from the
+$z^2$ Newton-polygon points $(2,0),(2,1)$ encoding $a_n$.  The empirical
+hierarchy of CC-channel invariants is therefore
+\[
+\xi_0~\succ~\rho~\succ~(a_1,a_2,\dots),
+\]
+with the $a_k$ tower carrying the $a_n$-dependence of the recurrence.
+
+\paragraph{Status update for Section~9 (open problems).}
+The previous \textbf{(op:cc-pipeline)} item is split:
+\begin{itemize}
+\item \textbf{(op:cc-formal-solution)} -- \emph{closed} by CC-PIPELINE-G:
+the explicit Newton-polygon / Birkhoff pipeline above provides a
+numerical CC datum at arbitrary precision for any degree-2 PCF.
+\item \textbf{(op:cc-monodromy-RH)} -- \emph{open}: extend the formal-solution
+extractor to a full Riemann-Hilbert monodromy datum at the irregular
+singular point $z=0$ via Stokes-matrix computation.  This is the
+prerequisite for a rigorous Painleve-class verdict at any
+finite-digit threshold; the present session's verdict relies on the
+heuristic fingerprint $(\xi_0,\rho,a_1,\dots,a_4)$ which is
+necessary-not-sufficient.
+\item \textbf{(op:cc-degree-d)} -- \emph{open}: generalise the Newton
+polygon, char polynomial, and indicial formula to degree-$d$ PCFs
+($a_n$ degree $d-1$, $b_n$ degree $d$).  Conjecture (preliminary):
+$\xi_0=2\sqrt{(d-1)!/\beta_d}$ and $\rho=-(2d-1)/2-\beta_{d-1}/\beta_d$.
+The $d=2$ case of this conjecture is established by CC-PIPELINE-G.
+\end{itemize}
+
+% End insert.  Recommended placement: after Definition~1 in Sec~3.3.

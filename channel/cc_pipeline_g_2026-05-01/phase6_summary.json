@@ -1,0 +1,79 @@
+{
+  "families": [
+    {
+      "family": "V_quad",
+      "Delta": -11,
+      "newton_slope": "1/2",
+      "xi0_str": "1.154700538379251529018297561",
+      "xi0_lit_str": "2/sqrt(3)",
+      "rho_str": "-1.83333333333333333333333333333",
+      "borel_radius_num": "2.34844",
+      "fingerprint_min_digits": 200.0,
+      "verdict": "match",
+      "painleve_class": "P-III(D_6) [reference anchor]"
+    },
+    {
+      "family": "QL01",
+      "Delta": -3,
+      "newton_slope": "1/2",
+      "xi0_str": "2.0",
+      "xi0_lit_str": "2",
+      "rho_str": "-2.5",
+      "borel_radius_num": "4.03991",
+      "fingerprint_min_digits": 0.0029246792165482267,
+      "verdict": "no-match",
+      "painleve_class": "trans-numerical (no Painleve match in corrected space)"
+    },
+    {
+      "family": "QL02",
+      "Delta": -4,
+      "newton_slope": "1/2",
+      "xi0_str": "2.0",
+      "xi0_lit_str": "2",
+      "rho_str": "-2.5",
+      "borel_radius_num": "4.0179",
+      "fingerprint_min_digits": -0.2953554504178999,
+      "verdict": "no-match",
+      "painleve_class": "trans-numerical (no Painleve match in corrected space)"
+    },
+    {
+      "family": "QL06",
+      "Delta": -7,
+      "newton_slope": "1/2",
+      "xi0_str": "1.41421356237309504880168872421",
+      "xi0_lit_str": "sqrt(2)",
+      "rho_str": "-1.0",
+      "borel_radius_num": "2.86527",
+      "fingerprint_min_digits": 0.32026364341854496,
+      "verdict": "no-match",
+      "painleve_class": "trans-numerical (no Painleve match in corrected space)"
+    },
+    {
+      "family": "QL15",
+      "Delta": -20,
+      "newton_slope": "1/2",
+      "xi0_str": "1.154700538379251529018297561",
+      "xi0_lit_str": "2/sqrt(3)",
+      "rho_str": "-0.833333333333333333333333333333",
+      "borel_radius_num": "2.33644",
+      "fingerprint_min_digits": 0.01812350000773194,
+      "verdict": "no-match",
+      "painleve_class": "trans-numerical (no Painleve match in corrected space)"
+    },
+    {
+      "family": "QL26",
+      "Delta": -28,
+      "newton_slope": "1/2",
+      "xi0_str": "1.0",
+      "xi0_lit_str": "1",
+      "rho_str": "-1.0",
+      "borel_radius_num": "2.03499",
+      "fingerprint_min_digits": -0.27163999031513447,
+      "verdict": "no-match",
+      "painleve_class": "trans-numerical (no Painleve match in corrected space)"
+    }
+  ],
+  "flips_at_threshold": [],
+  "threshold_digits": 15,
+  "variant_A_verdict": "BOTH ARTEFACT (stands)"
+}
