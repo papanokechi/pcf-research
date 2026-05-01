@@ -1,0 +1,392 @@
+[13:32:38] === PCF-2 SESSION B :: PSLQ -_S3_CM scan + WKB harvest ===
+[13:32:38] DPS_PSLQ = 80, DPS_WKB = 800
+[13:32:38] Loaded 37 families in -_S3_CM bin (family ids: [1, 2, 3, 6, 7, 8, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 40, 41, 43, 44, 45, 47, 48, 49, 50])
+[13:32:38] [1/37] starting family 1 (elapsed 0.0s)
+[13:32:38] --- family 1: b = n^{3} - 3 n^{2} - 3 n - 3, Delta_3 = -864 ---
+[13:32:39]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:32:39]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:32:39]     A_fit = 5.9678 +/- 0.0019,  alpha = 5.8047,  beta = -2.0648,  npts = 27
+[13:32:41]   basis a: NULL (no relation)
+[13:32:41]   basis b: NULL (no relation)
+[13:32:41]   basis c: NULL (no relation)
+[13:32:41]   basis d: NULL (no relation)
+[13:32:41]   VERDICT: BIN-CONSISTENT
+[13:32:41] [2/37] starting family 2 (elapsed 2.8s)
+[13:32:41] --- family 2: b = n^{3} - 3 n^{2} - 3 n - 2, Delta_3 = -459 ---
+[13:32:41]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:32:41]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:32:42]     A_fit = 5.9726 +/- 0.0027,  alpha = 5.8311,  beta = -1.9134,  npts = 27
+[13:32:48]   basis a: NULL (no relation)
+[13:32:48]   basis b: NULL (no relation)
+[13:32:48]   basis c: NULL (no relation)
+[13:32:48]   basis d: NULL (no relation)
+[13:32:48]   VERDICT: BIN-CONSISTENT
+[13:32:48] [3/37] starting family 3 (elapsed 9.9s)
+[13:32:48] --- family 3: b = n^{3} - 3 n^{2} - 3 n - 1, Delta_3 = -108 ---
+[13:32:49]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:32:49]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:32:49]     A_fit = 5.9697 +/- 0.0018,  alpha = 5.8154,  beta = -1.9864,  npts = 27
+[13:32:55]   basis a: NULL (no relation)
+[13:32:55]   basis b: NULL (no relation)
+[13:32:56]   basis c: NULL (no relation)
+[13:32:56]   basis d: NULL (no relation)
+[13:32:56]   VERDICT: BIN-CONSISTENT
+[13:32:56] [4/37] starting family 6 (elapsed 17.2s)
+[13:32:56] --- family 6: b = n^{3} - 3 n^{2} - 2 n - 3, Delta_3 = -823 ---
+[13:32:56]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:32:56]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:32:56]     A_fit = 5.9536 +/- 0.0098,  alpha = 5.7300,  beta = -2.3002,  npts = 27
+[13:33:03]   basis a: NULL (no relation)
+[13:33:03]   basis b: NULL (no relation)
+[13:33:03]   basis c: NULL (no relation)
+[13:33:03]   basis d: NULL (no relation)
+[13:33:03]   VERDICT: BIN-CONSISTENT
+[13:33:03] [5/37] starting family 7 (elapsed 24.5s)
+[13:33:03] --- family 7: b = n^{3} - 3 n^{2} - 2 n - 2, Delta_3 = -472 ---
+[13:33:03]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:03]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:03]     A_fit = 5.9688 +/- 0.0029,  alpha = 5.8137,  beta = -1.8434,  npts = 27
+[13:33:06]   basis a: NULL (no relation)
+[13:33:06]   basis b: NULL (no relation)
+[13:33:06]   basis c: NULL (no relation)
+[13:33:07]   basis d: NULL (no relation)
+[13:33:07]   VERDICT: BIN-CONSISTENT
+[13:33:07] [6/37] starting family 8 (elapsed 28.1s)
+[13:33:07] --- family 8: b = n^{3} - 3 n^{2} - 2 n - 1, Delta_3 = -175 ---
+[13:33:07]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:07]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:07]     A_fit = 5.9695 +/- 0.0028,  alpha = 5.8176,  beta = -1.8120,  npts = 27
+[13:33:15]   basis a: NULL (no relation)
+[13:33:15]   basis b: NULL (no relation)
+[13:33:15]   basis c: NULL (no relation)
+[13:33:15]   basis d: NULL (no relation)
+[13:33:15]   VERDICT: BIN-CONSISTENT
+[13:33:15] [7/37] starting family 11 (elapsed 36.4s)
+[13:33:15] --- family 11: b = n^{3} - 3 n^{2} - n - 3, Delta_3 = -716 ---
+[13:33:15]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:15]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:15]     A_fit = 5.9783 +/- 0.0014,  alpha = 5.8681,  beta = -1.4015,  npts = 26
+[13:33:23]   basis a: NULL (no relation)
+[13:33:23]   basis b: NULL (no relation)
+[13:33:23]   basis c: NULL (no relation)
+[13:33:23]   basis d: NULL (no relation)
+[13:33:23]   VERDICT: BIN-CONSISTENT
+[13:33:23] [8/37] starting family 12 (elapsed 45.0s)
+[13:33:23] --- family 12: b = n^{3} - 3 n^{2} - n - 2, Delta_3 = -419 ---
+[13:33:24]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:24]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:24]     A_fit = 5.9690 +/- 0.0050,  alpha = 5.8175,  beta = -1.6609,  npts = 27
+[13:33:33]   basis a: NULL (no relation)
+[13:33:33]   basis b: NULL (no relation)
+[13:33:33]   basis c: NULL (no relation)
+[13:33:33]   basis d: NULL (no relation)
+[13:33:33]   VERDICT: BIN-CONSISTENT
+[13:33:33] [9/37] starting family 13 (elapsed 54.8s)
+[13:33:33] --- family 13: b = n^{3} - 3 n^{2} - n - 1, Delta_3 = -176 ---
+[13:33:34]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:34]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:34]     A_fit = 5.9778 +/- 0.0014,  alpha = 5.8662,  beta = -1.3902,  npts = 27
+[13:33:42]   basis a: NULL (no relation)
+[13:33:42]   basis b: NULL (no relation)
+[13:33:42]   basis c: NULL (no relation)
+[13:33:42]   basis d: NULL (no relation)
+[13:33:42]   VERDICT: BIN-CONSISTENT
+[13:33:42] [10/37] starting family 16 (elapsed 63.8s)
+[13:33:42] --- family 16: b = n^{3} - 3 n^{2} - 3, Delta_3 = -567 ---
+[13:33:43]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:43]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:43]     A_fit = 5.9788 +/- 0.0024,  alpha = 5.8741,  beta = -1.2079,  npts = 27
+[13:33:51]   basis a: NULL (no relation)
+[13:33:51]   basis b: NULL (no relation)
+[13:33:51]   basis c: NULL (no relation)
+[13:33:51]   basis d: NULL (no relation)
+[13:33:51]   VERDICT: BIN-CONSISTENT
+[13:33:51] [11/37] starting family 17 (elapsed 73.0s)
+[13:33:51] --- family 17: b = n^{3} - 3 n^{2} - 2, Delta_3 = -324 ---
+[13:33:52]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:52]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:52]     A_fit = 5.9884 +/- 0.0025,  alpha = 5.9269,  beta = -0.9158,  npts = 27
+[13:33:54]   basis a: NULL (no relation)
+[13:33:54]   basis b: NULL (no relation)
+[13:33:54]   basis c: NULL (no relation)
+[13:33:55]   basis d: NULL (no relation)
+[13:33:55]   VERDICT: BIN-CONSISTENT
+[13:33:55] [12/37] starting family 18 (elapsed 76.1s)
+[13:33:55] --- family 18: b = n^{3} - 3 n^{2} - 1, Delta_3 = -135 ---
+[13:33:55]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:33:55]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:33:55]     A_fit = 5.9837 +/- 0.0010,  alpha = 5.9012,  beta = -1.0422,  npts = 27
+[13:34:02]   basis a: NULL (no relation)
+[13:34:02]   basis b: NULL (no relation)
+[13:34:02]   basis c: NULL (no relation)
+[13:34:02]   basis d: NULL (no relation)
+[13:34:02]   VERDICT: BIN-CONSISTENT
+[13:34:02] [13/37] starting family 21 (elapsed 83.9s)
+[13:34:02] --- family 21: b = n^{3} - 3 n^{2} + n - 2, Delta_3 = -211 ---
+[13:34:03]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:03]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:03]     A_fit = 5.9891 +/- 0.0007,  alpha = 5.9337,  beta = -0.7190,  npts = 27
+[13:34:11]   basis a: NULL (no relation)
+[13:34:11]   basis b: NULL (no relation)
+[13:34:11]   basis c: NULL (no relation)
+[13:34:11]   basis d: NULL (no relation)
+[13:34:11]   VERDICT: BIN-CONSISTENT
+[13:34:11] [14/37] starting family 22 (elapsed 92.9s)
+[13:34:11] --- family 22: b = n^{3} - 3 n^{2} + n - 1, Delta_3 = -76 ---
+[13:34:12]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:12]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:12]     A_fit = 5.9904 +/- 0.0009,  alpha = 5.9411,  beta = -0.6691,  npts = 27
+[13:34:19]   basis a: NULL (no relation)
+[13:34:19]   basis b: NULL (no relation)
+[13:34:20]   basis c: NULL (no relation)
+[13:34:20]   basis d: NULL (no relation)
+[13:34:20]   VERDICT: BIN-CONSISTENT
+[13:34:20] [15/37] starting family 23 (elapsed 101.3s)
+[13:34:20] --- family 23: b = n^{3} - 3 n^{2} + n + 3, Delta_3 = -76 ---
+[13:34:20]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:20]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:20]     A_fit = 5.9827 +/- 0.0043,  alpha = 5.8997,  beta = -0.8489,  npts = 27
+[13:34:27]   basis a: NULL (no relation)
+[13:34:27]   basis b: NULL (no relation)
+[13:34:27]   basis c: NULL (no relation)
+[13:34:27]   basis d: NULL (no relation)
+[13:34:27]   VERDICT: BIN-CONSISTENT
+[13:34:27] [16/37] starting family 24 (elapsed 108.9s)
+[13:34:27] --- family 24: b = n^{3} - 3 n^{2} + 2 n - 3, Delta_3 = -239 ---
+[13:34:28]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:28]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:28]     A_fit = 6.0151 +/- 0.0109,  alpha = 6.0788,  beta = 0.2042,  npts = 27
+[13:34:34]   basis a: NULL (no relation)
+[13:34:34]   basis b: NULL (no relation)
+[13:34:34]   basis c: NULL (no relation)
+[13:34:34]   basis d: NULL (no relation)
+[13:34:34]   VERDICT: BIN-CONSISTENT
+[13:34:34] [17/37] starting family 25 (elapsed 116.0s)
+[13:34:34] --- family 25: b = n^{3} - 3 n^{2} + 2 n - 2, Delta_3 = -104 ---
+[13:34:35]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:35]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:35]     A_fit = 5.9884 +/- 0.0026,  alpha = 5.9324,  beta = -0.5662,  npts = 27
+[13:34:37]   basis a: NULL (no relation)
+[13:34:37]   basis b: NULL (no relation)
+[13:34:37]   basis c: NULL (no relation)
+[13:34:37]   basis d: NULL (no relation)
+[13:34:37]   VERDICT: BIN-CONSISTENT
+[13:34:37] [18/37] starting family 26 (elapsed 118.5s)
+[13:34:37] --- family 26: b = n^{3} - 3 n^{2} + 2 n - 1, Delta_3 = -23 ---
+[13:34:37]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:37]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:37]     A_fit = 5.9960 +/- 0.0010,  alpha = 5.9748,  beta = -0.3299,  npts = 27
+[13:34:44]   basis a: NULL (no relation)
+[13:34:44]   basis b: NULL (no relation)
+[13:34:44]   basis c: NULL (no relation)
+[13:34:44]   basis d: NULL (no relation)
+[13:34:44]   VERDICT: BIN-CONSISTENT
+[13:34:44] [19/37] starting family 27 (elapsed 125.9s)
+[13:34:44] --- family 27: b = n^{3} - 3 n^{2} + 2 n + 1, Delta_3 = -23 ---
+[13:34:45]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:45]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:45]     A_fit = 5.9823 +/- 0.0064,  alpha = 5.8997,  beta = -0.7101,  npts = 27
+[13:34:51]   basis a: NULL (no relation)
+[13:34:52]   basis b: NULL (no relation)
+[13:34:52]   basis c: NULL (no relation)
+[13:34:52]   basis d: NULL (no relation)
+[13:34:52]   VERDICT: BIN-CONSISTENT
+[13:34:52] [20/37] starting family 28 (elapsed 133.3s)
+[13:34:52] --- family 28: b = n^{3} - 3 n^{2} + 2 n + 2, Delta_3 = -104 ---
+[13:34:52]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:52]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:52]     A_fit = 5.9957 +/- 0.0002,  alpha = 5.9736,  beta = -0.3057,  npts = 26
+[13:34:54]   basis a: NULL (no relation)
+[13:34:54]   basis b: NULL (no relation)
+[13:34:54]   basis c: NULL (no relation)
+[13:34:54]   basis d: NULL (no relation)
+[13:34:54]   VERDICT: BIN-CONSISTENT
+[13:34:54] [21/37] starting family 29 (elapsed 135.9s)
+[13:34:54] --- family 29: b = n^{3} - 3 n^{2} + 2 n + 3, Delta_3 = -239 ---
+[13:34:55]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:34:55]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:34:55]     A_fit = 5.9962 +/- 0.0002,  alpha = 5.9767,  beta = -0.2789,  npts = 26
+[13:35:01]   basis a: NULL (no relation)
+[13:35:01]   basis b: NULL (no relation)
+[13:35:01]   basis c: NULL (no relation)
+[13:35:01]   basis d: NULL (no relation)
+[13:35:01]   VERDICT: BIN-CONSISTENT
+[13:35:01] [22/37] starting family 30 (elapsed 142.9s)
+[13:35:01] --- family 30: b = n^{3} - 3 n^{2} + 3 n - 3, Delta_3 = -108 ---
+[13:35:02]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:02]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:02]     A_fit = 6.0241 +/- 0.0130,  alpha = 6.1311,  beta = 0.6422,  npts = 27
+[13:35:08]   basis a: NULL (no relation)
+[13:35:08]   basis b: NULL (no relation)
+[13:35:09]   basis c: NULL (no relation)
+[13:35:09]   basis d: NULL (no relation)
+[13:35:09]   VERDICT: BIN-CONSISTENT
+[13:35:09] [23/37] starting family 31 (elapsed 150.2s)
+[13:35:09] --- family 31: b = n^{3} - 3 n^{2} + 3 n + 1, Delta_3 = -108 ---
+[13:35:09]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:09]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:09]     A_fit = 5.8516 +/- 0.0736,  alpha = 5.1859,  beta = -4.3599,  npts = 27
+[13:35:16]   basis a: NULL (no relation)
+[13:35:16]   basis b: NULL (no relation)
+[13:35:16]   basis c: NULL (no relation)
+[13:35:16]   basis d: NULL (no relation)
+[13:35:16]   VERDICT: BIN-CONSISTENT
+[13:35:16] [24/37] starting family 32 (elapsed 157.9s)
+[13:35:16] --- family 32: b = n^{3} - 3 n^{2} + 3 n + 2, Delta_3 = -243 ---
+[13:35:17]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:17]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:17]     A_fit = 6.0005 +/- 0.0001,  alpha = 6.0028,  beta = 0.0085,  npts = 26
+[13:35:25]   basis a: NULL (no relation)
+[13:35:25]   basis b: NULL (no relation)
+[13:35:26]   basis c: NULL (no relation)
+[13:35:26]   basis d: NULL (no relation)
+[13:35:26]   VERDICT: BIN-CONSISTENT
+[13:35:26] [25/37] starting family 33 (elapsed 167.2s)
+[13:35:26] --- family 33: b = n^{3} - 3 n^{2} + 3 n + 3, Delta_3 = -432 ---
+[13:35:26]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:26]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:26]     A_fit = 6.0010 +/- 0.0001,  alpha = 6.0058,  beta = 0.0350,  npts = 26
+[13:35:33]   basis a: NULL (no relation)
+[13:35:34]   basis b: NULL (no relation)
+[13:35:34]   basis c: NULL (no relation)
+[13:35:34]   basis d: NULL (no relation)
+[13:35:34]   VERDICT: BIN-CONSISTENT
+[13:35:34] [26/37] starting family 34 (elapsed 175.3s)
+[13:35:34] --- family 34: b = n^{3} - 2 n^{2} - 3 n - 3, Delta_3 = -519 ---
+[13:35:34]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:34]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:34]     A_fit = 5.9781 +/- 0.0014,  alpha = 5.8669,  beta = 0.5566,  npts = 26
+[13:35:40]   basis a: NULL (no relation)
+[13:35:40]   basis b: NULL (no relation)
+[13:35:40]   basis c: NULL (no relation)
+[13:35:40]   basis d: NULL (no relation)
+[13:35:40]   VERDICT: BIN-CONSISTENT
+[13:35:40] [27/37] starting family 35 (elapsed 181.5s)
+[13:35:40] --- family 35: b = n^{3} - 2 n^{2} - 3 n - 2, Delta_3 = -244 ---
+[13:35:40]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:40]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:40]     A_fit = 5.9786 +/- 0.0013,  alpha = 5.8698,  beta = 0.5820,  npts = 26
+[13:35:43]   basis a: NULL (no relation)
+[13:35:43]   basis b: NULL (no relation)
+[13:35:43]   basis c: NULL (no relation)
+[13:35:43]   basis d: NULL (no relation)
+[13:35:43]   VERDICT: BIN-CONSISTENT
+[13:35:43] [28/37] starting family 36 (elapsed 184.9s)
+[13:35:43] --- family 36: b = n^{3} - 2 n^{2} - 3 n - 1, Delta_3 = -23 ---
+[13:35:44]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:44]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:44]     A_fit = 5.9791 +/- 0.0013,  alpha = 5.8727,  beta = 0.6072,  npts = 26
+[13:35:49]   basis a: NULL (no relation)
+[13:35:49]   basis b: NULL (no relation)
+[13:35:49]   basis c: NULL (no relation)
+[13:35:50]   basis d: NULL (no relation)
+[13:35:50]   VERDICT: BIN-CONSISTENT
+[13:35:50] [29/37] starting family 40 (elapsed 191.2s)
+[13:35:50] --- family 40: b = n^{3} - 2 n^{2} - 2 n - 2, Delta_3 = -268 ---
+[13:35:50]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:50]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:50]     A_fit = 5.9831 +/- 0.0011,  alpha = 5.8968,  beta = 0.8771,  npts = 26
+[13:35:56]   basis a: NULL (no relation)
+[13:35:56]   basis b: NULL (no relation)
+[13:35:57]   basis c: NULL (no relation)
+[13:35:57]   basis d: NULL (no relation)
+[13:35:57]   VERDICT: BIN-CONSISTENT
+[13:35:57] [30/37] starting family 41 (elapsed 198.3s)
+[13:35:57] --- family 41: b = n^{3} - 2 n^{2} - 2 n - 1, Delta_3 = -83 ---
+[13:35:57]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:35:57]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:35:57]     A_fit = 5.9835 +/- 0.0010,  alpha = 5.8997,  beta = 0.9022,  npts = 26
+[13:36:03]   basis a: NULL (no relation)
+[13:36:03]   basis b: NULL (no relation)
+[13:36:03]   basis c: NULL (no relation)
+[13:36:03]   basis d: NULL (no relation)
+[13:36:03]   VERDICT: BIN-CONSISTENT
+[13:36:03] [31/37] starting family 43 (elapsed 204.7s)
+[13:36:03] --- family 43: b = n^{3} - 2 n^{2} - n - 3, Delta_3 = -439 ---
+[13:36:03]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:36:03]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:36:04]     A_fit = 5.9870 +/- 0.0008,  alpha = 5.9208,  beta = 1.1450,  npts = 26
+[13:36:10]   basis a: NULL (no relation)
+[13:36:10]   basis b: NULL (no relation)
+[13:36:10]   basis c: NULL (no relation)
+[13:36:10]   basis d: NULL (no relation)
+[13:36:10]   VERDICT: BIN-CONSISTENT
+[13:36:10] [32/37] starting family 44 (elapsed 211.5s)
+[13:36:10] --- family 44: b = n^{3} - 2 n^{2} - n - 2, Delta_3 = -236 ---
+[13:36:10]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:36:10]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:36:10]     A_fit = 5.9875 +/- 0.0008,  alpha = 5.9236,  beta = 1.1700,  npts = 26
+[13:36:17]   basis a: NULL (no relation)
+[13:36:17]   basis b: NULL (no relation)
+[13:36:17]   basis c: NULL (no relation)
+[13:36:17]   basis d: NULL (no relation)
+[13:36:17]   VERDICT: BIN-CONSISTENT
+[13:36:17] [33/37] starting family 45 (elapsed 218.6s)
+[13:36:17] --- family 45: b = n^{3} - 2 n^{2} - n - 1, Delta_3 = -87 ---
+[13:36:17]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:36:17]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:36:17]     A_fit = 5.9879 +/- 0.0007,  alpha = 5.9265,  beta = 1.1949,  npts = 26
+[13:36:23]   basis a: NULL (no relation)
+[13:36:23]   basis b: NULL (no relation)
+[13:36:23]   basis c: NULL (no relation)
+[13:36:24]   basis d: NULL (no relation)
+[13:36:24]   VERDICT: BIN-CONSISTENT
+[13:36:24] [34/37] starting family 47 (elapsed 225.1s)
+[13:36:24] --- family 47: b = n^{3} - 2 n^{2} - n + 3, Delta_3 = -31 ---
+[13:36:24]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:36:24]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:36:24]     A_fit = 5.9899 +/- 0.0006,  alpha = 5.9379,  beta = 1.2945,  npts = 26
+[13:36:31]   basis a: NULL (no relation)
+[13:36:31]   basis b: NULL (no relation)
+[13:36:31]   basis c: NULL (no relation)
+[13:36:31]   basis d: NULL (no relation)
+[13:36:31]   VERDICT: BIN-CONSISTENT
+[13:36:31] [35/37] starting family 48 (elapsed 232.7s)
+[13:36:31] --- family 48: b = n^{3} - 2 n^{2} - 3, Delta_3 = -339 ---
+[13:36:31]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:36:31]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:36:32]     A_fit = 5.9913 +/- 0.0006,  alpha = 5.9473,  beta = 1.4357,  npts = 26
+[13:36:39]   basis a: NULL (no relation)
+[13:36:39]   basis b: NULL (no relation)
+[13:36:39]   basis c: NULL (no relation)
+[13:36:39]   basis d: NULL (no relation)
+[13:36:39]   VERDICT: BIN-CONSISTENT
+[13:36:39] [36/37] starting family 49 (elapsed 240.7s)
+[13:36:39] --- family 49: b = n^{3} - 2 n^{2} - 2, Delta_3 = -172 ---
+[13:36:39]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:36:39]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:36:40]     A_fit = 5.9918 +/- 0.0005,  alpha = 5.9501,  beta = 1.4605,  npts = 26
+[13:36:46]   basis a: NULL (no relation)
+[13:36:47]   basis b: NULL (no relation)
+[13:36:47]   basis c: NULL (no relation)
+[13:36:47]   basis d: NULL (no relation)
+[13:36:47]   VERDICT: BIN-CONSISTENT
+[13:36:47] [37/37] starting family 50 (elapsed 248.3s)
+[13:36:47] --- family 50: b = n^{3} - 2 n^{2} - 1, Delta_3 = -59 ---
+[13:36:47]   digits stable (500/1000/2000/3000): 999.0 / 999.0 / 999.0
+[13:36:47]   WKB fit (dps=800, N_ref=300, N=10..100 step 3)
+[13:36:47]     A_fit = 5.9923 +/- 0.0005,  alpha = 5.9530,  beta = 1.4853,  npts = 26
+[13:36:53]   basis a: NULL (no relation)
+[13:36:53]   basis b: NULL (no relation)
+[13:36:53]   basis c: NULL (no relation)
+[13:36:53]   basis d: NULL (no relation)
+[13:36:53]   VERDICT: BIN-CONSISTENT
+[13:36:53] Cross-family identity sweep: PSLQ on (L_i, L_j) pairs ...
+[13:36:53]   cross-family hits: 0
+[13:36:53] === SUMMARY ===
+[13:36:53] {
+  "n_families_in_bin": 37,
+  "n_BIN_CONSISTENT": 37,
+  "n_BIN_VIOLATING": 0,
+  "n_STALLED": 0,
+  "n_with_WKB_fit": 37,
+  "n_WKB_A_in_5_or_6_band_0p1": 37,
+  "WKB_A_mean": 5.981653891237521,
+  "WKB_A_stddev": 0.025274933489554164,
+  "WKB_A_min": 5.851579651243865,
+  "WKB_A_max": 6.024114769035808,
+  "elapsed_seconds": 254.8
+}
+[13:36:53] AEAL claims written: 38
+[13:36:53] Halts: 0; discrepancies: 0; unexpected: 0
+[13:36:53] Done.

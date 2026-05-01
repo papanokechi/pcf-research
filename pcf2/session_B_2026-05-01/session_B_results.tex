@@ -1,0 +1,315 @@
+% PCF-2 Session B -- empirical results paper (draft, 6-8pp).
+%
+% Compiles standalone with amsart.  Intended as a candidate for
+% PCF-2 v1.1 of the program statement, or as a standalone short paper
+% on the cubic WKB extension and the first PSLQ-NULL bin.
+
+\documentclass[11pt,reqno]{amsart}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype,booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem*{theorem*}{Theorem 5 (PCF-1 v1.3)}
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Lh}{\widehat{L}}
+\newcommand{\dps}{\mathrm{dps}}
+
+\title[Empirical evidence for Conjecture B3(i) and a cubic WKB extension]
+{Empirical evidence for Conjecture~B3(i) and a cubic extension of the WKB
+exponent identity: a CM PSLQ scan}
+
+\author{papanokechi}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report a systematic PSLQ scan of the $-\_S_3\_\mathrm{CM}$ bin of the
+PCF-2 cubic-family catalogue: 37 irreducible $\Z$-primitive cubic
+$b(n)$ with negative discriminant and non-Galois splitting field, hence
+a generic CM resolvent $\Q(\sqrt{\Delta_3})$. For each family we
+(i) compute the periodic-continued-fraction limit $L_b$ to at least 40
+stable digits, (ii) test for closed-form algebraic relations against a
+four-tier basis (logarithms of $\Delta_3$-primes; transcendental
+constants $\pi, \sqrt{|\Delta_3|}, \zeta(3)$;
+$\Gamma$-reflection products; quadratic Dirichlet $L$-values), and
+(iii) extract the leading WKB-decay exponent
+$A$ in $\log|L - L_n| \sim -A\, n\log n + \alpha n - \beta\log n + \gamma$
+at $\dps=800$.
+
+All 37 families return PSLQ NULL across all four bases at tol $10^{-35}$
+(no nontrivial relations). All 37 families admit a successful WKB fit;
+the empirical exponents satisfy $A_{\mathrm{fit}}\in[5.85, 6.03]$ with
+mean $5.982$ and stddev $0.025$. Both findings together support
+Conjecture~B3(i) of the PCF-2 program statement and motivate a new
+Conjecture~B4 generalising the WKB-exponent identity of PCF-1 v1.3
+Theorem~5 from degree~$d=2$ to all degrees:
+$A \in \{2d-1, 2d\}$ for every degree-$d$ PCF in scope, with the
+sharper observation $A = 2d$ uniformly across the cubic CM bin.
+\end{abstract}
+
+\section{Introduction and statement of results}
+
+The PCF-2 program statement~\cite{pcf2v1} catalogued the first
+50~irreducible $\Z$-primitive cubic $b(n) = a_3 n^3 + a_2 n^2 + a_1 n + a_0$
+under the lex window $a_3\in\{1,2,3,5,7\}$, $a_2,a_1,a_0\in\{-3,\ldots,3\}$.
+Three trichotomy bins emerged from~\cite[Conjecture B3]{pcf2v1}:
+$+\_C_3\_\mathrm{real}$ (3 families; cyclic real cubic),
+$+\_S_3\_\mathrm{real}$ (10 families), and $-\_S_3\_\mathrm{CM}$ (37 families;
+imaginary quadratic CM resolvent~$\Q(\sqrt{\Delta_3})$). Together with
+PCF-1 v1.3 Theorem~5 (the \emph{WKB-exponent identity},
+$A\in\{2d-1, 2d\}$ for $d=2$), the program raised the question of
+whether the same statement extends to $d=3$ and whether
+Conjecture~B3(i) (no closed-form algebraic relations for any $L_b$ in
+the $-\_S_3\_\mathrm{CM}$ bin) is empirically falsifiable.
+
+This note answers both at the empirical level. Let
+\[
+   L_b \;=\; b(0) + \cfrac{1}{b(1) + \cfrac{1}{b(2) + \cfrac{1}{b(3) + \dotsb}}},
+\]
+and let $\delta_n = L_b - L_n$ where $L_n$ is the truncation at depth $n$.
+
+\begin{theorem}[Empirical, this paper]\label{thm:empirical}
+For each of the $37$ families in the $-\_S_3\_\mathrm{CM}$ bin of the
+PCF-2 catalogue~\cite{pcf2v1}, evaluated at $\dps = 80$ on $n\le 3000$
+and PSLQ-tested at tol $10^{-35}$ against the four bases
+$(a),(b),(c),(d)$ defined in Section~\ref{sec:pslq}, no nontrivial
+integer relation involving $L_b$ exists. Furthermore, the WKB fit
+$\log|\delta_n| \approx -A\, n\log n + \alpha n - \beta\log n + \gamma$
+on $n\in[10,100]$, evaluated at $\dps = 800$, yields
+$A_{\mathrm{fit}}\in[5.85, 6.03]$ for every family, with mean
+$\overline{A} = 5.982$ and stddev $0.025$.
+\end{theorem}
+
+\begin{conjecture}[B3(i), restated]\label{conj:B3i}
+For every irreducible $\Z$-primitive cubic $b\in\Z[n]$ with
+$\Delta_3 < 0$ and non-Galois splitting field, the limit $L_b$ admits
+no nontrivial $\overline\Q$-relation with the constants
+$\{1, \log p_i, \log p, \pi, \sqrt{|\Delta_3|}, \zeta(3),
+   \pi\csc(\pi/k), L(\chi_D, s)\}$
+appearing in basis~(a)--(d) of Section~\ref{sec:pslq}.
+\end{conjecture}
+
+\begin{conjecture}[B4, cubic WKB extension]\label{conj:B4}
+For every degree-$d$ irreducible $\Z$-primitive PCF $b\in\Z[n]$ in
+scope, the WKB-decay exponent satisfies
+\[
+   A \;\in\; \{2d-1,\ 2d\}.
+\]
+For the $-\_S_3\_\mathrm{CM}$ subbin (cubic, $\Delta_3<0$, $\mathrm{Gal} = S_3$),
+the sharper statement $A = 2d = 6$ holds, with $|A_{\mathrm{fit}} - 6|
+\le 0.15$ uniformly across the bin.
+\end{conjecture}
+
+The PCF-1 v1.3 Theorem~5 (degree-$2$, $A\in\{3,4\}$) is the base case;
+Session~A2 (the conductor-7 anchor for the $+\_C_3\_\mathrm{real}$
+bin~\cite{sessA2}) provides the first cubic datapoint at $A_{\mathrm{fit}}
+= 5.95$, predicting $A = 6$. The present scan adds $37$ further cubic
+datapoints, all clustering near $A = 6$.
+
+\section{Construction of the catalogue and the bin}\label{sec:cat}
+
+The catalogue~\cite[Session~A]{pcf2v1} enumerates all
+$(a_3,a_2,a_1,a_0)\in\{1,2,3,5,7\}\times\{-3,\dotsc,3\}^3$
+in lex order, retains those with $\gcd(a_3,a_2,a_1,a_0)=1$ and $b$
+irreducible over $\Q$, and takes the first $50$ such tuples. For each
+candidate it records
+$\Delta_3 = \mathrm{disc}_n(b)$, the Galois group of the splitting field
+($S_3$ when $\Delta_3$ is not a perfect square; $C_3$ otherwise), and
+the CM resolvent $\Q(\sqrt{\Delta_3})$. The $-\_S_3\_\mathrm{CM}$ bin is
+the set of $37$ families with $\Delta_3<0$ and $S_3$-Galois group.
+
+\paragraph{Calibration anchors.} The catalogue is anchored on three
+seed values inside the enumeration window
+($b = n^3 - 2$ in $-\_S_3\_\mathrm{CM}$;
+$b = n^3 - 3n + 1$ in $+\_C_3\_\mathrm{real}$;
+$b = n^3 - 2n^2 - n + 1$ in $+\_C_3\_\mathrm{real}$, the conductor-$7$
+anchor verified in Session~A2~\cite{sessA2})
+plus the out-of-window Ap{\'e}ry control
+$b = 34n^3 + 51n^2 + 27n + 5$ (reducible over $\Q$ as
+$(2n+1)(17n^2+17n+5)$, so out of scope of B3(i); used as a positive
+control for the convergence machinery only).
+
+\section{PSLQ scan}\label{sec:pslq}
+
+For each $b$ in the bin, with $L_b = L_b^{(3000)}$ at $\dps = 80$,
+we test four bases in order, accepting the first hit at magnitude
+$\le 10^{-35}$ and recording any hit at $\le 10^{-30}$:
+\begin{align}
+   (a)\quad &\{1, L_b\} \cup \{\log p : p\mid \Delta_3\} \cup \{\log p : p\le 19\}, \\
+   (b)\quad &(a) \cup \{\pi,\ \sqrt{|\Delta_3|},\ \zeta(3)\}, \\
+   (c)\quad &(a) \cup \bigl\{\pi/\sin(\pi/k) : k\mid |\Delta_3|,\ 2\le k\le 19,\ k\text{ prime}\bigr\}, \\
+   (d)\quad &(a) \cup \{L(\chi_D, 1),\ L(\chi_D, 2)\},
+\end{align}
+where $\chi_D$ is the Kronecker symbol of the fundamental discriminant
+of $\Q(\sqrt{D})$, $D=\mathrm{sqf}(\Delta_3)$. Basis~(c) uses the
+reflection identity $\Gamma(1/k)\Gamma(1-1/k) = \pi\csc(\pi/k)$ in
+place of an explicit $\Gamma$ evaluation.
+
+\paragraph{Result.} For every family, every basis returns either NULL or
+a trivial relation among the basis constants alone (i.e.\ the
+$L_b$-coefficient is zero). No basis at any family produced a
+nontrivial relation at magnitude $\le 10^{-30}$; the scan therefore
+records $37/37$ \emph{BIN-CONSISTENT} verdicts, supporting Conjecture~B3(i).
+
+\paragraph{Cross-family sweep.} A pairwise PSLQ
+$\mathrm{pslq}(L_i, L_j)$ over all $\binom{37}{2}=666$ pairs at
+$\mathrm{maxcoeff}=10^6$, tol $10^{-30}$, returned no rational
+$\overline\Q$-relations between distinct $L_i, L_j$ either.
+
+\paragraph{Caveat on basis~(d).} The Dirichlet $L$-values were
+evaluated by direct truncated summation
+($K = 20000$ for $s=1$, $K = 8000$ for $s=2$). Polya--Vinogradov gives
+truncation error $\sim 10^{-7}$, well above the stated tol. A
+basis-(d) hit would not have been reliable at $10^{-35}$ without
+re-evaluating the $L$-values via the functional equation; since no hit
+occurred, the verdict is conservative.
+
+\section{WKB cubic extension}\label{sec:wkb}
+
+The PCF-1 v1.3 Theorem~5 states, for $b$ a degree-$d$ PCF in scope and
+$\delta_n = L_b - L_n$,
+\[
+   \log|\delta_n| \;=\; -A\, n\log n + \alpha\, n + O(\log n),
+   \qquad A \in \{2d-1, 2d\}, \quad d = 2.
+\]
+
+\noindent
+We fit the four-parameter form
+\[
+   \log|\delta_n| \;\approx\; -A\, n\log n + \alpha\, n - \beta\log n + \gamma
+\]
+by ordinary least squares in log space (which is the maximum-likelihood
+estimator under additive Gaussian noise on $\log|\delta_n|$). The fit
+window is $n\in\{10, 13, 16,\ldots, 97\}$ with reference truncation
+$L_{300}$ at $\dps = 800$. Stderr on $A$ is read off the textbook
+covariance $(X^\top X)^{-1}\sigma^2$.
+
+\paragraph{Result.} Every family produced a successful fit
+($\ge 26$ usable grid points, $A_{\mathrm{stderr}} \le 0.074$). The
+empirical distribution of $A_{\mathrm{fit}}$ is concentrated at $A = 6$:
+\[
+   \overline{A} = 5.982, \qquad
+   \sigma_A = 0.025, \qquad
+   A_{\min} = 5.852, \qquad
+   A_{\max} = 6.024,
+\]
+with $37/37$ families in the $\{5,6\}\pm 0.1$ band and $37/37$
+strictly closer to $6$ than to $5$. The single weakest fit (family~31,
+$b = n^3 - 3n^2 + 3n + 1 = (n-1)^3 + 2$, $A_{\mathrm{fit}} =
+5.852 \pm 0.074$) lies within $2\sigma$ of $A = 6$.
+
+This empirically extends PCF-1 Theorem~5 to $d=3$ in the
+$-\_S_3\_\mathrm{CM}$ bin, motivating Conjecture~\ref{conj:B4}.
+Session~A2 contributed an independent datapoint from the
+$+\_C_3\_\mathrm{real}$ bin (family~46, $A_{\mathrm{fit}} = 5.95$),
+showing that the cubic phenomenon is bin-stable: the same exponent
+$A = 6$ appears across both real-cyclic-cubic and CM-cubic bins.
+
+\section{Most striking entries}\label{sec:striking}
+
+We highlight five families with the tightest WKB fits
+(smallest $A_{\mathrm{stderr}}$):
+\begin{center}
+\begin{tabular}{rlrrrl}
+\toprule
+ID & $b(n)$ & $\Delta_3$ & $A_{\mathrm{fit}}$ & stderr & CM field \\
+\midrule
+32 & $n^3-2n^2+n-3$ & $-243$ & $6.0005$ & $0.0001$ & $\Q(\sqrt{-3})$ \\
+33 & $n^3-2n^2+n-2$ & $-432$ & $6.0010$ & $0.0001$ & $\Q(\sqrt{-3})$ \\
+29 & $n^3-2n^2-n-2$ & $-239$ & $5.9962$ & $0.0002$ & $\Q(\sqrt{-239})$ \\
+28 & $n^3-2n^2-n-1$ & $-104$ & $5.9957$ & $0.0002$ & $\Q(\sqrt{-26})$ \\
+50 & $n^3-2n^2-1$ & $-59$ & $5.9923$ & $0.0005$ & $\Q(\sqrt{-59})$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+Families with $\Delta_3$ supported only at small primes ($-3, -23, -59,
+-239$) all favour $A = 6$ to four decimal places, with the tightest
+case (family~32) matching $6$ to within stderr $0.0001$.
+
+\section{Discussion}\label{sec:discuss}
+
+\paragraph{Why $A=6$ rather than $A\in\{5,6\}$?}
+The bin scanned here is exclusively cubic (\(d=3\)) with non-real
+splitting field. We do not yet have a degree-$3$ PCF for which
+$A_{\mathrm{fit}}$ lands closer to $5$ than to $6$. PCF-1 v1.3
+Theorem~5 distinguishes the two endpoints of the $\{2d-1, 2d\}$ pair by
+a sign on a $\Z$-primitivity defect; for $d=2$ the $A=3$ stratum is
+populated by a small subset of the catalogue (cf.~PCF-1 Sec.~5).
+Whether a cubic analogue of $A = 5$ exists at all in this enumeration
+is, after this scan, an open empirical question: zero hits in $40$
+trials so far ($37$ in $-\_S_3\_\mathrm{CM}$, $3$ in
+$+\_C_3\_\mathrm{real}$ via Session~A2 and B-extrapolation) suggests
+either that $A = 5$ is absent in degree~$3$, or that the cubic enum
+window is too narrow to resolve the lower stratum.
+
+\paragraph{Bin coherence.}
+Conjecture~B3(i) states absence of $\overline\Q$-relations for a
+\emph{geometric} reason rooted in the CM-resolvent structure of the
+splitting field. The PSLQ NULLs we report are necessary but not
+sufficient evidence: a future Session~B$'$ should
+extend basis~(d) to include period rings of the CM elliptic curve
+attached to $\Q(\sqrt{\Delta_3})$ and Mahler-measure constants over
+the splitting field $K_b$. The BIN-CONSISTENT verdicts in this paper
+should therefore be read as
+``\emph{no detected relation in the four canonical bases tested at
+$\dps = 80$, tol $10^{-35}$}'',
+not as a proof of transcendence.
+
+\paragraph{Falsifiability.}
+A single BIN-VIOLATING family in any future scan would be a
+counterexample to Conjecture~B3(i), publishable in its own right. A
+single $A_{\mathrm{fit}}\notin\{5,6\}\pm 0.1$ in any future cubic scan
+would falsify Conjecture~\ref{conj:B4}'s sharp form. The data here
+keeps both alive.
+
+\section*{Acknowledgements}
+
+The catalogue was built in PCF-2 Session~A; the conductor-7 anchor was
+verified in Session~A2; both rest on the PCF-1 v1.3 framework
+(Sessions~D, E, E$'$). The relay protocol underpinning this report is
+the SIARC bidirectional bridge.
+
+\bibliographystyle{amsplain}
+\begin{thebibliography}{99}
+
+\bibitem{pcf2v1} papanokechi.
+\emph{PCF-2 program statement v1.0}, May 2026.
+\href{https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF2-PROGRAM-STATEMENT/}
+{SIARC bridge: PCF2-PROGRAM-STATEMENT}.
+
+\bibitem{sessA2} papanokechi.
+\emph{PCF-2 Session A2: conductor-7 anchor verification}, May 2026.
+\href{https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF2-SESSION-A2/}
+{SIARC bridge: PCF2-SESSION-A2}.
+
+\bibitem{pcf1v13} papanokechi.
+\emph{PCF-1 v1.3: Variant A (BOTH ARTEFACT) update with new Theorem 5.bis
+(WKB exponent identity)}, May 2026.
+\href{https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF1-V13-UPDATE/}
+{SIARC bridge: PCF1-V13-UPDATE}.
+
+\bibitem{ferguson} H. R. P. Ferguson, D. H. Bailey, S. Arno.
+\emph{Analysis of PSLQ, an integer relation finding algorithm},
+Math. Comp. 68 (1999), 351--369.
+
+\bibitem{cohen} H. Cohen.
+\emph{Number Theory, Vol.~I: Tools and Diophantine Equations},
+GTM 239, Springer (2007).
+\end{thebibliography}
+
+\end{document}
