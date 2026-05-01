@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": 1,
+      "summary": "Two distinct in-window cyclic-C_3 families share splitting field Q(zeta_9 + zeta_9^{-1}): family 19 (b = n^3 - 3n + 1) and family 20 (b = n^3 - 3n + 3), both with Delta_3 = 81.",
+      "implication": "Session B should test whether the corresponding CF limits are arithmetically related (e.g. Q-linearly dependent in the same cyclotomic ring of integers).",
+      "halt_required": false
+    },
+    {
+      "id": 2,
+      "summary": "Family 46, b = n^3 - 2 n^2 - n + 1, has Delta_3 = 49 = 7^2 and Galois group C_3, with splitting field Q(zeta_7 + zeta_7^{-1}) (the totally real subfield of Q(zeta_7), conductor 7).",
+      "implication": "First non-conductor-9 cyclic cubic in the catalogue; recommended as a primary Session A2 anchor for cyclic-C_3 closed-form attacks.",
+      "halt_required": false
+    },
+    {
+      "id": 3,
+      "summary": "The -_S3_CM bin (37/50 = 74%) over-dominates the small-coefficient window. The +_C3_real cell holds only 3 specimens.",
+      "implication": "Targeted enumeration outside the small lex window will be required for a statistically meaningful Painleve-vs-elementary discrimination on the cyclic cell.",
+      "halt_required": false
+    }
+  ]
+}

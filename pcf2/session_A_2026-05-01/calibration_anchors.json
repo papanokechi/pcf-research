@@ -1,0 +1,52 @@
+{
+  "apery_b_n": {
+    "expected": {
+      "reducible": true,
+      "factorization_q": "(2n+1)(17n^2+17n+5)",
+      "Delta_3": -459,
+      "Galois": "C_2 (quadratic) for the irreducible cubic factor only"
+    },
+    "computed": {
+      "irreducible": false,
+      "factorization": "\\left(2 n + 1\\right) \\left(17 n^{2} + 17 n + 5\\right)",
+      "Delta_3": -459,
+      "Delta_3_factorization": {
+        "3": 3,
+        "17": 1,
+        "-1": 1
+      }
+    },
+    "match": true
+  },
+  "catalan_seed_n3_minus_2": {
+    "expected": {
+      "Delta_3": -108,
+      "Galois": "S_3",
+      "CM_field_sqfree_disc": -3
+    },
+    "computed": {
+      "Delta_3": -108,
+      "Galois": "S_3",
+      "CM_field": "\\mathbb{Q}(\\sqrt{-3})",
+      "trichotomy_bin": "-_S3_CM"
+    },
+    "match": true
+  },
+  "cyclic_C3_n3_minus_3n_plus_1": {
+    "expected": {
+      "Delta_3": 81,
+      "is_square": true,
+      "Galois": "C_3",
+      "splitting_field": "\\mathbb{Q}(\\zeta_9 + \\zeta_9^{-1})"
+    },
+    "computed": {
+      "Delta_3": 81,
+      "is_square": true,
+      "Galois": "C_3",
+      "trichotomy_bin": "+_C3_real",
+      "splitting_field": "\\text{real cyclic cubic, totally real}"
+    },
+    "match": true
+  },
+  "all_match": true
+}
