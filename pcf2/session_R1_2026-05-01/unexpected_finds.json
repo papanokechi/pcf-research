@@ -1,0 +1,44 @@
+{
+  "nan_columns": [
+    "conductor",
+    "class_number",
+    "class_number_plus",
+    "regulator",
+    "fund_unit_norm",
+    "unit_density"
+  ],
+  "weighting_divergence": [
+    {
+      "invariant": "Delta_3_sign",
+      "rho_unw": -0.2290725041074936,
+      "rho_w": -0.5814710049261823
+    },
+    {
+      "invariant": "absD_mod_8",
+      "rho_unw": 0.0558132599943327,
+      "rho_w": -0.25403233971323486
+    },
+    {
+      "invariant": "absD_mod_12",
+      "rho_unw": 0.11522062308011943,
+      "rho_w": -0.30065884616315386
+    },
+    {
+      "invariant": "smallest_prime_div",
+      "rho_unw": 0.00025097325556315027,
+      "rho_w": -0.06202200945238353
+    },
+    {
+      "invariant": "r1",
+      "rho_unw": -0.2290725041074936,
+      "rho_w": -0.5814710049261823
+    },
+    {
+      "invariant": "r2",
+      "rho_unw": 0.2290725041074936,
+      "rho_w": 0.5814710049261823
+    }
+  ],
+  "family_31_driven": [],
+  "pair_with_adj_r2_gt_0p4": []
+}
