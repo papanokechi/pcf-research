@@ -1,0 +1,186 @@
+{
+  "unexpected": [
+    {
+      "family_id": 4,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.9719,
+      "A_stderr": 0.0018,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 4,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 5,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.9715,
+      "A_stderr": 0.0016,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 5,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 9,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.9774,
+      "A_stderr": 0.0017,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 9,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 10,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.977,
+      "A_stderr": 0.0014,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 10,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 14,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.9813,
+      "A_stderr": 0.0012,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 14,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 15,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.9818,
+      "A_stderr": 0.0012,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 15,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 19,
+      "bin": "+_C3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.986,
+      "A_stderr": 0.0009,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 19,
+      "bin": "+_C3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 20,
+      "bin": "+_C3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.987,
+      "A_stderr": 0.0008,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 20,
+      "bin": "+_C3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 37,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.8836,
+      "A_stderr": 0.0479,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 37,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 38,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.9806,
+      "A_stderr": 0.0012,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 38,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 39,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.981,
+      "A_stderr": 0.0011,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 39,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 42,
+      "bin": "+_S3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.985,
+      "A_stderr": 0.0009,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 42,
+      "bin": "+_S3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    },
+    {
+      "family_id": 46,
+      "bin": "+_C3_real",
+      "kind": "non-CM family with A_fit closer to 6 than to 5: would falsify B4'",
+      "A_fit": 5.9889,
+      "A_stderr": 0.0007,
+      "predicted_branch": 5
+    },
+    {
+      "family_id": 46,
+      "bin": "+_C3_real",
+      "kind": "striking convergence (>= 50 stable digits at n=200)",
+      "digits_stable_at_200": 999.0
+    }
+  ]
+}

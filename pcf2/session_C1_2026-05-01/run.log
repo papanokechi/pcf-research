@@ -1,0 +1,102 @@
+[13:51:55] === PCF-2 SESSION C1 :: non-CM cubic WKB harvest ===
+[13:51:55] DPS_L = 80, DPS_WKB = 800, N_GRID_L = (50, 100, 150, 200), WKB_NS = [10..97 step 3]
+[13:51:55] Loaded 13 families in non-CM bins (family ids: [4, 5, 9, 10, 14, 15, 19, 20, 37, 38, 39, 42, 46])
+[13:51:55] [1/13] starting family 4 (elapsed 0.0s)
+[13:51:55] --- family 4 [+_S3_real]: b = n^{3} - 3 n^{2} - 3 n + 2, Delta_3 = 621 ---
+[13:51:55]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:55]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:55]     A_fit = 5.9719 +/- 0.0018, alpha = 5.8285, beta = -1.8851, npts = 27
+[13:51:55]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:55] [2/13] starting family 5 (elapsed 0.5s)
+[13:51:55] --- family 5 [+_S3_real]: b = n^{3} - 3 n^{2} - 3 n + 3, Delta_3 = 756 ---
+[13:51:55]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:55]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:55]     A_fit = 5.9715 +/- 0.0016, alpha = 5.8267, beta = -1.8840, npts = 27
+[13:51:55]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:55] [3/13] starting family 9 (elapsed 0.9s)
+[13:51:55] --- family 9 [+_S3_real]: b = n^{3} - 3 n^{2} - 2 n + 1, Delta_3 = 257 ---
+[13:51:56]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:56]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:56]     A_fit = 5.9774 +/- 0.0017, alpha = 5.8612, beta = -1.5582, npts = 27
+[13:51:56]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:56] [4/13] starting family 10 (elapsed 1.3s)
+[13:51:56] --- family 10 [+_S3_real]: b = n^{3} - 3 n^{2} - 2 n + 3, Delta_3 = 473 ---
+[13:51:56]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:56]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:56]     A_fit = 5.9770 +/- 0.0014, alpha = 5.8597, beta = -1.5452, npts = 27
+[13:51:56]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:56] [5/13] starting family 14 (elapsed 1.6s)
+[13:51:56] --- family 14 [+_S3_real]: b = n^{3} - 3 n^{2} - n + 1, Delta_3 = 148 ---
+[13:51:56]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:56]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:57]     A_fit = 5.9813 +/- 0.0012, alpha = 5.8854, beta = -1.2669, npts = 27
+[13:51:57]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:57] [6/13] starting family 15 (elapsed 2.0s)
+[13:51:57] --- family 15 [+_S3_real]: b = n^{3} - 3 n^{2} - n + 2, Delta_3 = 229 ---
+[13:51:57]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:57]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:57]     A_fit = 5.9818 +/- 0.0012, alpha = 5.8884, beta = -1.2403, npts = 27
+[13:51:57]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:57] [7/13] starting family 19 (elapsed 2.4s)
+[13:51:57] --- family 19 [+_C3_real]: b = n^{3} - 3 n^{2} + 1, Delta_3 = 81 ---
+[13:51:57]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:57]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:57]     A_fit = 5.9860 +/- 0.0009, alpha = 5.9142, beta = -0.9522, npts = 27
+[13:51:57]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:57] [8/13] starting family 20 (elapsed 2.7s)
+[13:51:57] --- family 20 [+_C3_real]: b = n^{3} - 3 n^{2} + 3, Delta_3 = 81 ---
+[13:51:57]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:57]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:58]     A_fit = 5.9870 +/- 0.0008, alpha = 5.9201, beta = -0.8999, npts = 27
+[13:51:58]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:58] [9/13] starting family 37 (elapsed 3.1s)
+[13:51:58] --- family 37 [+_S3_real]: b = n^{3} - 2 n^{2} - 3 n + 1, Delta_3 = 257 ---
+[13:51:58]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:58]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:58]     A_fit = 5.8836 +/- 0.0479, alpha = 5.3494, beta = -2.1649, npts = 27
+[13:51:58]     predicted branch = 5; verdict = b4_prime_ambiguous
+[13:51:58] [10/13] starting family 38 (elapsed 3.5s)
+[13:51:58] --- family 38 [+_S3_real]: b = n^{3} - 2 n^{2} - 3 n + 2, Delta_3 = 316 ---
+[13:51:58]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:58]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:59]     A_fit = 5.9806 +/- 0.0012, alpha = 5.8814, beta = 0.6830, npts = 26
+[13:51:59]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:59] [11/13] starting family 39 (elapsed 3.9s)
+[13:51:59] --- family 39 [+_S3_real]: b = n^{3} - 2 n^{2} - 3 n + 3, Delta_3 = 321 ---
+[13:51:59]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:59]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:59]     A_fit = 5.9810 +/- 0.0011, alpha = 5.8843, beta = 0.7083, npts = 26
+[13:51:59]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:59] [12/13] starting family 42 (elapsed 4.3s)
+[13:51:59] --- family 42 [+_S3_real]: b = n^{3} - 2 n^{2} - 2 n + 2, Delta_3 = 148 ---
+[13:51:59]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:59]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:51:59]     A_fit = 5.9850 +/- 0.0009, alpha = 5.9084, beta = 0.9775, npts = 26
+[13:51:59]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:51:59] [13/13] starting family 46 (elapsed 4.6s)
+[13:51:59] --- family 46 [+_C3_real]: b = n^{3} - 2 n^{2} - n + 1, Delta_3 = 49 ---
+[13:51:59]   digits stable (50/100/150/200 pairs): 999.0 / 999.0 / 999.0
+[13:51:59]   WKB fit (dps=800, N_ref=300, n in 10..97 step 3)
+[13:52:00]     A_fit = 5.9889 +/- 0.0007, alpha = 5.9322, beta = 1.2447, npts = 26
+[13:52:00]     predicted branch = 5; verdict = b4_prime_consistent_wrong_branch
+[13:52:00] === SUMMARY ===
+[13:52:00] {
+  "n_families": 13,
+  "n_OK": 13,
+  "n_STALLED": 0,
+  "n_WKB_FAILED": 0,
+  "n_b4_prime_consistent": 0,
+  "n_b4_prime_consistent_wrong_branch": 12,
+  "n_b4_prime_ambiguous": 1,
+  "n_b4_prime_violating": 0,
+  "n_in_band_5_or_6_0p1": 12,
+  "n_consistent_with_predicted_5": 0,
+  "A_fit_mean": 5.973307692307693,
+  "A_fit_stddev": 0.026399081031163493,
+  "A_fit_min": 5.8836,
+  "A_fit_max": 5.9889,
+  "elapsed_seconds": 5.1
+}
+[13:52:00] AEAL claims written: 1
+[13:52:00] Halts: 0; discrepancies: 0; unexpected: 26
+[13:52:00] Done.
