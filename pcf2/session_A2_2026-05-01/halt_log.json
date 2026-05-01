@@ -1,0 +1,12 @@
+{
+  "halts": [
+    {
+      "check": 5,
+      "reason": "A_fit rounds to 6 (raw 5.953348); spec expected A in {3, 4}. Observation A ~ 6 = 2*d for cubic PCF is consistent with the natural degree-3 extension of PCF-1 v1.3 Theorem 5 (WKB exponent identity, originally for degree-2). Flag for Claude: extend Theorem 5 to A=2d for cubic b(n)?",
+      "A_raw": 5.953348305580996,
+      "A_rounded": 6,
+      "alpha_observed": 5.730870241845072,
+      "interpretation": "likely positive finding, not pathology"
+    }
+  ]
+}

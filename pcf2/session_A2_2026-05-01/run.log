@@ -1,0 +1,61 @@
+[13:16:02] === CONDUCTOR-7 ANCHOR VERIFY (family 46) ===
+[13:16:02] b(n) = n**3 - 2*n**2 - n + 1
+[13:16:02] Check 1: discriminant
+[13:16:02]   Delta_3 = 49
+[13:16:02] Check 2: irreducibility & Galois group
+[13:16:02]   irreducible over Q: True
+[13:16:02]   inferred Galois group: C_3 (sympy reports: (PermutationGroup([
+    (0 1 2)]), True))
+[13:16:02] Check 3: splitting field = Q(zeta_7 + zeta_7^-1)
+[13:16:02]   b(1 + x) = x**3 + x**2 - 2*x - 1
+[13:16:02]   m(x)     = x**3 + x**2 - 2*x - 1
+[13:16:02]   b(1+x) == m(x)? True
+[13:16:02] Check 4: high-precision L_46 + PSLQ probes
+[13:16:02]   L_200 = 0.53825867319414640868987946895865319907773601719237191681782
+[13:16:02]   L_500 = 0.53825867319414640868987946895865319907773601719237191681782
+[13:16:02]   L_1000 = 0.53825867319414640868987946895865319907773601719237191681782
+[13:16:02]   L_2000 = 0.53825867319414640868987946895865319907773601719237191681782
+[13:16:02]   |L_2000 - L_1000| = 0.0
+[13:16:02]   PSLQ probe T1: {1, log2, log3, log7, pi, sqrt7, zeta3}
+[13:16:02]     relation: None
+[13:16:02]   PSLQ probe T2: {1, eta1, eta1^2}, eta1 = 2 cos(2 pi / 7)
+[13:16:02]     relation: None
+[13:16:02]     T1 |residual|/max|c| = None
+[13:16:02]     T2 |residual|/max|c| = None
+[13:16:02] Check 5: convergence-rate fit  log |delta_n| ~ -A n log n + alpha n + const
+[13:16:02]   L_300 (dps=800) = 0.53825867319414640868987946895865319907773601719237191681781952986447595472559809
+[13:16:02]     N=  10  log10|delta_N| = -37.3801
+[13:16:02]     N=  13  log10|delta_N| = -56.6251
+[13:16:02]     N=  16  log10|delta_N| = -77.6627
+[13:16:02]     N=  19  log10|delta_N| = -100.154
+[13:16:02]     N=  22  log10|delta_N| = -123.869
+[13:16:02]     N=  25  log10|delta_N| = -148.641
+[13:16:02]     N=  28  log10|delta_N| = -174.344
+[13:16:02]     N=  31  log10|delta_N| = -200.878
+[13:16:02]     N=  34  log10|delta_N| = -228.162
+[13:16:02]     N=  37  log10|delta_N| = -256.132
+[13:16:02]     N=  40  log10|delta_N| = -284.731
+[13:16:02]     N=  43  log10|delta_N| = -313.913
+[13:16:02]     N=  46  log10|delta_N| = -343.637
+[13:16:02]     N=  49  log10|delta_N| = -373.868
+[13:16:02]     N=  52  log10|delta_N| = -404.575
+[13:16:02]     N=  55  log10|delta_N| = -435.731
+[13:16:02]     N=  58  log10|delta_N| = -467.31
+[13:16:02]     N=  61  log10|delta_N| = -499.293
+[13:16:02]     N=  64  log10|delta_N| = -531.658
+[13:16:02]     N=  67  log10|delta_N| = -564.388
+[13:16:02]     N=  70  log10|delta_N| = -597.466
+[13:16:02]     N=  73  log10|delta_N| = -630.878
+[13:16:02]     N=  76  log10|delta_N| = -664.61
+[13:16:02]     N=  79  log10|delta_N| = -698.649
+[13:16:02]     N=  82  log10|delta_N| = -732.984
+[13:16:02]     N=  85  log10|delta_N| = -767.604
+[13:16:02]     N=  88  delta == 0 (below precision floor); skipping
+[13:16:02]     N=  91  delta == 0 (below precision floor); skipping
+[13:16:02]     N=  94  delta == 0 (below precision floor); skipping
+[13:16:02]     N=  97  delta == 0 (below precision floor); skipping
+[13:16:02]   fit: A = 5.953348, alpha = 5.730870, const = -6.402550
+[13:16:02]   A rounded = 6 (expected in {3, 4}): False
+[13:16:02] === DONE ===
+[13:16:02]   halts: 1, discrepancies: 1, unexpected: 0
+[13:16:02] HALT condition triggered; see halt_log.json

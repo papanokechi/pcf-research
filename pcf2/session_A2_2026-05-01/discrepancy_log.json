@@ -1,0 +1,11 @@
+{
+  "discrepancies": [
+    {
+      "check": 5,
+      "issue": "A_fit rounds to 6, expected in {3, 4}",
+      "A_raw": 5.953348305580996,
+      "alpha": 5.730870241845072,
+      "note": "Thm 5 covers degree-2 only; cubic prediction is A = 2d = 6."
+    }
+  ]
+}

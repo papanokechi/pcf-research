@@ -1,0 +1,106 @@
+{
+  "family_id": 46,
+  "b_n": "n^3 - 2 n^2 - n + 1",
+  "coeffs_a3_a2_a1_a0": [
+    1,
+    -2,
+    -1,
+    1
+  ],
+  "check_1_discriminant": {
+    "Delta_3": 49,
+    "Delta_3_factorization": {
+      "7": 2
+    },
+    "is_square": true,
+    "expected": 49,
+    "pass": true
+  },
+  "check_2_galois": {
+    "irreducible": true,
+    "discriminant_is_square": true,
+    "inferred_galois_group": "C_3",
+    "sympy_galois_group_repr": "(PermutationGroup([\n    (0 1 2)]), True)",
+    "expected": "C_3",
+    "pass": true
+  },
+  "check_3_field": {
+    "minimal_polynomial_of_eta1": "x^3 + x^2 - 2 x - 1",
+    "substitution": "n = 1 + x   (so b(1+x) = m(x))",
+    "b_of_1_plus_x_equals_m": true,
+    "splitting_field": "Q(zeta_7 + zeta_7^{-1}) = real subfield of Q(zeta_7)",
+    "conductor": 7,
+    "class_number": 1,
+    "totally_real": true,
+    "pass": true
+  },
+  "check_4_high_precision": {
+    "dps": 80,
+    "L_200": "0.53825867319414640868987946895865319907773601719237191681782",
+    "L_500": "0.53825867319414640868987946895865319907773601719237191681782",
+    "L_1000": "0.53825867319414640868987946895865319907773601719237191681782",
+    "L_2000": "0.53825867319414640868987946895865319907773601719237191681782",
+    "L_46_to_50_digits": "0.53825867319414640868987946895865319907773601719237",
+    "abs_L2000_minus_L1000": "0.0",
+    "stable_to_30_digits_by_n_2000": true
+  },
+  "check_4_pslq": {
+    "T1_basis": [
+      "1",
+      "log2",
+      "log3",
+      "log7",
+      "pi",
+      "sqrt7",
+      "zeta3"
+    ],
+    "T1_relation_with_L": null,
+    "T1_residual": null,
+    "T1_basis_in_K7": false,
+    "T2_basis": [
+      "1",
+      "eta1",
+      "eta1_squared"
+    ],
+    "T2_relation_with_L": null,
+    "T2_residual": null,
+    "T2_basis_in_K7": true
+  },
+  "check_5_convergence": {
+    "fit_window_N": [
+      10,
+      97
+    ],
+    "ref_N": 300,
+    "ref_dps": 800,
+    "A": 5.953348305580996,
+    "A_rounded": 6,
+    "alpha": 5.730870241845072,
+    "const": -6.402550491860576,
+    "A_in_3_or_4": false,
+    "comment": "log|delta_N| = -A N log N + alpha N + const; A is the WKB exponent."
+  },
+  "summary": {
+    "all_checks_pass": false,
+    "halts": [
+      {
+        "check": 5,
+        "reason": "A_fit rounds to 6 (raw 5.953348); spec expected A in {3, 4}. Observation A ~ 6 = 2*d for cubic PCF is consistent with the natural degree-3 extension of PCF-1 v1.3 Theorem 5 (WKB exponent identity, originally for degree-2). Flag for Claude: extend Theorem 5 to A=2d for cubic b(n)?",
+        "A_raw": 5.953348305580996,
+        "A_rounded": 6,
+        "alpha_observed": 5.730870241845072,
+        "interpretation": "likely positive finding, not pathology"
+      }
+    ],
+    "discrepancies": [
+      {
+        "check": 5,
+        "issue": "A_fit rounds to 6, expected in {3, 4}",
+        "A_raw": 5.953348305580996,
+        "alpha": 5.730870241845072,
+        "note": "Thm 5 covers degree-2 only; cubic prediction is A = 2d = 6."
+      }
+    ],
+    "unexpected_finds": []
+  }
+}
