@@ -1,0 +1,67 @@
+--- a/tex/submitted/submission_log.txt
++++ b/tex/submitted/submission_log.txt
+@@ item 16 (Channel Theory) -- prepend v1.2 line above the v1.1 line
+ 16. Filename: channel_theory_outline.pdf
+     Title: Channel Theory for Polynomial Continued Fractions:
+            Asymptotic Channels, the ξ₀ = 2/√β₂ Identity, and a
+            Bridge Conjecture
+     Series: SIARC Channel Theory (top-level outline, fresh
+             concept DOI; not a version of any PCF paper)
+     Submitted on: 1st May 2026
+-    Status: Published on Zenodo (Version 1.1 current)
+-    Submission ID: DOI 10.5281/zenodo.19941679 (v1.1, current — 12pp,
++    Status: Published on Zenodo (Version 1.2 current)
++    Submission ID: DOI <NEW v1.2 record DOI to be assigned by Zenodo>
++                       (v1.2, current — 14pp, supersedes v1.1;
++                       surgical erratum revision driven by
++                       PCF2-SESSION-Q1; corrects the v1.1 candidate
++                       universality constant c(d) = 2√((d−1)!) (now
++                       empirically falsified at d = 4, ≈22%
++                       disagreement) to the linear form c(d) = d,
++                       i.e. ξ₀(b) = d/β_d^(1/d); adds Proposition
++                       3.3.A' (Newton polygon at d = 4, c(4) = 4
++                       verified spread 0 across 8 representatives
++                       at dps = 80) and Conjecture 3.3.A*
++                       (cross-degree universality), new Remark
++                       3.3.E (v1.1 falsification), and new
++                       op:xi0-d3-direct; narrows cross-referenced
++                       PCF-2 op:b4-degree-d to d ≥ 5)
++                   DOI 10.5281/zenodo.19941679 (v1.1, superseded — 12pp,
+                        carries Proposition 3.3.A (Newton-polygon
+                        ξ₀ = 2/√β₂ universality identity for
+                        degree-2 PCFs), Proposition 3.3.B (QL01/QL02
+                        (ξ₀,ρ)-non-injectivity), Remark 3.3.C
+                        (V_quad/QL15 K-SCAN coincidence structurally
+                        explained), Theorem 3.3.D (V_quad CC-channel
+                        recovery to 200 digits, exact modulo
+                        Borel-Laplace summation); bridge conjecture
+                        stratified into B1/B2/B3 tiers parametrised
+                        by coefficient tuples; eight open problems
+                        including op:cc-formal-borel and
+                        op:xi0-degree-d cross-referencing PCF-2 v1.1
+                        Conjecture B4)
+                    Cite-all DOI: 10.5281/zenodo.19941678
+     Related identifiers:
+                    Is supplement to → 10.5281/zenodo.19937196 (PCF-1 v1.3)
+                    Is supplement to → 10.5281/zenodo.19939463 (PCF-2 v1.1)
+                    Is supplement to → 10.5281/zenodo.19885550 (SIARC umbrella)
++                   Is documented by → https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF2-SESSION-Q1/
+                    Cites → 10.5281/zenodo.19915689 (T2B v3)
+                    Cites → 10.5281/zenodo.19783312 (T2B v1, channel-theory bibliography)
+                    Is documented by → https://github.com/papanokechi/siarc-relay-bridge
+                    Is documented by → https://github.com/papanokechi/pcf-research
+     Verdict: N/A
+     Notes: Empirical record on SIARC bridge under
+-           sessions/2026-05-01/CHANNEL-THEORY-V11/. Resolves
++           sessions/2026-05-01/CHANNEL-THEORY-V12/ (v1.2) and
++           sessions/2026-05-01/CHANNEL-THEORY-V11/ (v1.1). Resolves
+            op:cc-pipeline-keystone (V_quad CC-channel recovery to
+            200 digits via Newton-polygon + Birkhoff). Driver
+            sessions: BOREL-CHANNEL-K-SCAN, CC-PIPELINE-F (HALT
+            with structural finding UF-1: BoT and CC differ in
+            formal-series space D), CC-PIPELINE-G (V_quad recovery
+-           PASS, three universality findings).
++           PASS, three universality findings), PCF2-SESSION-Q1
++           (quartic harvest, c(4) = 4 verified spread 0; falsifies
++           v1.1 candidate c(d) = 2√((d−1)!); supports linear
++           c(d) = d).

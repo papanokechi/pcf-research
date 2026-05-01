@@ -1,0 +1,563 @@
+% Annotated bibliography for "Channel structure of asymptotic
+% deformations in polynomial continued fraction dynamics".
+%
+% Relevance ratings appended in the annote field:
+%   A: foundational  -- the outline cannot be stated without this
+%   B: directly relevant -- explicit construction or worked example used
+%   C: tangential / contextual -- background or analogy
+
+% =====================================================================
+% A. Borel-resummation and resurgence foundations
+% =====================================================================
+
+@book{costin2008asymptotics,
+  author    = {Costin, Ovidiu},
+  title     = {Asymptotics and {B}orel summability},
+  series    = {Chapman \& Hall/CRC Monographs and Surveys in Pure and Applied Mathematics},
+  volume    = {141},
+  publisher = {CRC Press},
+  address   = {Boca Raton, FL},
+  year      = {2008},
+  annote    = {A. Reference text for the Borel--Laplace channel.
+               Ch.~3 (formal series, Gevrey-$1$ classes) defines the
+               function space $D$ that we identify with the
+               L(t)-channel target; Ch.~5 (resurgence) supplies the
+               trans-series template used in our Borel-of-trans-series
+               channel definition.}
+}
+
+@incollection{sauzin2014resurgent,
+  author    = {Sauzin, David},
+  title     = {Resurgent functions and splitting problems},
+  booktitle = {RIMS K\^{o}ky\^{u}roku Bessatsu},
+  volume    = {B40},
+  year      = {2014},
+  pages     = {197--250},
+  annote    = {A. Singled out for the explicit treatment of the
+               alien derivative and the relationship between
+               formal-series sectorial sums and Stokes constants.
+               The "splitting" perspective frames the bridge
+               identity (Sec.~6) we conjecture between the Stokes
+               exponent and Borel-singular structure.}
+}
+
+@book{mitschi2016divergent,
+  author    = {Mitschi, Claude and Sauzin, David},
+  title     = {Divergent series, summability and resurgence {I}: {M}onodromy and resurgence},
+  series    = {Lecture Notes in Mathematics},
+  volume    = {2153},
+  publisher = {Springer},
+  year      = {2016},
+  doi       = {10.1007/978-3-319-28736-2},
+  annote    = {A. Volume I of the trilogy. Used for the
+               definition of multi-summability and the
+               classification of Stokes phenomena that we adapt
+               to PCF dynamics.}
+}
+
+@book{lodayrichaud2016divergent,
+  author    = {Loday-Richaud, Mich\`ele},
+  title     = {Divergent series, summability and resurgence {II}: {S}imple and multiple summability},
+  series    = {Lecture Notes in Mathematics},
+  volume    = {2154},
+  publisher = {Springer},
+  year      = {2016},
+  doi       = {10.1007/978-3-319-29075-1},
+  annote    = {A. Volume II. Ch.~7 (Stokes cocycles) is the
+               structural template for the connection-coefficient
+               channel.}
+}
+
+@book{delabaere2016divergent,
+  author    = {Delabaere, \'Eric},
+  title     = {Divergent series, summability and resurgence {III}: {R}esurgent methods and the first {P}ainlev\'e equation},
+  series    = {Lecture Notes in Mathematics},
+  volume    = {2155},
+  publisher = {Springer},
+  year      = {2016},
+  doi       = {10.1007/978-3-319-29000-3},
+  annote    = {B. Volume III worked-example template:
+               trans-series + Borel resummation + connection
+               formulae for $P_I$. Our Borel channel for V\_quad
+               is the discrete analogue of Delabaere's continuous
+               construction; the failure of the Pad\'e--Borel
+               radius to stabilise (Session E) shows the
+               difference equation case is more delicate.}
+}
+
+@article{ecalle1981fonctions,
+  author    = {\'Ecalle, Jean},
+  title     = {Les fonctions r\'esurgentes},
+  journal   = {Publ. Math. Orsay},
+  volume    = {81-05, 81-06, 85-05},
+  year      = {1981--1985},
+  annote    = {A. Origin of the resurgence formalism. Cited as
+               the historical anchor for the alien-calculus
+               treatment of the Borel channel.}
+}
+
+% =====================================================================
+% B. Stokes / connection-coefficient / Painleve channel
+% =====================================================================
+
+@article{costincostin2001formation,
+  author    = {Costin, O. and Costin, R. D.},
+  title     = {On the formation of singularities of solutions of nonlinear differential systems in antiStokes directions},
+  journal   = {Invent. Math.},
+  volume    = {145},
+  number    = {3},
+  year      = {2001},
+  pages     = {425--485},
+  doi       = {10.1007/s002220100153},
+  annote    = {A. Formal proof that singularity locations of
+               trans-series solutions are encoded in Stokes
+               constants. Underwrites the claim (Sec.~3) that
+               the connection-coefficient channel and the
+               Borel-of-trans-series channel are not independent
+               at the level of analytic data, even when our
+               numerical Pad\'e probes (Session E$'$) cannot
+               extract that data.}
+}
+
+@book{iwasaki1991from,
+  author    = {Iwasaki, Katsunori and Kimura, Hironobu and Shimomura, Shun and Yoshida, Masaaki},
+  title     = {From {G}auss to {P}ainlev\'e: {A} modern theory of special functions},
+  publisher = {Vieweg},
+  address   = {Braunschweig},
+  year      = {1991},
+  annote    = {A. Ch.~6 (Stokes constants for Painlev\'e
+               transcendents) gives the connection-coefficient
+               channel for $P_{II}$--$P_{VI}$. The closed-form
+               $P_{III}(D_6)$ parameters $(1/6,0,0,-1/2)$ that
+               V\_quad realises are computed in this framework.}
+}
+
+@article{boalch2001stokes,
+  author    = {Boalch, Philip},
+  title     = {Stokes matrices, {P}oisson {L}ie groups and {F}robenius manifolds},
+  journal   = {Invent. Math.},
+  volume    = {146},
+  number    = {3},
+  year      = {2001},
+  pages     = {479--506},
+  doi       = {10.1007/s002220100170},
+  annote    = {B. Stokes-matrix moduli supply the candidate
+               structure for the channel space (op:channel-moduli).
+               If the channel functor $\chi$ has a moduli interpretation
+               at all, Boalch's framework is where it must live.}
+}
+
+@article{jimbomiwa1981monodromy,
+  author    = {Jimbo, Michio and Miwa, Tetsuji},
+  title     = {Monodromy preserving deformation of linear ordinary differential equations with rational coefficients. {II}},
+  journal   = {Phys. D},
+  volume    = {2},
+  number    = {3},
+  year      = {1981},
+  pages     = {407--448},
+  annote    = {A. Isomonodromic-deformation viewpoint that
+               packages the connection-coefficient channel as a
+               moduli problem. We invoke this implicitly when
+               asserting that V\_quad's $P_{III}(D_6)$ reduction
+               lives "in" the connection channel.}
+}
+
+@article{mazzocco2001picard,
+  author    = {Mazzocco, Marta},
+  title     = {Picard and {C}hazy solutions of {P}ainlev\'e {VI}},
+  journal   = {Math. Ann.},
+  volume    = {321},
+  number    = {1},
+  year      = {2001},
+  pages     = {157--195},
+  doi       = {10.1007/PL00004499},
+  annote    = {B. Source of explicit reductions $P_{VI} \to$
+               algebraic / Picard / Chazy classes. Our T2A R1
+               candidate (UMB-PVI-MATCH) lives in this catalogue
+               if it survives further screening.}
+}
+
+@article{mazzocco2002painleve,
+  author    = {Mazzocco, Marta},
+  title     = {Painlev\'e sixth equation as isomonodromic deformations equation of an irregular system},
+  journal   = {New Trends in Integrability and Partial Solvability (NATO Sci. Ser. II)},
+  volume    = {132},
+  year      = {2004},
+  pages     = {219--238},
+  annote    = {B. Pairs the algebraic-solution catalogue of
+               \cite{mazzocco2001picard} with the isomonodromic
+               viewpoint of \cite{jimbomiwa1981monodromy}.}
+}
+
+% =====================================================================
+% C. Recurrence-parameter / L(t) channel
+% =====================================================================
+
+@book{wimp1984computation,
+  author    = {Wimp, Jet},
+  title     = {Computation with recurrence relations},
+  publisher = {Pitman},
+  address   = {Boston},
+  year      = {1984},
+  annote    = {A. Standard reference for asymptotic analysis of
+               linear recurrences. The Birkhoff--Trjitzinsky
+               normal form (Ch.~6) is the formal-series target
+               of our L(t) channel.}
+}
+
+@article{birkhofftrjitzinsky1932analytic,
+  author    = {Birkhoff, George D. and Trjitzinsky, Waldemar J.},
+  title     = {Analytic theory of singular difference equations},
+  journal   = {Acta Math.},
+  volume    = {60},
+  year      = {1932},
+  pages     = {1--89},
+  doi       = {10.1007/BF02398269},
+  annote    = {A. The original 1932 paper. Establishes the
+               $\exp$--$n^{\rho}$--power-of-$1/n$ trans-series
+               normal form whose coefficients we compute in
+               Sessions D and E.}
+}
+
+@article{costintanveer2020borel,
+  author    = {Costin, Ovidiu and Tanveer, Saleh},
+  title     = {Borel summability of the perturbative expansion of {QFT}},
+  journal   = {Annales Henri Poincar\'e},
+  year      = {2020},
+  doi       = {10.1007/s00023-020-00919-z},
+  annote    = {B. Cited for the analytic-continuation
+               perspective on what "channel" can mean: a Borel
+               sum is the analytic continuation of a formal
+               series along a chosen path. We adopt this view
+               in defining the section $S$ of a channel triple
+               $(D,T,S)$.}
+}
+
+@article{garouflia2018parametric,
+  author    = {Garoufalidis, Stavros and Costin, Ovidiu},
+  title     = {Resurgence of the {K}ontsevich-{Z}agier series},
+  journal   = {Ann. Inst. Fourier},
+  volume    = {61},
+  number    = {3},
+  year      = {2011},
+  pages     = {1225--1258},
+  annote    = {B. Worked-example of a $q$-series whose
+               recurrence parameter has a non-trivial Borel
+               structure. Gives a concrete benchmark for what
+               the L(t) channel \emph{should} look like when it
+               actually carries Painlev\'e information.}
+}
+
+% =====================================================================
+% D. Heun / Painleve / PCF-specific bridges
+% =====================================================================
+
+@book{slavyanov2000special,
+  author    = {Slavyanov, S. Yu. and Lay, Wolfgang},
+  title     = {Special functions: a unified theory based on singularities},
+  publisher = {Oxford University Press},
+  address   = {Oxford},
+  year      = {2000},
+  annote    = {A. Heun--Painlev\'e correspondence (Chs.~3--4)
+               connects second-order linear ODEs with four
+               regular singularities to $P_{VI}$ via
+               isomonodromic deformation. The PCF Casoratian
+               for V\_quad sits in this hierarchy via the
+               cited V\_quad / Heun bridge.}
+}
+
+@article{noumiyamada1998painleve,
+  author    = {Noumi, Masatoshi and Yamada, Yasuhiko},
+  title     = {Affine {W}eyl group symmetries in {P}ainlev\'e type equations},
+  journal   = {Integrable systems and algebraic geometry},
+  year      = {1998},
+  pages     = {245--259},
+  annote    = {C. Background on the symmetry group of $P_{III}$
+               that organises the parameter space in which
+               V\_quad's $(1/6,0,0,-1/2)$ point sits.}
+}
+
+@article{ohyama2006studies,
+  author    = {Ohyama, Yousuke and Kawamuko, Hiroyuki and Sakai, Hidetaka and Okamoto, Kazuo},
+  title     = {Studies on the {P}ainlev\'e equations {V}: third {P}ainlev\'e equations of type ${D}_7^{(1)}$ and ${D}_8^{(1)}$},
+  journal   = {J. Math. Sci. Univ. Tokyo},
+  volume    = {13},
+  year      = {2006},
+  pages     = {145--204},
+  annote    = {B. Type-$D_6^{(1)}$ classification of $P_{III}$
+               (companion paper). Justifies the specific
+               $D_6$ label attached to V\_quad's reduction.}
+}
+
+@article{guzzetticlass2012,
+  author    = {Guzzetti, Davide},
+  title     = {A review of the sixth {P}ainlev\'e equation},
+  journal   = {Constr. Approx.},
+  volume    = {41},
+  number    = {3},
+  year      = {2015},
+  pages     = {495--527},
+  doi       = {10.1007/s00365-014-9272-0},
+  annote    = {C. Survey-level reference for $P_{VI}$ behaviour
+               near critical points; useful for cross-checking
+               the algebraic-solution catalogue used in
+               UMB-PVI-MATCH.}
+}
+
+% =====================================================================
+% E. Continued fractions, irrationality measures, PCF dynamics
+% =====================================================================
+
+@book{lorentzen2008continued,
+  author    = {Lorentzen, Lisa and Waadeland, Haakon},
+  title     = {Continued fractions, {V}ol.~1: {C}onvergence theory},
+  edition   = {2nd},
+  publisher = {Atlantis Press},
+  year      = {2008},
+  annote    = {A. Standard reference for convergence behaviour
+               of $K(a_n / b_n)$. Pringsheim, Worpitzky, and
+               parabola theorems used implicitly throughout
+               the SIARC stack.}
+}
+
+@article{apery1979irrationalite,
+  author    = {Ap\'ery, Roger},
+  title     = {Irrationalit\'e de $\zeta(2)$ et $\zeta(3)$},
+  journal   = {Ast\'erisque},
+  volume    = {61},
+  year      = {1979},
+  pages     = {11--13},
+  annote    = {C. Historical anchor for PCF irrationality
+               proofs. Apery's recurrence is reducible (PCF-2
+               Remark "rem:apery-reducible") so it does not lie
+               in our channel-classification scope, but it is
+               the canonical positive control.}
+}
+
+@article{zudilin2002cancellations,
+  author    = {Zudilin, Wadim},
+  title     = {A few remarks on linear forms involving {C}atalan's constant},
+  journal   = {Chebyshevski\u\i\ Sbornik},
+  volume    = {3},
+  number    = {2},
+  year      = {2002},
+  pages     = {60--70},
+  annote    = {C. Survey of irrationality machinery for $G$.
+               Cited because the L(t) channel originated in
+               attempts to certify irrationality measures via
+               recurrence-parameter perturbation.}
+}
+
+@article{nesterenko1996modular,
+  author    = {Nesterenko, Yuri V.},
+  title     = {Modular functions and transcendence questions},
+  journal   = {Sb. Math.},
+  volume    = {187},
+  number    = {9},
+  year      = {1996},
+  pages     = {1319--1348},
+  annote    = {C. Background for the modular-form bridges in
+               the T2A / T2B umbrella results that motivate
+               the channel functor.}
+}
+
+% =====================================================================
+% F. SIARC stack internal references
+% =====================================================================
+
+@misc{siarc_pcf1_v13,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {{PCF}-1 v1.3: {S}tokes signal and channel scope for $\Delta<0$ degree-2 polynomial continued fractions},
+  year      = {2026},
+  doi       = {10.5281/zenodo.19937196},
+  annote    = {A. Internal. Sec.~5 introduces the L(t) channel
+               and the Stokes exponent $S$; Sec.~6 introduces
+               the V\_quad case and the connection-coefficient
+               channel reduction; Theorem~5.bis (locked WKB
+               exponent identity) is the structural anchor we
+               re-export here as Proposition~\ref{prop:wkb}.}
+}
+
+@misc{siarc_pcf2_v11,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {{PCF}-2 v1.1: {C}ubic polynomial continued fractions, the sharp {WKB} exponent identity ({C}onjecture~B4, $A=2d$), and the empirical falsification of the trichotomy split at $d=3$},
+  year      = {2026},
+  doi       = {10.5281/zenodo.19939463},
+  annote    = {A. Internal. Conjecture B4 ($A=2d$ verified $50/50$
+               cubic) and the new \textsf{op:d2-anomaly} flagging
+               the degree-$2$ split $A\in\{3,4\}$ as candidate
+               low-degree artefact. Cross-referenced from
+               \textsf{op:xi0-degree-d}.}
+}
+
+@misc{siarc_pcf2_session_q1,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {{PCF}-2 {S}ession {Q1}: quartic harvest at $d=4$ and the universal Newton-polygon characteristic root $\xi_0(b)=d/\beta_d^{1/d}$},
+  year      = {2026},
+  howpublished = {SIARC bridge, sessions/2026-05-01/PCF2-SESSION-Q1/},
+  url       = {https://github.com/papanokechi/siarc-relay-bridge/tree/main/sessions/2026-05-01/PCF2-SESSION-Q1/},
+  annote    = {A. Internal. Confirms PCF-2 Conjecture B4 at $d=4$
+               ($60/60$, mean $A=7.954$, $\sigma=3.7\times 10^{-3}$)
+               and proves the linear universality
+               $\xi_0=d/\beta_d^{1/d}$ at $d=4$ via direct
+               Newton-polygon analysis (spread $0$ at $\mathrm{dps}=80$
+               across $8$ representatives). Falsifies the v1.1
+               candidate $c(d)=2\sqrt{(d-1)!}$.}
+}
+
+@misc{siarc_pcf2_v12_toappear,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {{PCF}-2 v1.2 (to appear): cubic-and-quartic catalogue and the linear cross-degree universality $\xi_0=d/\beta_d^{1/d}$},
+  year      = {2026},
+  doi       = {10.5281/zenodo.19936297},
+  note      = {Cite-all (concept) DOI; v1.2 to appear.},
+  annote    = {A. Internal placeholder. Folds in PCF2-SESSION-Q1
+               at $d=4$; supersedes v1.1 (10.5281/zenodo.19939463).
+               Status: drafted, not yet released.}
+}
+
+@misc{siarc_cc_pipeline_f,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {Session {CC-PIPELINE-F}: first-pass connection-coefficient channel via {D}omb--{S}ykes and the {UF-1} formal-series-space disagreement},
+  year      = {2026},
+  howpublished = {SIARC bridge, sessions/2026-05-01/CC-PIPELINE-F/},
+  annote    = {A. Internal. Establishes that the BoT trans-series
+               of $\log|\delta_n|$ and the CC-channel formal
+               series of the generating function $f(z)=\sum Q_n z^n$
+               live in different formal-series spaces $\mathcal D$:
+               the literature constant $\xi_0=2/\sqrt{3}$ for
+               V$_{\text{quad}}$ is recovered to $-0.5$ digits in
+               the BoT space (HALT) and to $200$ digits in the
+               $u=\sqrt z$ space of CC-PIPELINE-G.}
+}
+
+@misc{siarc_cc_pipeline_g,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {Session {CC-PIPELINE-G}: {N}ewton-polygon $+$ {B}irkhoff recovery of $\xi_0=2/\sqrt{\beta_2}$ and the universality identities for degree-$2$ {PCF}s},
+  year      = {2026},
+  howpublished = {SIARC bridge, sessions/2026-05-01/CC-PIPELINE-G/},
+  annote    = {A. Internal. Proves $\xi_0=2/\sqrt{\beta_2}$,
+               $\rho=-3/2-\beta_1/\beta_2$ (Proposition~\ref{prop:xi0});
+               recovers V$_{\text{quad}}$'s literature value to
+               $200$ digits as exact algebraic identity
+               (Theorem~\ref{thm:vquad-cc}); demonstrates non-injectivity
+               of $\xi_0$ on the QL01/QL02 pair (Proposition~\ref{prop:noninj}).}
+}
+
+@misc{siarc_pcf2_program,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {{PCF}-2 program statement: cubic polynomial continued fractions and the {Galois} stratification conjecture},
+  year      = {2026},
+  doi       = {10.5281/zenodo.19936298},
+  annote    = {B. Internal. B3(iv) softens the Painlev\'e
+               commitment to a "$P_{II}$--$P_{VI}$ hierarchy"
+               and flags the channel question as open. Direct
+               motivation for op:cubic-channels.}
+}
+
+@misc{siarc_t2b_v3,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {{T2B} v3: {C}lass-{B} saturation and the {P}-06 / 140-family {P}ainlev\'e fingerprint},
+  year      = {2026},
+  doi       = {10.5281/zenodo.19915689},
+  annote    = {B. Internal. Class B 16/16 $\to P_{III}(D_6)$;
+               one $P_{VI}$-Picard rigidity candidate (A052)
+               surfaces the moduli-side picture relevant to
+               op:channel-moduli.}
+}
+
+@misc{siarc_umbrella,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {{SIARC} umbrella: a master conjecture on functorial channel assignment in asymptotic deformation theory of polynomial continued fractions},
+  year      = {2026},
+  doi       = {10.5281/zenodo.19885550},
+  annote    = {A. Internal. The Master Conjecture's channel
+               functor $\chi : \Sigma \to \mathbf{Channel}$ is
+               stated here. The present outline is the
+               structural prerequisite for that announcement.}
+}
+
+@misc{siarc_painleve_deep_6x,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {Session {D}: {P}ainlev\'e-deep $6\times$ across $\Delta<0$ degree-2 {PCF}s ({L(t)} channel)},
+  year      = {2026},
+  howpublished = {SIARC bridge, sessions/2026-05-01/PAINLEVE-DEEP-6X/},
+  annote    = {A. Internal. Empirical basis for the no-go
+               theorem of Sec.~5: 0/6 families admit a
+               Painlev\'e fit at residual $\le 10^{-4}$ in the
+               L(t) channel.}
+}
+
+@misc{siarc_borel_5x,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {Session {E}: {B}orel channel $5\times$ {V\_quad} cross-validation},
+  year      = {2026},
+  howpublished = {SIARC bridge, sessions/2026-05-01/BOREL-CHANNEL-5X/},
+  annote    = {A. Internal. V\_quad's gate-test failure under
+               1/n trans-series Borel resummation. Establishes
+               that the Borel-of-trans-series channel, as
+               currently operationalised, does not detect
+               $P_{III}(D_6)$ for V\_quad.}
+}
+
+@misc{siarc_borel_kscan,
+  author    = {Pap{\'a}-Nokechi},
+  title     = {Session {E}$'$: {B}orel channel {K}-scan and {P}ad\'e-truncation diagnosis},
+  year      = {2026},
+  howpublished = {SIARC bridge, sessions/2026-05-01/BOREL-CHANNEL-K-SCAN/},
+  annote    = {A. Internal. Confirms the BOREL CHANNEL
+               ANOMALOUS flag by showing the two Session-E
+               marginal hits (QL15, QL26) drift under
+               $K$-extension. Locks the WKB-exponent identity
+               at $\ge 13$ digits for all 6 families.}
+}
+
+% =====================================================================
+% G. Tangential / structural background
+% =====================================================================
+
+@article{voros1983return,
+  author    = {Voros, Andr\'e},
+  title     = {The return of the quartic oscillator. {T}he complex {WKB} method},
+  journal   = {Ann. Inst. H. Poincar\'e A},
+  volume    = {39},
+  number    = {3},
+  year      = {1983},
+  pages     = {211--338},
+  annote    = {C. Foundational template for WKB exponents in
+               the continuous setting. Our $\alpha = A - 2\log
+               c_b + \log|c_a|$ identity is the discrete
+               analogue.}
+}
+
+@article{vanderputsinger2003galois,
+  author    = {van der Put, Marius and Singer, Michael F.},
+  title     = {Galois theory of linear differential equations},
+  journal   = {Grundlehren der mathematischen Wissenschaften},
+  volume    = {328},
+  publisher = {Springer},
+  year      = {2003},
+  annote    = {C. Differential-Galois background for the
+               isomonodromic / connection-coefficient channel.}
+}
+
+@book{andrews1976theory,
+  author    = {Andrews, George E.},
+  title     = {The theory of partitions},
+  publisher = {Addison-Wesley},
+  year      = {1976},
+  annote    = {C. Background for the speculative
+               op:partition-link bridge to Meinardus universality
+               (G-01) and SIARC Path 5.}
+}
+
+@article{meinardus1954asymptotische,
+  author    = {Meinardus, G\"unter},
+  title     = {Asymptotische {A}ussagen \"uber {P}artitionen},
+  journal   = {Math. Z.},
+  volume    = {59},
+  year      = {1954},
+  pages     = {388--398},
+  annote    = {C. The original Meinardus theorem invoked in
+               op:partition-link.}
+}

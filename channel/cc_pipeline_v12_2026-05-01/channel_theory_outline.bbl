@@ -1,0 +1,167 @@
+\begin{thebibliography}{10}
+
+\bibitem{birkhofftrjitzinsky1932analytic}
+George~D. Birkhoff and Waldemar~J. Trjitzinsky.
+\newblock Analytic theory of singular difference equations.
+\newblock {\em Acta Math.}, 60:1--89, 1932.
+
+\bibitem{boalch2001stokes}
+Philip Boalch.
+\newblock Stokes matrices, {P}oisson {L}ie groups and {F}robenius manifolds.
+\newblock {\em Invent. Math.}, 146(3):479--506, 2001.
+
+\bibitem{costin2008asymptotics}
+Ovidiu Costin.
+\newblock {\em Asymptotics and {B}orel summability}, volume 141 of {\em Chapman
+  \& Hall/CRC Monographs and Surveys in Pure and Applied Mathematics}.
+\newblock CRC Press, Boca Raton, FL, 2008.
+
+\bibitem{delabaere2016divergent}
+\'Eric Delabaere.
+\newblock {\em Divergent series, summability and resurgence {III}: {R}esurgent
+  methods and the first {P}ainlev\'e equation}, volume 2155 of {\em Lecture
+  Notes in Mathematics}.
+\newblock Springer, 2016.
+
+\bibitem{ecalle1981fonctions}
+Jean \'Ecalle.
+\newblock Les fonctions r\'esurgentes.
+\newblock {\em Publ. Math. Orsay}, 81-05, 81-06, 85-05, 1981--1985.
+
+\bibitem{guzzetticlass2012}
+Davide Guzzetti.
+\newblock A review of the sixth {P}ainlev\'e equation.
+\newblock {\em Constr. Approx.}, 41(3):495--527, 2015.
+
+\bibitem{iwasaki1991from}
+Katsunori Iwasaki, Hironobu Kimura, Shun Shimomura, and Masaaki Yoshida.
+\newblock {\em From {G}auss to {P}ainlev\'e: {A} modern theory of special
+  functions}.
+\newblock Vieweg, Braunschweig, 1991.
+
+\bibitem{jimbomiwa1981monodromy}
+Michio Jimbo and Tetsuji Miwa.
+\newblock Monodromy preserving deformation of linear ordinary differential
+  equations with rational coefficients. {II}.
+\newblock {\em Phys. D}, 2(3):407--448, 1981.
+
+\bibitem{lodayrichaud2016divergent}
+Mich\`ele Loday-Richaud.
+\newblock {\em Divergent series, summability and resurgence {II}: {S}imple and
+  multiple summability}, volume 2154 of {\em Lecture Notes in Mathematics}.
+\newblock Springer, 2016.
+
+\bibitem{lorentzen2008continued}
+Lisa Lorentzen and Haakon Waadeland.
+\newblock {\em Continued fractions, {V}ol.~1: {C}onvergence theory}.
+\newblock Atlantis Press, 2nd edition, 2008.
+
+\bibitem{mazzocco2001picard}
+Marta Mazzocco.
+\newblock Picard and {C}hazy solutions of {P}ainlev\'e {VI}.
+\newblock {\em Math. Ann.}, 321(1):157--195, 2001.
+
+\bibitem{mazzocco2002painleve}
+Marta Mazzocco.
+\newblock Painlev\'e sixth equation as isomonodromic deformations equation of
+  an irregular system.
+\newblock {\em New Trends in Integrability and Partial Solvability (NATO Sci.
+  Ser. II)}, 132:219--238, 2004.
+
+\bibitem{mitschi2016divergent}
+Claude Mitschi and David Sauzin.
+\newblock {\em Divergent series, summability and resurgence {I}: {M}onodromy
+  and resurgence}, volume 2153 of {\em Lecture Notes in Mathematics}.
+\newblock Springer, 2016.
+
+\bibitem{ohyama2006studies}
+Yousuke Ohyama, Hiroyuki Kawamuko, Hidetaka Sakai, and Kazuo Okamoto.
+\newblock Studies on the {P}ainlev\'e equations {V}: third {P}ainlev\'e
+  equations of type ${D}_7^{(1)}$ and ${D}_8^{(1)}$.
+\newblock {\em J. Math. Sci. Univ. Tokyo}, 13:145--204, 2006.
+
+\bibitem{siarc_pcf1_v13}
+Pap{\'a}-Nokechi.
+\newblock {PCF}-1 v1.3: {S}tokes signal and channel scope for $\delta<0$
+  degree-2 polynomial continued fractions, 2026.
+
+\bibitem{siarc_pcf2_program}
+Pap{\'a}-Nokechi.
+\newblock {PCF}-2 program statement: cubic polynomial continued fractions and
+  the {Galois} stratification conjecture, 2026.
+
+\bibitem{siarc_pcf2_session_q1}
+Pap{\'a}-Nokechi.
+\newblock {PCF}-2 {S}ession {Q1}: quartic harvest at $d=4$ and the universal
+  newton-polygon characteristic root $\xi_0(b)=d/\beta_d^{1/d}$.
+\newblock SIARC bridge, sessions/2026-05-01/PCF2-SESSION-Q1/, 2026.
+
+\bibitem{siarc_pcf2_v11}
+Pap{\'a}-Nokechi.
+\newblock {PCF}-2 v1.1: {C}ubic polynomial continued fractions, the sharp {WKB}
+  exponent identity ({C}onjecture~b4, $a=2d$), and the empirical falsification
+  of the trichotomy split at $d=3$, 2026.
+
+\bibitem{siarc_cc_pipeline_f}
+Pap{\'a}-Nokechi.
+\newblock Session {CC-PIPELINE-F}: first-pass connection-coefficient channel
+  via {D}omb--{S}ykes and the {UF-1} formal-series-space disagreement.
+\newblock SIARC bridge, sessions/2026-05-01/CC-PIPELINE-F/, 2026.
+
+\bibitem{siarc_cc_pipeline_g}
+Pap{\'a}-Nokechi.
+\newblock Session {CC-PIPELINE-G}: {N}ewton-polygon $+$ {B}irkhoff recovery of
+  $\xi_0=2/\sqrt{\beta_2}$ and the universality identities for degree-$2$
+  {PCF}s.
+\newblock SIARC bridge, sessions/2026-05-01/CC-PIPELINE-G/, 2026.
+
+\bibitem{siarc_painleve_deep_6x}
+Pap{\'a}-Nokechi.
+\newblock Session {D}: {P}ainlev\'e-deep $6\times$ across $\delta<0$ degree-2
+  {PCF}s ({L(t)} channel).
+\newblock SIARC bridge, sessions/2026-05-01/PAINLEVE-DEEP-6X/, 2026.
+
+\bibitem{siarc_borel_5x}
+Pap{\'a}-Nokechi.
+\newblock Session {E}: {B}orel channel $5\times$ {V\_quad} cross-validation.
+\newblock SIARC bridge, sessions/2026-05-01/BOREL-CHANNEL-5X/, 2026.
+
+\bibitem{siarc_borel_kscan}
+Pap{\'a}-Nokechi.
+\newblock Session {E}$'$: {B}orel channel {K}-scan and {P}ad\'e-truncation
+  diagnosis.
+\newblock SIARC bridge, sessions/2026-05-01/BOREL-CHANNEL-K-SCAN/, 2026.
+
+\bibitem{siarc_umbrella}
+Pap{\'a}-Nokechi.
+\newblock {SIARC} umbrella: a master conjecture on functorial channel
+  assignment in asymptotic deformation theory of polynomial continued
+  fractions, 2026.
+
+\bibitem{siarc_t2b_v3}
+Pap{\'a}-Nokechi.
+\newblock {T2B} v3: {C}lass-{B} saturation and the {P}-06 / 140-family
+  {P}ainlev\'e fingerprint, 2026.
+
+\bibitem{sauzin2014resurgent}
+David Sauzin.
+\newblock Resurgent functions and splitting problems.
+\newblock In {\em RIMS K\^{o}ky\^{u}roku Bessatsu}, volume B40, pages 197--250.
+  2014.
+
+\bibitem{slavyanov2000special}
+S.~Yu. Slavyanov and Wolfgang Lay.
+\newblock {\em Special functions: a unified theory based on singularities}.
+\newblock Oxford University Press, Oxford, 2000.
+
+\bibitem{vanderputsinger2003galois}
+Marius van~der Put and Michael~F. Singer.
+\newblock Galois theory of linear differential equations.
+\newblock {\em Grundlehren der mathematischen Wissenschaften}, 328, 2003.
+
+\bibitem{wimp1984computation}
+Jet Wimp.
+\newblock {\em Computation with recurrence relations}.
+\newblock Pitman, Boston, 1984.
+
+\end{thebibliography}

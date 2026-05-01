@@ -1,0 +1,10 @@
+{
+  "v1.1_candidate_c_d_falsified_at_d4": {
+    "v1.1_prediction": "c(d) = 2*sqrt((d-1)!)  =>  c(4) = 2*sqrt(6) ~= 4.8989794855663558",
+    "Q1_measurement": "c(4) = 4 with spread 0 at dps=80 across 8 representatives",
+    "relative_disagreement": "~22%",
+    "status": "expected; v1.2 corrects to c(d) = d (linear)",
+    "halt_triggered": false,
+    "note": "Not a halt -- v1.2 was commissioned precisely to correct this. PCF2-SESSION-Q1 is the falsifying session."
+  }
+}
