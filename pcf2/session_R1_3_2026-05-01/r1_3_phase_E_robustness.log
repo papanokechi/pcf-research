@@ -1,0 +1,23 @@
+Phase R13-E robustness: 99 clean j=0 quartics
+
+=== Spearman: delta vs coefficient invariants (j=0 cell only) ===
+  |a3|+|a2|+|a1|+|a0|       rho=-0.2810, raw_p=0.00485
+  max(|a3|,...,|a0|)        rho=-0.1050, raw_p=0.301
+  log(|Delta_4|+1)          rho=-0.1953, raw_p=0.0527
+  a4                        rho=+0.5145, raw_p=5.11e-08
+
+=== Pearson: |delta| vs coefficient invariants ===
+  |a3|+|a2|+|a1|+|a0|       pearson=+0.3247, p=0.00104
+  max(|a3|,...,|a0|)        pearson=+0.1531, p=0.13
+  a4                        pearson=-0.4469, p=3.53e-06
+
+=== Coefficient-magnitude comparison ===
+j=0 cell (n=99)    abs_sum range: [5, 14], median=10.0
+Q1 non-j=0 cluster (n=59) abs_sum range: [6, 12], median=9.0
+
+=== Stratified test: j=0 quartics whose abs_sum is within Q1 cluster band ===
+j=0 in band: n=77, range [-8.2140e-03, 6.9895e-04], median=-2.1542e-03
+Q1 non-j=0:  n=59, range [-3.8265e-03, -3.1862e-03], median=-3.7273e-03
+Mann-Whitney U=3381.0, p=1.12e-06
+
+wrote phase_E_robustness.json

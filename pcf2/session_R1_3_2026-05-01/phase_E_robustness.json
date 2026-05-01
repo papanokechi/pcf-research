@@ -1,0 +1,38 @@
+{
+  "task_id": "PCF2-SESSION-R1.3",
+  "phase": "E_robustness",
+  "n_j0_clean": 99,
+  "j0_delta_summary": {
+    "min": -0.010690929917580583,
+    "max": 0.0006989514137067943,
+    "median": -0.0024932652938094435
+  },
+  "j0_abs_sum_summary": {
+    "min": 5,
+    "max": 14,
+    "median": 10.0
+  },
+  "q1_nonj0_delta_summary": {
+    "min": -0.0038265045357794847,
+    "max": -0.003186185361388816,
+    "median": -0.003727271642538277
+  },
+  "q1_abs_sum_summary": {
+    "min": 6,
+    "max": 12,
+    "median": 9.0
+  },
+  "stratified": {
+    "band": [
+      6.0,
+      12.0
+    ],
+    "n_j0_in_band": 77,
+    "j0_in_band_median": -0.002154199818670932,
+    "j0_in_band_min": -0.008214039041073207,
+    "j0_in_band_max": 0.0006989514137067943,
+    "q1_nonj0_median": -0.003727271642538277,
+    "mannwhitney_U": 3381.0,
+    "mannwhitney_p": 1.1184196849012528e-06
+  }
+}

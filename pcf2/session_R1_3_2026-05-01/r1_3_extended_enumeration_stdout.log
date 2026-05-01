@@ -1,0 +1,111 @@
+[23:44:00] R13-C extended quartic enumeration: dps=2000, fit window N=[50,250], N_ref=400
+[23:44:00] Q1 catalogue: 60 known families
+[23:44:00] --- Enumerating window W=5 (a3..a0 in [-5..5]) ---
+[23:44:02]   totals: candidates=73205, primitive=72417, I=0=237, I=0 new+irred+nondeg=101
+[23:44:02]   cell size 101 >= 4 at W=5, stopping escalation.
+[23:44:02] Final j=0 cell (extended, NEW): 101 families at W=5
+[23:44:06]   wrote extended_quartic_catalogue.json
+[23:44:06] --- WKB tail fit on 101 new j=0 quartics ---
+[23:44:09]   cand  1/101 coeffs=[1, -5, -3, -3, 3] Gal=S_4          A_free=7.99241 (delta=-7.5862e-03) resid@maxN=+4.6489e-03 std=2.6155e-03 dt=3.4s
+[23:44:12]   cand  2/101 coeffs=[1, -5, 0, -4, 5] Gal=S_4          A_free=7.99420 (delta=-5.7953e-03) resid@maxN=+3.5524e-03 std=1.9980e-03 dt=3.0s
+[23:44:16]   cand  3/101 coeffs=[1, -5, 0, 4, -5] Gal=S_4          A_free=7.99437 (delta=-5.6348e-03) resid@maxN=+3.4596e-03 std=1.9421e-03 dt=3.7s
+[23:44:19]   cand  4/101 coeffs=[1, -5, 3, -3, 3] Gal=S_4          A_free=7.99603 (delta=-3.9701e-03) resid@maxN=+2.4358e-03 std=1.3685e-03 dt=2.8s
+[23:44:21]   cand  5/101 coeffs=[1, -5, 3, 1, -2] Gal=S_4          A_free=7.99611 (delta=-3.8900e-03) resid@maxN=+2.3895e-03 std=1.3407e-03 dt=2.6s
+[23:44:24]   cand  6/101 coeffs=[1, -4, 0, -5, 5] Gal=S_4          A_free=7.99633 (delta=-3.6660e-03) resid@maxN=+2.2499e-03 std=1.2637e-03 dt=3.0s
+[23:44:27]   cand  7/101 coeffs=[1, -4, 0, -4, 4] Gal=S_4          A_free=7.99635 (delta=-3.6464e-03) resid@maxN=+2.2385e-03 std=1.2568e-03 dt=2.8s
+[23:44:29]   cand  8/101 coeffs=[1, -4, 0, -3, 3] Gal=S_4          A_free=7.99637 (delta=-3.6267e-03) resid@maxN=+2.2272e-03 std=1.2500e-03 dt=2.3s
+[23:44:32]   cand  9/101 coeffs=[1, -4, 0, -2, 2] Gal=S_4          A_free=7.99639 (delta=-3.6071e-03) resid@maxN=+2.2158e-03 std=1.2431e-03 dt=2.7s
+[23:44:35]   cand 10/101 coeffs=[1, -4, 0, -1, 1] Gal=S_4          A_free=7.99641 (delta=-3.5874e-03) resid@maxN=+2.2044e-03 std=1.2363e-03 dt=2.5s
+[23:44:37]   cand 11/101 coeffs=[1, -4, 0, 1, -1] Gal=S_4          A_free=7.99645 (delta=-3.5481e-03) resid@maxN=+2.1817e-03 std=1.2226e-03 dt=2.4s
+[23:44:39]   cand 12/101 coeffs=[1, -4, 0, 2, -2] Gal=S_4          A_free=7.99647 (delta=-3.5285e-03) resid@maxN=+2.1703e-03 std=1.2158e-03 dt=2.4s
+[23:44:42]   cand 13/101 coeffs=[1, -4, 0, 3, -3] Gal=S_4          A_free=7.99649 (delta=-3.5088e-03) resid@maxN=+2.1589e-03 std=1.2090e-03 dt=2.4s
+[23:44:44]   cand 14/101 coeffs=[1, -4, 0, 4, -4] Gal=S_4          A_free=7.99651 (delta=-3.4891e-03) resid@maxN=+2.1476e-03 std=1.2021e-03 dt=2.4s
+[23:44:47]   cand 15/101 coeffs=[1, -4, 0, 5, -5] Gal=S_4          A_free=7.99653 (delta=-3.4695e-03) resid@maxN=+2.1362e-03 std=1.1953e-03 dt=2.3s
+[23:44:49]   cand 16/101 coeffs=[1, -3, -3, -5, 3] Gal=S_4          A_free=7.99614 (delta=-3.8629e-03) resid@maxN=+2.3741e-03 std=1.3312e-03 dt=2.3s
+[23:44:51]   cand 17/101 coeffs=[1, -3, 0, -4, 3] Gal=S_4          A_free=7.99783 (delta=-2.1668e-03) resid@maxN=+1.3319e-03 std=7.4670e-04 dt=2.5s
+[23:44:54]   cand 18/101 coeffs=[1, -3, 0, 4, -3] Gal=S_4          A_free=7.99799 (delta=-2.0127e-03) resid@maxN=+1.2426e-03 std=6.9313e-04 dt=2.5s
+[23:44:56]   cand 19/101 coeffs=[1, -3, 3, -5, 3] Gal=S_4          A_free=7.99949 (delta=-5.1456e-04) resid@maxN=+3.1479e-04 std=1.7745e-04 dt=2.5s
+[23:44:59]   cand 20/101 coeffs=[1, -3, 3, 3, -3] Gal=S_4          A_free=7.99964 (delta=-3.6145e-04) resid@maxN=+2.3051e-04 std=1.2421e-04 dt=2.2s
+[23:45:01]   cand 21/101 coeffs=[1, -2, 0, -4, 2] Gal=S_4          A_free=7.99879 (delta=-1.2102e-03) resid@maxN=+1.4904e-04 std=4.3351e-04 dt=2.1s
+[23:45:03]   cand 22/101 coeffs=[1, -2, 0, -2, 1] Gal=D_4          A_free=7.99874 (delta=-1.2573e-03) resid@maxN=+6.9031e-04 std=4.3405e-04 dt=2.3s
+[23:45:06]   cand 23/101 coeffs=[1, -2, 0, 4, -2] Gal=D_4          A_free=7.99950 (delta=-5.0174e-04) resid@maxN=-3.6390e-03 std=6.8909e-04 dt=2.5s
+[23:45:08]   cand 24/101 coeffs=[1, -1, -3, 1, -1] Gal=S_4          A_free=7.87383 (delta=-1.2617e-01) resid@maxN=+8.2253e-01 std=1.2960e-01 dt=2.6s
+[23:45:11]   cand 25/101 coeffs=[1, -1, 0, -4, 1] Gal=S_4          A_free=8.06010 (delta=+6.0104e-02) resid@maxN=-4.0519e-01 std=6.3844e-02 dt=2.5s
+[23:45:13]   cand 26/101 coeffs=[1, -1, 0, 4, -1] Gal=S_4          A_free=7.99911 (delta=-8.9383e-04) resid@maxN=+5.3065e-04 std=2.9381e-04 dt=2.2s
+[23:45:15]   cand 27/101 coeffs=[1, -1, 3, 1, -1] Gal=S_4          A_free=8.00062 (delta=+6.2342e-04) resid@maxN=-3.6809e-04 std=2.0508e-04 dt=2.5s
+[23:45:18]   cand 28/101 coeffs=[1, -1, 3, 5, -2] Gal=S_4          A_free=8.00070 (delta=+6.9895e-04) resid@maxN=-4.1006e-04 std=2.3015e-04 dt=2.3s
+[23:45:20]   cand 29/101 coeffs=[1, 1, -3, -1, -1] Gal=S_4          A_free=7.99651 (delta=-3.4872e-03) resid@maxN=+2.0642e-03 std=1.1468e-03 dt=2.6s
+[23:45:22]   cand 30/101 coeffs=[1, 1, 0, -4, -1] Gal=S_4          A_free=7.99793 (delta=-2.0744e-03) resid@maxN=+1.2237e-03 std=6.8249e-04 dt=2.2s
+[23:45:25]   cand 31/101 coeffs=[1, 1, 0, 4, 1] Gal=S_4          A_free=7.99807 (delta=-1.9286e-03) resid@maxN=+1.1426e-03 std=6.3414e-04 dt=2.7s
+[23:45:27]   cand 32/101 coeffs=[1, 1, 3, -5, -2] Gal=S_4          A_free=7.99937 (delta=-6.2964e-04) resid@maxN=+3.6540e-04 std=2.0769e-04 dt=2.2s
+[23:45:30]   cand 33/101 coeffs=[1, 1, 3, -1, -1] Gal=S_4          A_free=7.99944 (delta=-5.5688e-04) resid@maxN=+3.2489e-04 std=1.8353e-04 dt=2.5s
+[23:45:32]   cand 34/101 coeffs=[1, 2, 0, -4, -2] Gal=D_4          A_free=7.99669 (delta=-3.3133e-03) resid@maxN=+1.9585e-03 std=1.0898e-03 dt=2.5s
+[23:45:35]   cand 35/101 coeffs=[1, 2, 0, 2, 1] Gal=D_4          A_free=7.99679 (delta=-3.2060e-03) resid@maxN=+1.8987e-03 std=1.0542e-03 dt=2.6s
+[23:45:38]   cand 36/101 coeffs=[1, 2, 0, 4, 2] Gal=S_4          A_free=7.99683 (delta=-3.1702e-03) resid@maxN=+1.8787e-03 std=1.0423e-03 dt=2.5s
+[23:45:40]   cand 37/101 coeffs=[1, 3, -3, -3, -3] Gal=S_4          A_free=7.99366 (delta=-6.3389e-03) resid@maxN=+3.7594e-03 std=2.0840e-03 dt=2.5s
+[23:45:43]   cand 38/101 coeffs=[1, 3, -3, 5, 3] Gal=S_4          A_free=7.99380 (delta=-6.1981e-03) resid@maxN=+3.6808e-03 std=2.0373e-03 dt=2.6s
+[23:45:45]   cand 39/101 coeffs=[1, 3, 0, -4, -3] Gal=S_4          A_free=7.99501 (delta=-4.9901e-03) resid@maxN=+2.9548e-03 std=1.6409e-03 dt=2.7s
+[23:45:48]   cand 40/101 coeffs=[1, 3, 0, 4, 3] Gal=S_4          A_free=7.99515 (delta=-4.8494e-03) resid@maxN=+2.8764e-03 std=1.5943e-03 dt=2.5s
+[23:45:50]   cand 41/101 coeffs=[1, 3, 3, -3, -3] Gal=S_4          A_free=7.99639 (delta=-3.6104e-03) resid@maxN=+2.1329e-03 std=1.1876e-03 dt=2.5s
+[23:45:53]   cand 42/101 coeffs=[1, 3, 3, 5, 3] Gal=S_4          A_free=7.99653 (delta=-3.4700e-03) resid@maxN=+2.0546e-03 std=1.1411e-03 dt=2.6s
+[23:45:55]   cand 43/101 coeffs=[1, 4, 0, -5, -5] Gal=S_4          A_free=7.99291 (delta=-7.0910e-03) resid@maxN=+4.2050e-03 std=2.3313e-03 dt=2.3s
+[23:45:57]   cand 44/101 coeffs=[1, 4, 0, -4, -4] Gal=S_4          A_free=7.99293 (delta=-7.0737e-03) resid@maxN=+4.1954e-03 std=2.3255e-03 dt=2.2s
+[23:46:00]   cand 45/101 coeffs=[1, 4, 0, -3, -3] Gal=S_4          A_free=7.99294 (delta=-7.0564e-03) resid@maxN=+4.1857e-03 std=2.3198e-03 dt=2.3s
+[23:46:02]   cand 46/101 coeffs=[1, 4, 0, -2, -2] Gal=S_4          A_free=7.99296 (delta=-7.0391e-03) resid@maxN=+4.1761e-03 std=2.3141e-03 dt=2.4s
+[23:46:04]   cand 47/101 coeffs=[1, 4, 0, -1, -1] Gal=S_4          A_free=7.99298 (delta=-7.0219e-03) resid@maxN=+4.1664e-03 std=2.3084e-03 dt=2.3s
+[23:46:07]   cand 48/101 coeffs=[1, 4, 0, 1, 1] Gal=S_4          A_free=7.99301 (delta=-6.9873e-03) resid@maxN=+4.1471e-03 std=2.2969e-03 dt=2.6s
+[23:46:10]   cand 49/101 coeffs=[1, 4, 0, 2, 2] Gal=S_4          A_free=7.99303 (delta=-6.9700e-03) resid@maxN=+4.1375e-03 std=2.2912e-03 dt=2.5s
+[23:46:12]   cand 50/101 coeffs=[1, 4, 0, 3, 3] Gal=S_4          A_free=7.99305 (delta=-6.9527e-03) resid@maxN=+4.1278e-03 std=2.2854e-03 dt=2.5s
+[23:46:14]   cand 51/101 coeffs=[1, 4, 0, 4, 4] Gal=S_4          A_free=7.99306 (delta=-6.9355e-03) resid@maxN=+4.1182e-03 std=2.2797e-03 dt=2.4s
+[23:46:17]   cand 52/101 coeffs=[1, 4, 0, 5, 5] Gal=S_4          A_free=7.99308 (delta=-6.9182e-03) resid@maxN=+4.1085e-03 std=2.2740e-03 dt=2.4s
+[23:46:19]   cand 53/101 coeffs=[1, 5, -3, 3, 3] Gal=S_4          A_free=7.98931 (delta=-1.0691e-02) resid@maxN=+6.3601e-03 std=3.5133e-03 dt=2.5s
+[23:46:22]   cand 54/101 coeffs=[1, 5, 0, -4, -5] Gal=S_4          A_free=7.99046 (delta=-9.5355e-03) resid@maxN=+5.6639e-03 std=3.1342e-03 dt=2.5s
+[23:46:24]   cand 55/101 coeffs=[1, 5, 0, 4, 5] Gal=S_4          A_free=7.99060 (delta=-9.3996e-03) resid@maxN=+5.5880e-03 std=3.0892e-03 dt=2.6s
+[23:46:27]   cand 56/101 coeffs=[1, 5, 3, -1, -2] Gal=S_4          A_free=7.99179 (delta=-8.2140e-03) resid@maxN=+4.8749e-03 std=2.7002e-03 dt=2.9s
+[23:46:30]   cand 57/101 coeffs=[1, 5, 3, 3, 3] Gal=S_4          A_free=7.99185 (delta=-8.1462e-03) resid@maxN=+4.8370e-03 std=2.6777e-03 dt=2.6s
+[23:46:33]   cand 58/101 coeffs=[2, -5, -3, 1, -1] Gal=S_4          A_free=7.99749 (delta=-2.5118e-03) resid@maxN=+1.3490e-03 std=7.5157e-04 dt=2.6s
+[23:46:35]   cand 59/101 coeffs=[2, -4, 0, -2, 1] Gal=S_4          A_free=7.99869 (delta=-1.3111e-03) resid@maxN=+7.0430e-04 std=3.9229e-04 dt=2.9s
+[23:46:38]   cand 60/101 coeffs=[2, -4, 0, 2, -1] Gal=D_4          A_free=7.99873 (delta=-1.2708e-03) resid@maxN=+6.8391e-04 std=3.8014e-04 dt=2.3s
+[23:46:41]   cand 61/101 coeffs=[2, -2, 0, -4, 1] Gal=S_4          A_free=7.99896 (delta=-1.0388e-03) resid@maxN=+5.5782e-04 std=3.1084e-04 dt=2.9s
+[23:46:43]   cand 62/101 coeffs=[2, -2, 0, 4, -1] Gal=S_4          A_free=7.99904 (delta=-9.5987e-04) resid@maxN=+5.1778e-04 std=2.8702e-04 dt=2.8s
+[23:46:46]   cand 63/101 coeffs=[2, -1, -3, 5, -1] Gal=S_4          A_free=7.99818 (delta=-1.8161e-03) resid@maxN=+9.7948e-04 std=5.4309e-04 dt=2.8s
+[23:46:49]   cand 64/101 coeffs=[2, 1, -3, -5, -1] Gal=S_4          A_free=7.99758 (delta=-2.4206e-03) resid@maxN=+1.3029e-03 std=7.2403e-04 dt=2.7s
+[23:46:52]   cand 65/101 coeffs=[2, 2, 0, -4, -1] Gal=S_4          A_free=7.99790 (delta=-2.1008e-03) resid@maxN=+1.1302e-03 std=6.2844e-04 dt=2.8s
+[23:46:55]   cand 66/101 coeffs=[2, 2, 0, 4, 1] Gal=S_4          A_free=7.99798 (delta=-2.0248e-03) resid@maxN=+1.0916e-03 std=6.0551e-04 dt=2.8s
+[23:46:57]   cand 67/101 coeffs=[2, 4, 0, -2, -1] Gal=D_4          A_free=7.99664 (delta=-3.3589e-03) resid@maxN=+1.8105e-03 std=1.0045e-03 dt=2.7s
+[23:47:00]   cand 68/101 coeffs=[2, 4, 0, 2, 1] Gal=S_4          A_free=7.99668 (delta=-3.3215e-03) resid@maxN=+1.7910e-03 std=9.9324e-04 dt=2.8s
+[23:47:02]   cand 69/101 coeffs=[2, 5, -3, -1, -1] Gal=S_4          A_free=7.99513 (delta=-4.8741e-03) resid@maxN=+2.6314e-03 std=1.4573e-03 dt=2.4s
+[23:47:05]   cand 70/101 coeffs=[3, -5, -3, -3, 1] Gal=S_4          A_free=7.99827 (delta=-1.7313e-03) resid@maxN=+8.8632e-04 std=4.9302e-04 dt=2.6s
+[23:47:08]   cand 71/101 coeffs=[3, -5, 3, -3, 1] Gal=S_4          A_free=7.99940 (delta=-6.0285e-04) resid@maxN=+3.0850e-04 std=1.7168e-04 dt=2.9s
+[23:47:11]   cand 72/101 coeffs=[3, -4, 0, -3, 1] Gal=S_4          A_free=7.99893 (delta=-1.0684e-03) resid@maxN=+5.4704e-04 std=3.0424e-04 dt=2.8s
+[23:47:13]   cand 73/101 coeffs=[3, -4, 0, 3, -1] Gal=S_4          A_free=7.99897 (delta=-1.0278e-03) resid@maxN=+5.2741e-04 std=2.9258e-04 dt=2.4s
+[23:47:16]   cand 74/101 coeffs=[3, -3, -3, -5, 1] Gal=S_4          A_free=7.99840 (delta=-1.5990e-03) resid@maxN=+8.1879e-04 std=4.5532e-04 dt=2.5s
+[23:47:18]   cand 75/101 coeffs=[3, -3, -3, 3, -1] Gal=S_4          A_free=7.99845 (delta=-1.5451e-03) resid@maxN=+7.9273e-04 std=4.3986e-04 dt=2.7s
+[23:47:21]   cand 76/101 coeffs=[3, -3, 0, -4, 1] Gal=S_4          A_free=7.99896 (delta=-1.0418e-03) resid@maxN=+5.3306e-04 std=2.9667e-04 dt=2.5s
+[23:47:24]   cand 77/101 coeffs=[3, -3, 0, 4, -1] Gal=S_4          A_free=7.99901 (delta=-9.8781e-04) resid@maxN=+5.0620e-04 std=2.8119e-04 dt=2.8s
+[23:47:27]   cand 78/101 coeffs=[3, -3, 3, -5, 1] Gal=S_4          A_free=7.99950 (delta=-4.9869e-04) resid@maxN=+2.5416e-04 std=1.4207e-04 dt=3.3s
+[23:47:30]   cand 79/101 coeffs=[3, -3, 3, 3, -1] Gal=S_4          A_free=7.99956 (delta=-4.4187e-04) resid@maxN=+2.1312e-04 std=1.2591e-04 dt=2.9s
+[23:47:33]   cand 80/101 coeffs=[3, 3, -3, -3, -1] Gal=S_4          A_free=7.99733 (delta=-2.6661e-03) resid@maxN=+1.3015e-03 std=7.2142e-04 dt=2.8s
+[23:47:35]   cand 81/101 coeffs=[3, 3, -3, 5, 1] Gal=S_4          A_free=7.99739 (delta=-2.6131e-03) resid@maxN=+1.2771e-03 std=7.0697e-04 dt=2.8s
+[23:47:38]   cand 82/101 coeffs=[3, 3, 0, -4, -1] Gal=S_4          A_free=7.99785 (delta=-2.1542e-03) resid@maxN=+1.0505e-03 std=5.8298e-04 dt=2.6s
+[23:47:41]   cand 83/101 coeffs=[3, 3, 0, 4, 1] Gal=S_4          A_free=7.99790 (delta=-2.1012e-03) resid@maxN=+1.0261e-03 std=5.6854e-04 dt=2.6s
+[23:47:43]   cand 84/101 coeffs=[3, 3, 3, -3, -1] Gal=S_4          A_free=7.99837 (delta=-1.6296e-03) resid@maxN=+7.9370e-04 std=4.4109e-04 dt=2.8s
+[23:47:46]   cand 85/101 coeffs=[3, 3, 3, 5, 1] Gal=S_4          A_free=7.99842 (delta=-1.5767e-03) resid@maxN=+7.6929e-04 std=4.2666e-04 dt=2.8s
+[23:47:49]   cand 86/101 coeffs=[3, 4, 0, -3, -1] Gal=S_4          A_free=7.99747 (delta=-2.5327e-03) resid@maxN=+1.2359e-03 std=6.8537e-04 dt=2.4s
+[23:47:51]   cand 87/101 coeffs=[3, 4, 0, 3, 1] Gal=S_4          A_free=7.99751 (delta=-2.4933e-03) resid@maxN=+1.2177e-03 std=6.7460e-04 dt=2.4s
+[23:47:53]   cand 88/101 coeffs=[3, 5, -3, 3, 1] Gal=S_4          A_free=7.99656 (delta=-3.4387e-03) resid@maxN=+1.6810e-03 std=9.3028e-04 dt=2.5s
+[23:47:56]   cand 89/101 coeffs=[3, 5, 3, 3, 1] Gal=S_4          A_free=7.99757 (delta=-2.4274e-03) resid@maxN=+1.1848e-03 std=6.5684e-04 dt=2.8s
+[23:47:59]   cand 90/101 coeffs=[5, -5, 0, -4, 1] Gal=S_4          A_free=7.99894 (delta=-1.0644e-03) resid@maxN=+4.9256e-04 std=2.7345e-04 dt=2.5s
+[23:48:01]   cand 91/101 coeffs=[5, -5, 0, 4, -1] Gal=S_4          A_free=7.99897 (delta=-1.0306e-03) resid@maxN=+4.7779e-04 std=2.6471e-04 dt=2.6s
+[23:48:04]   cand 92/101 coeffs=[5, -4, 0, -5, 1] Gal=S_4          A_free=7.99892 (delta=-1.0795e-03) resid@maxN=+4.9948e-04 std=2.7734e-04 dt=2.9s
+[23:48:07]   cand 93/101 coeffs=[5, -4, 0, 5, -1] Gal=S_4          A_free=7.99896 (delta=-1.0375e-03) resid@maxN=+4.8108e-04 std=2.6646e-04 dt=2.8s
+[23:48:10]   cand 94/101 coeffs=[5, 4, 0, -5, -1] Gal=S_4          A_free=7.99803 (delta=-1.9741e-03) resid@maxN=+9.1437e-04 std=5.0712e-04 dt=3.0s
+[23:48:13]   cand 95/101 coeffs=[5, 4, 0, 5, 1] Gal=S_4          A_free=7.99807 (delta=-1.9334e-03) resid@maxN=+8.9650e-04 std=4.9657e-04 dt=3.4s
+[23:48:16]   cand 96/101 coeffs=[5, 5, 0, -4, -1] Gal=S_4          A_free=7.99782 (delta=-2.1779e-03) resid@maxN=+1.0091e-03 std=5.5943e-04 dt=3.2s
+[23:48:19]   cand 97/101 coeffs=[5, 5, 0, 4, 1] Gal=S_4          A_free=7.99785 (delta=-2.1454e-03) resid@maxN=+9.9482e-04 std=5.5102e-04 dt=3.0s
+[23:48:22]   cand 98/101 coeffs=[7, -5, -3, 5, -1] Gal=S_4          A_free=7.99868 (delta=-1.3169e-03) resid@maxN=+5.7895e-04 std=3.2061e-04 dt=3.0s
+[23:48:27]   cand 99/101 coeffs=[7, -5, 3, 5, -1] Gal=S_4          A_free=7.99917 (delta=-8.2790e-04) resid@maxN=+3.6393e-04 std=2.0155e-04 dt=4.0s
+[23:48:30]   cand 100/101 coeffs=[7, 5, -3, -5, -1] Gal=S_4          A_free=7.99785 (delta=-2.1478e-03) resid@maxN=+9.4386e-04 std=5.2290e-04 dt=3.2s
+[23:48:33]   cand 101/101 coeffs=[7, 5, 3, -5, -1] Gal=S_4          A_free=7.99832 (delta=-1.6847e-03) resid@maxN=+7.3962e-04 std=4.1020e-04 dt=3.3s
+[23:48:33] wrote extended_j_zero_cell.json
+[23:48:33] wrote 4 claims to claims_phase_C.jsonl

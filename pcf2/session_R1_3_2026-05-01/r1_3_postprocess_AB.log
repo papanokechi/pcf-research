@@ -1,0 +1,22 @@
+loaded 50 cubic, 60 quartic rows
+=== Spearman rho(log|j|, *) at d=3 ===
+  residual_mean             n=50, rho=-0.2034, raw_p=0.157, bonf_p=0.47
+  residual_at_max_n         n=50, rho=+0.5487, raw_p=3.7e-05, bonf_p=0.000111
+  delta_R13_free            n=50, rho=-0.5683, raw_p=1.67e-05, bonf_p=5.01e-05
+=== Spearman rho(log|j|, *) at d=4 ===
+  residual_mean             n=60, rho=-0.0402, raw_p=0.761, bonf_p=1
+  residual_at_max_n         n=60, rho=-0.0729, raw_p=0.58, bonf_p=1
+  delta_R13_free            n=60, rho=+0.0732, raw_p=0.578, bonf_p=1
+d3 residual_std: min=9.057e-05, max=9.689e-02, median=1.281e-03
+d4 residual_std: min=1.098e-03, max=1.319e-03, median=1.284e-03
+d3 residual_mean range: [-7.296e-13, 5.331e-13]
+d4 residual_mean range: [1.563e-13, 6.632e-13]
+families with std/|mean| > 0.5: d3=50/50, d4=60/60
+d=4 j=0 cell size: 1 (family ids: ['32'])
+  j=0 residual_mean: [2.830328564111066e-13]
+  non-j=0 residual_mean: min=1.563e-13, max=6.632e-13, median=4.488e-13
+  j=0 delta_R13_free: [-0.003708583763223139]
+  non-j=0 delta_R13_free: min=-3.827e-03, max=-3.186e-03
+
+wrote results_v3_phase_AB.json
+wrote 8 claims to claims_phase_AB.jsonl
