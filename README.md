@@ -9,12 +9,22 @@ partition asymptotics, and irrational constant identification.
 partition functions and the G-01 law  
 https://doi.org/10.5281/zenodo.19491667
 
-**pcf_unified** — Polynomial continued fractions: a proved
-logarithmic ladder, a 4/π Casoratian identity, and 
-482 irrational constants  
-(https://doi.org/10.5281/zenodo.19491768)
+**Polynomial continued fractions: a proved logarithmic ladder, a 4/π
+Casoratian identity, and 482 irrational constants**
+Concept DOI: https://doi.org/10.5281/zenodo.19491767 (v1: 19491768).
+Dedicated reproducibility repo (verification scripts + 482-constant
+catalogue): https://github.com/papanokechi/pcf-casoratian-identities
+(see also `casoratian/` here for a pointer.)
 
-## Key scripts
+## Subdirectories
+
+- `casoratian/` — pointer to the dedicated April-10 paper companion repo
+- `area2/` — self-adjoint structure of PCF recurrences
+- `channel/` — Channel Theory (asymptotic channels, ξ₀ universality)
+- `pcf2/` — PCF-2 cubic-extension transcendence predicate
+- `vquad/` — V_quad family and Painlevé III(D₆) reduction
+
+## Key scripts (top level)
 
 - `g01_lemma_k_diagnosis.py` — Lemma K verification
 - `dichotomy_d34_scan.py` — Generalized Dichotomy scan
