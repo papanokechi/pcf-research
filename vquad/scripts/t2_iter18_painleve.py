@@ -149,10 +149,12 @@ def phase1():
     # deformation equation reduces to:
     #
     # The positions t = s1, s2 of apparent singularities satisfy a
-    # *degenerate* Painlevé V or Painlevé III (D6 type) equation.
+    # canonical doubly-degenerate Painlevé V equation (does NOT reduce
+    # to PIII; delta != 0).
     #
-    # In the Ohyama-Ramis-Sauloy classification of q-Painlevé analogs,
-    # this is type A_3^{(1)}, which in classical language is PIII(D6).
+    # In the affine Weyl classification, the symmetry is W(A_3^{(1)}),
+    # which is the symmetry of PV on the Sakai D5^(1) surface (NOT
+    # PIII(D6) — surface label corrected D6 -> D5^(1) per VQ-N1).
     #
     # But the simplest identification: since s1 and s2 are complex
     # conjugate and fixed (not varying), we are NOT deforming.
@@ -209,21 +211,29 @@ def phase1():
     print(f"    γ = 0 (both apparent)")
     print(f"    δ = -1/2 (standard isomonodromy)")
     print()
-    print(f"    NOTE: With α=1/6, β=0, γ=0, δ=-1/2, the PV equation")
-    print(f"    is in the DEGENERATE sector where it reduces to PIII(D6).")
-    print(f"    This is consistent with the apparent singularity structure.")
+    print(f"    NOTE: With α=1/6, β=0, γ=0, δ=-1/2, this is a canonical")
+    print(f"    doubly-degenerate PV on the Sakai D5^(1) surface (W(A3^(1)));")
+    print(f"    since δ=-1/2≠0 it does NOT reduce to PIII (label corrected D6 -> D5^(1) per VQ-N1).")
 
     painleve_info = {
-        "type": "PV (degenerate → PIII(D6))",
+        "type": "PV (canonical, doubly-degenerate: beta=gamma=0, delta!=0)",
         "alpha": "1/6",
         "beta": "0",
         "gamma": "0",
         "delta": "-1/2",
         "theta_0": "0 (apparent)",
         "theta_t": "0 (apparent)",
+        "theta_inf": "2/sqrt(3)",
         "sigma_gap": "2/sqrt(3)",
-        "degeneration": "PV with apparent singularities → PIII(D6)",
-        "status": "identified"
+        "sakai_surface": "D5^(1)",
+        "symmetry": "W(A3^(1)) (affine S_4)",
+        "orbit_class": "generic / non-classical (alcove-interior, theta_inf=2/sqrt(3) irrational)",
+        "reduces_to_PIII": False,
+        "piii_exclusion": "delta=-1/2 != 0 lies off the PV->PIII coalescence locus (DLMF 32.2.33); z=0 ordinary (exponents 0,1), no z^(1/2) ramification => PIII(D7) also excluded",
+        "degeneration": "canonical doubly-degenerate PV on Sakai D5^(1); does NOT reduce to PIII",
+        "status": "identified (surface label corrected D6 -> D5^(1))",
+        "prior_value_withdrawn": "PV (degenerate -> PIII(D6))",
+        "correction_provenance": "Surface label corrected D6 -> D5^(1) by SIARC cascade VQ-N1 (4-leg, Tier-1 closed). See claims.jsonl correction entry."
     }
     return painleve_info
 

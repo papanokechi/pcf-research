@@ -1,7 +1,7 @@
 {
   "territory": "T2",
   "iteration": 23,
-  "task": "Jimbo 1982 PIII(D6) connection formula for V_quad Stokes constant S",
+  "task": "Jimbo 1982 connection-formula search for V_quad Stokes constant S (surface: PV / Sakai D5^(1); PIII connection retained as negative evidence)",
   "S_target": "0.43770528073458",
   "parameters": {
     "alpha": "1/6",
@@ -21,5 +21,7 @@
   "F2_status": "open",
   "governance": "CLEAN",
   "recommendation": "Extend S to 12+ digits, then retry PSLQ",
-  "total_formulas_tried": 245
+  "total_formulas_tried": 245,
+  "piii_match_interpretation": "PIII connection-formula search NO_MATCH; consistent with V_quad being a generic non-classical PV transcendent on Sakai D5^(1), not PIII. Not a failed identification but corroboration of the non-PIII classification.",
+  "correction_provenance": "D6 framing in 'task' corrected by SIARC cascade VQ-N1; surface is PV / D5^(1), W(A3^(1)). Prior task string named 'PIII(D6)'."
 }

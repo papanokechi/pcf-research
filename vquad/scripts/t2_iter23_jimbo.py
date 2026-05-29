@@ -569,7 +569,8 @@ print()
 result = {
     'territory': 'T2',
     'iteration': 23,
-    'task': 'Jimbo 1982 PIII(D6) connection formula for V_quad Stokes constant S',
+    'task': 'Jimbo 1982 connection-formula search for V_quad Stokes constant S (surface: PV / Sakai D5^(1); PIII connection retained as negative evidence)',
+    'correction_provenance': "D6 framing in 'task' corrected by SIARC cascade VQ-N1; surface is PV / D5^(1), W(A3^(1)). Prior task string named 'PIII(D6)'.",
     'S_target': '0.43770528073458',
     'parameters': {
         'alpha': '1/6', 'beta': '0', 'gamma': '0', 'delta': '-1/2',
